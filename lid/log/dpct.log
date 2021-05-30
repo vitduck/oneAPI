@@ -1,0 +1,66 @@
+/scratch/optpar01/test/webinar/lid/cuda/main.cu:803:8: warning: unused variable 'block_vpbc' [-Wunused-variable]
+  dim3 block_vpbc (BLOCK_SIZE, 1);
+       ^
+/scratch/optpar01/test/webinar/lid/cuda/main.cu:347:3: warning: DPCT1065:0: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+  __syncthreads();
+  ^
+/scratch/optpar01/test/webinar/lid/cuda/main.cu:355:5: warning: DPCT1065:1: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+    __syncthreads();
+    ^
+/scratch/optpar01/test/webinar/lid/cuda/main.cu:533:3: warning: DPCT1065:2: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+  __syncthreads();
+  ^
+/scratch/optpar01/test/webinar/lid/cuda/main.cu:541:5: warning: DPCT1065:3: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+    __syncthreads();
+    ^
+/scratch/optpar01/test/webinar/lid/cuda/main.cu:608:3: warning: DPCT1065:4: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+  __syncthreads();
+  ^
+/scratch/optpar01/test/webinar/lid/cuda/main.cu:616:5: warning: DPCT1065:5: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+    __syncthreads();
+    ^
+/scratch/optpar01/test/webinar/lid/cuda/main.cu:706:3: warning: DPCT1065:6: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+  __syncthreads();
+  ^
+/scratch/optpar01/test/webinar/lid/cuda/main.cu:714:5: warning: DPCT1065:7: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+    __syncthreads();
+    ^
+/scratch/optpar01/test/webinar/lid/cuda/main.cu:901:5: warning: DPCT1049:8: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.
+    calculate_F <<<grid_F, block_F>>> (dt, u_d, v_d, F_d);
+    ^
+/scratch/optpar01/test/webinar/lid/cuda/main.cu:902:5: warning: DPCT1049:9: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.
+    calculate_G <<<grid_G, block_G>>> (dt, u_d, v_d, G_d);
+    ^
+/scratch/optpar01/test/webinar/lid/cuda/main.cu:905:5: warning: DPCT1049:10: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.
+    sum_pressure <<<grid_pr, block_pr>>> (pres_red_d, pres_black_d, pres_sum_d);
+    ^
+/scratch/optpar01/test/webinar/lid/cuda/main.cu:972:5: warning: DPCT1049:11: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.
+    calculate_u <<<grid_pr, block_pr>>> (dt, F_d, pres_red_d, pres_black_d, u_d, max_u_d);
+    ^
+/scratch/optpar01/test/webinar/lid/cuda/main.cu:975:5: warning: DPCT1049:12: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.
+    calculate_v <<<grid_pr, block_pr>>> (dt, G_d, pres_red_d, pres_black_d, v_d, max_v_d);
+    ^
+/scratch/optpar01/test/webinar/lid/cuda/main.cu:992:5: warning: DPCT1049:13: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.
+    set_BCs <<<grid_bcs, block_bcs>>> (u_d, v_d);
+    ^
+/scratch/optpar01/test/webinar/lid/cuda/main.cu:929:7: warning: DPCT1049:14: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.
+      set_horz_pres_BCs <<<grid_hpbc, block_hpbc>>> (pres_red_d, pres_black_d);
+      ^
+/scratch/optpar01/test/webinar/lid/cuda/main.cu:930:7: warning: DPCT1049:15: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.
+      set_vert_pres_BCs <<<grid_vpbc, block_hpbc>>> (pres_red_d, pres_black_d);
+      ^
+/scratch/optpar01/test/webinar/lid/cuda/main.cu:936:7: warning: DPCT1049:16: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.
+      red_kernel <<<grid_pr, block_pr>>> (dt, F_d, G_d, pres_black_d, pres_red_d);
+      ^
+/scratch/optpar01/test/webinar/lid/cuda/main.cu:942:7: warning: DPCT1049:17: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.
+      black_kernel <<<grid_pr, block_pr>>> (dt, F_d, G_d, pres_red_d, pres_black_d);
+      ^
+/scratch/optpar01/test/webinar/lid/cuda/main.cu:948:7: warning: DPCT1049:18: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.
+      calc_residual <<<grid_pr, block_pr>>> (dt, F_d, G_d, pres_red_d, pres_black_d, res_d);
+      ^
+
+Processing: /scratch/optpar01/test/webinar/lid/cuda/main.cu
+Processed 1 file(s) in -in-root folder "/scratch/optpar01/test/webinar/lid/cuda"
+
+See Diagnostics Reference to resolve warnings and complete the migration:
+https://software.intel.com/content/www/us/en/develop/documentation/intel-dpcpp-compatibility-tool-user-guide/top/diagnostics-reference.html
