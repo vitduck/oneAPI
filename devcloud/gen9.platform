@@ -1,0 +1,90 @@
+Found Platform:
+    info::platform::name is 'Intel(R) FPGA Emulation Platform for OpenCL(TM)'
+    info::platform::vendor is 'Intel(R) Corporation'
+    info::platform::version is 'OpenCL 1.2 Intel(R) FPGA SDK for OpenCL(TM), Version 20.3'
+    info::platform::profile is 'EMBEDDED_PROFILE'
+  Device: Intel(R) FPGA Emulation Device
+    is_host(): No
+    is_cpu(): No
+    is_gpu(): No
+    is_accelerator(): Yes
+    info::device::vendor is 'Intel(R) Corporation'
+    info::device::driver_version is '2021.11.3.0.17_160000'
+    info::device::max_work_item_dimensions is '3'
+    info::device::max_work_group_size is '67108864'
+    info::device::mem_base_addr_align is '1024'
+    info::device::partition_max_sub_devices is '12'
+    Many more queries are available than shown here!
+
+Found Platform:
+    info::platform::name is 'Intel(R) OpenCL'
+    info::platform::vendor is 'Intel(R) Corporation'
+    info::platform::version is 'OpenCL 2.1 LINUX'
+    info::platform::profile is 'FULL_PROFILE'
+  Device: Intel(R) Xeon(R) E-2176G CPU @ 3.70GHz
+    is_host(): No
+    is_cpu(): Yes
+    is_gpu(): No
+    is_accelerator(): No
+    info::device::vendor is 'Intel(R) Corporation'
+    info::device::driver_version is '2021.11.3.0.17_160000'
+    info::device::max_work_item_dimensions is '3'
+    info::device::max_work_group_size is '8192'
+    info::device::mem_base_addr_align is '1024'
+    info::device::partition_max_sub_devices is '12'
+    Many more queries are available than shown here!
+
+Found Platform:
+    info::platform::name is 'Intel(R) OpenCL HD Graphics'
+    info::platform::vendor is 'Intel(R) Corporation'
+    info::platform::version is 'OpenCL 3.0 '
+    info::platform::profile is 'FULL_PROFILE'
+  Device: Intel(R) UHD Graphics P630 [0x3e96]
+    is_host(): No
+    is_cpu(): No
+    is_gpu(): Yes
+    is_accelerator(): No
+    info::device::vendor is 'Intel(R) Corporation'
+    info::device::driver_version is '21.11.19310'
+    info::device::max_work_item_dimensions is '3'
+    info::device::max_work_group_size is '256'
+    info::device::mem_base_addr_align is '1024'
+    info::device::partition_max_sub_devices is '0'
+    Many more queries are available than shown here!
+
+Found Platform:
+    info::platform::name is 'Intel(R) Level-Zero'
+    info::platform::vendor is 'Intel(R) Corporation'
+    info::platform::version is '1.0'
+    info::platform::profile is 'FULL_PROFILE'
+  Device: Intel(R) UHD Graphics P630 [0x3e96]
+    is_host(): No
+    is_cpu(): No
+    is_gpu(): Yes
+    is_accelerator(): No
+    info::device::vendor is 'Intel(R) Corporation'
+    info::device::driver_version is '1.0.19310'
+    info::device::max_work_item_dimensions is '3'
+    info::device::max_work_group_size is '256'
+    info::device::mem_base_addr_align is '8'
+    info::device::partition_max_sub_devices is '0'
+    Many more queries are available than shown here!
+
+Found Platform:
+    info::platform::name is 'SYCL host platform'
+    info::platform::vendor is ''
+    info::platform::version is '1.2'
+    info::platform::profile is 'FULL PROFILE'
+  Device: SYCL host device
+    is_host(): Yes
+    is_cpu(): No
+    is_gpu(): No
+    is_accelerator(): No
+    info::device::vendor is ''
+    info::device::driver_version is '1.2'
+    info::device::max_work_item_dimensions is '3'
+    info::device::max_work_group_size is '1'
+    info::device::mem_base_addr_align is '1024'
+    info::device::partition_max_sub_devices is '1'
+    Many more queries are available than shown here!
+
