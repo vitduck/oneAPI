@@ -2,13 +2,12 @@ CC      = nvcc
 CFLAGS := -O3 \
 	      -std=c++14 \
 		  -gencode=arch=compute_35,code=sm_35 \
-          -gencode=arch=compute_70,code=sm_70 \
-	      -DOUTPUT
+          -gencode=arch=compute_70,code=sm_70 
 
 all: heartwall
 
 ./main.o: ./main.h ./main.cu
-	$(CC) ./main.cu -I./util/timer/ -I./util/file/ -c -o ./main.o 
+	$(CC) -DOUTPUT ./main.cu -I./util/timer/ -I./util/file/ -c -o ./main.o 
 
 ./kernel/kernel.o: ./kernel/kernel.h ./kernel/kernel.cu
 	$(CC) $(CFLAGS) ./kernel/kernel.cu -c -o ./kernel/kernel.o 
@@ -26,7 +25,7 @@ all: heartwall
 	$(CC) $(CFLAGS) ./util/timer/timer.c -I./util/timer -c -o ./util/timer/timer.o 
 
 heartwall: ./main.o ./kernel/kernel.o ./util/avi/avilib.o ./util/avi/avimod.o ./util/file/file.o ./util/timer/timer.o 
-	$(CC) $(CFLAGS) ./main.o ./kernel/kernel.o ./util/avi/avilib.o ./util/avi/avimod.o ./util/file/file.o ./util/timer/timer.o -o heartwall
+	$(CC) $(CFLAGS) ./main.o ./kernel/kernel.o ./util/avi/avilib.o ./util/avi/avimod.o ./util/file/file.o ./util/timer/timer.o -o heartwall.x
 
 clean:
 	rm -rf *.o ./kernel/*.o ./util/avi/*.o ./util/file/*.o ./util/timer/*.o 

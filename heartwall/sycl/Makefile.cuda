@@ -4,7 +4,6 @@ LLVM_ROOT = /scratch/optpar01/apps/build/llvm/unstable/
 CFLAGS = -O3 \
 		 -std=c++17 \
 		 -I${LLVM_ROOT}/include \
-	     -DOUTPUT \
 	     -fsycl \
          -fsycl-unnamed-lambda \
          -fsycl-targets=nvptx64-nvidia-cuda-sycldevice 
@@ -23,7 +22,7 @@ endif
 all: heartwall
 
 ./main.o: ./main.h ./main.cpp
-	$(CC) ./main.cpp -I./util/timer/ -I./util/file/ -c -o ./main.o 
+	$(CC) -DOUTPUT ./main.cpp -I./util/timer/ -I./util/file/ -c -o ./main.o 
 
 ./kernel/kernel.o: ./kernel/kernel.h ./kernel/kernel.cpp
 	$(CC) $(CFLAGS) ./kernel/kernel.cpp -c -o ./kernel/kernel.o 

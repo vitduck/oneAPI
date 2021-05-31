@@ -1,12 +1,11 @@
 CC     = dpcpp
 CFLAGS = -O3 \
-	      -std=c++14 \
-		  -DOUTPUT
+	      -std=c++14 
 
 all: heartwall
 
 ./main.o: ./main.h ./main.cpp
-	$(CC) ./main.cpp -I./util/timer/ -I./util/file/ -c -o ./main.o 
+	$(CC) -DOUTPUT ./main.cpp -I./util/timer/ -I./util/file/ -c -o ./main.o 
 
 ./kernel/kernel.o: ./kernel/kernel.h ./kernel/kernel.cpp
 	$(CC) $(CFLAGS) ./kernel/kernel.cpp -c -o ./kernel/kernel.o 
@@ -24,7 +23,7 @@ all: heartwall
 	$(CC) $(CFLAGS) ./util/timer/timer.c -I./util/timer -c -o ./util/timer/timer.o 
 
 heartwall: ./main.o ./kernel/kernel.o ./util/avi/avilib.o ./util/avi/avimod.o ./util/file/file.o ./util/timer/timer.o 
-	$(CC) $(CFLAGS) ./main.o ./kernel/kernel.o ./util/avi/avilib.o ./util/avi/avimod.o ./util/file/file.o ./util/timer/timer.o -o heartwall
+	$(CC) $(CFLAGS) ./main.o ./kernel/kernel.o ./util/avi/avilib.o ./util/avi/avimod.o ./util/file/file.o ./util/timer/timer.o -o heartwall.x
 
 clean:
 	rm -rf *.o ./kernel/*.o ./util/avi/*.o ./util/file/*.o ./util/timer/*.o 
