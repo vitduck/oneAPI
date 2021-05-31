@@ -1,0 +1,403 @@
+---
+MainSourceFile:  MainSrcFiles_placehold
+Replacements:
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          1617
+    Length:          0
+    ReplacementText: "#include <CL/sycl.hpp>\n#include <dpct/dpct.hpp>\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          1752
+    Length:          18
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          2104
+    Length:          11
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          2274
+    Length:          0
+    ReplacementText: ",\n                             sycl::nd_item<3> item_ct1"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          2289
+    Length:          11
+    ReplacementText: 'item_ct1.get_local_id(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          2303
+    Length:          10
+    ReplacementText: 'item_ct1.get_group(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          2316
+    Length:          10
+    ReplacementText: 'item_ct1.get_local_range().get(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          3825
+    Length:          21
+    ReplacementText: 'sycl::clz((int)DiagonalResult)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          4631
+    Length:          21
+    ReplacementText: 'sycl::clz((int)DiagonalResult)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          5060
+    Length:          21
+    ReplacementText: 'sycl::clz((int)DiagonalResult)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          5456
+    Length:          21
+    ReplacementText: 'sycl::clz((int)DiagonalResult)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          6516
+    Length:          21
+    ReplacementText: 'sycl::clz((int)DiagonalResult)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          7024
+    Length:          21
+    ReplacementText: 'sycl::clz((int)DiagonalResult)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          8001
+    Length:          21
+    ReplacementText: 'sycl::clz((int)DiagonalResult)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          9613
+    Length:          0
+    ReplacementText: "\n dpct::device_ext &dev_ct1 = dpct::get_current_device();\n sycl::queue &q_ct1 = dev_ct1.default_queue();"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          13536
+    Length:          10
+    ReplacementText: 'Dev_ReadSeq = (uint *)sycl::malloc_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          13547
+    Length:          22
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          13596
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          13601
+    Length:          10
+    ReplacementText: 'Dev_RefSeq = (uint *)sycl::malloc_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          13612
+    Length:          21
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          13660
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          13665
+    Length:          10
+    ReplacementText: 'Dev_Results = sycl::malloc_device<int>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          13676
+    Length:          22
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          13698
+    Length:          22
+    ReplacementText: NumReads
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          13720
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          13726
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          13737
+    Length:          35
+    ReplacementText: 1, 1, Number_of_blocks_inside_each_kernel
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          13777
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          13789
+    Length:          27
+    ReplacementText: 1, 1, Concurrent_threads_In_Block
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          13822
+    Length:          10
+    ReplacementText: q_ct1.memcpy
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          13882
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          13907
+    Length:          0
+    ReplacementText: '.wait()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          13911
+    Length:          10
+    ReplacementText: q_ct1.memcpy
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          13969
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          13994
+    Length:          0
+    ReplacementText: '.wait()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          14213
+    Length:          0
+    ReplacementText: "      /*\n      DPCT1049:0: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.\n      */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          14219
+    Length:          95
+    ReplacementText: "q_ct1.submit(\n        [&](sycl::handler &cgh) {\n          cgh.parallel_for(\n            sycl::nd_range<3>(grid * block, block), \n            [=](sycl::nd_item<3> item_ct1) {\n              sneaky_snake(Dev_ReadSeq, Dev_RefSeq, Dev_Results, NumReads, F_ErrorThreshold, item_ct1);\n            });\n        });"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: true
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          14314
+    Length:          1
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          14323
+    Length:          10
+    ReplacementText: q_ct1.memcpy
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          14385
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          14410
+    Length:          0
+    ReplacementText: '.wait()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          14944
+    Length:          21
+    ReplacementText: 'sycl::free(Dev_ReadSeq, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          14969
+    Length:          20
+    ReplacementText: 'sycl::free(Dev_RefSeq, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Offset:          14993
+    Length:          21
+    ReplacementText: 'sycl::free(Dev_Results, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+MainSourceFilesDigest:
+  - MainSourceFile:  '/scratch/optpar01/test/webinar/snake/cuda/main.cu'
+    Digest:          45bcaff4f8b9219ea7e09d2389c27b0c
+...

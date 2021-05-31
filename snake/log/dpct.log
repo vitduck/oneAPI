@@ -1,0 +1,194 @@
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:100:49: warning: operator '>>' has lower precedence than '-'; '-' will be evaluated first [-Wshift-op-parentheses]
+          RefTmp2 = RefsPerThread[j + 1] >>  32 - ShiftValue;
+                                         ~~  ~~~^~~~~~~~~~~~
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:100:49: note: place parentheses around the '-' expression to silence this warning
+          RefTmp2 = RefsPerThread[j + 1] >>  32 - ShiftValue;
+                                                ^
+                                             (              )
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:102:51: warning: operator '>>' has lower precedence than '-'; '-' will be evaluated first [-Wshift-op-parentheses]
+          ReadTmp2 = ReadsPerThread[j + 1] >>  32 - ShiftValue;
+                                           ~~  ~~~^~~~~~~~~~~~
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:102:51: note: place parentheses around the '-' expression to silence this warning
+          ReadTmp2 = ReadsPerThread[j + 1] >>  32 - ShiftValue;
+                                                  ^
+                                               (              )
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:128:39: warning: operator '<<' has lower precedence than '-'; '-' will be evaluated first [-Wshift-op-parentheses]
+                SetBit(CornerCase, 31 - Ci);
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:51:38: note: expanded from macro 'SetBit'
+#define SetBit(data,y) data |= (1 << y)    // Set Data.Y   to 1
+                                  ~~ ^
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:128:39: note: place parentheses around the '-' expression to silence this warning
+                SetBit(CornerCase, 31 - Ci);
+                                   ~~~^~~~
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:51:38: note: expanded from macro 'SetBit'
+#define SetBit(data,y) data |= (1 << y)    // Set Data.Y   to 1
+                                     ^
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:137:52: warning: operator '<<' has lower precedence than '-'; '-' will be evaluated first [-Wshift-op-parentheses]
+              ReadTmp1 = ReadsPerThread[j-1] << 32 - ( (2*e) - ShiftValue );
+                                             ~~ ~~~^~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:137:52: note: place parentheses around the '-' expression to silence this warning
+              ReadTmp1 = ReadsPerThread[j-1] << 32 - ( (2*e) - ShiftValue );
+                                                   ^
+                                                (                          )
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:138:53: warning: operator '>>' has lower precedence than '-'; '-' will be evaluated first [-Wshift-op-parentheses]
+              ReadTmp2 = ReadsPerThread[j] >> (2*e) - ShiftValue;
+                                           ~~ ~~~~~~^~~~~~~~~~~~
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:138:53: note: place parentheses around the '-' expression to silence this warning
+              ReadTmp2 = ReadsPerThread[j] >> (2*e) - ShiftValue;
+                                                    ^
+                                              (                 )
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:149:59: warning: operator '<<' has lower precedence than '-'; '-' will be evaluated first [-Wshift-op-parentheses]
+              ReadTmp1 = ReadsPerThread[j] <<  ShiftValue - (2*e);
+                                           ~~  ~~~~~~~~~~~^~~~~~~
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:149:59: note: place parentheses around the '-' expression to silence this warning
+              ReadTmp1 = ReadsPerThread[j] <<  ShiftValue - (2*e);
+                                                          ^
+                                               (                 )
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:150:52: warning: operator '>>' has lower precedence than '-'; '-' will be evaluated first [-Wshift-op-parentheses]
+              ReadTmp2 = ReadsPerThread[j+1] >> 32 - (ShiftValue - (2*e) ) ;
+                                             ~~ ~~~^~~~~~~~~~~~~~~~~~~~~~~
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:150:52: note: place parentheses around the '-' expression to silence this warning
+              ReadTmp2 = ReadsPerThread[j+1] >> 32 - (ShiftValue - (2*e) ) ;
+                                                   ^
+                                                (                         )
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:185:60: warning: operator '<<' has lower precedence than '+'; '+' will be evaluated first [-Wshift-op-parentheses]
+                ReadTmp1 = ReadsPerThread[j] << ShiftValue + (2*e);
+                                             ~~ ~~~~~~~~~~~^~~~~~~
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:185:60: note: place parentheses around the '+' expression to silence this warning
+                ReadTmp1 = ReadsPerThread[j] << ShiftValue + (2*e);
+                                                           ^
+                                                (                 )
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:186:54: warning: operator '>>' has lower precedence than '-'; '-' will be evaluated first [-Wshift-op-parentheses]
+                ReadTmp2 = ReadsPerThread[j+1] >> 32 - ( ShiftValue + (2*e) );
+                                               ~~ ~~~^~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:186:54: note: place parentheses around the '-' expression to silence this warning
+                ReadTmp2 = ReadsPerThread[j+1] >> 32 - ( ShiftValue + (2*e) );
+                                                     ^
+                                                  (                          )
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:198:55: warning: operator '>>' has lower precedence than '-'; '-' will be evaluated first [-Wshift-op-parentheses]
+                ReadTmp2 = ReadsPerThread[j+2] >>  32 - ( ( ShiftValue + (2*e) ) % 32 );
+                                               ~~  ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:198:55: note: place parentheses around the '-' expression to silence this warning
+                ReadTmp2 = ReadsPerThread[j+2] >>  32 - ( ( ShiftValue + (2*e) ) % 32 );
+                                                      ^
+                                                   (                                   )
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:213:58: warning: operator '<<' has lower precedence than '+'; '+' will be evaluated first [-Wshift-op-parentheses]
+              ReadTmp1 = ReadsPerThread[j] << ShiftValue + (2*e);
+                                           ~~ ~~~~~~~~~~~^~~~~~~
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:213:58: note: place parentheses around the '+' expression to silence this warning
+              ReadTmp1 = ReadsPerThread[j] << ShiftValue + (2*e);
+                                                         ^
+                                              (                 )
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:214:54: warning: operator '>>' has lower precedence than '-'; '-' will be evaluated first [-Wshift-op-parentheses]
+              ReadTmp2 = ReadsPerThread[j+1] >>   32 - ( ShiftValue + (2*e) );
+                                             ~~   ~~~^~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:214:54: note: place parentheses around the '-' expression to silence this warning
+              ReadTmp2 = ReadsPerThread[j+1] >>   32 - ( ShiftValue + (2*e) );
+                                                     ^
+                                                  (                          )
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:353:142: warning: operator '<<' has lower precedence than '-'; '-' will be evaluated first [-Wshift-op-parentheses]
+            ReadSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)] = SetBit(ReadSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)], 31 - ((j%(Size_of_uint_in_Bit/2)) * 2 + 1));
+                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:51:38: note: expanded from macro 'SetBit'
+#define SetBit(data,y) data |= (1 << y)    // Set Data.Y   to 1
+                                  ~~ ^
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:353:142: note: place parentheses around the '-' expression to silence this warning
+            ReadSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)] = SetBit(ReadSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)], 31 - ((j%(Size_of_uint_in_Bit/2)) * 2 + 1));
+                                                                                                                                          ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:51:38: note: expanded from macro 'SetBit'
+#define SetBit(data,y) data |= (1 << y)    // Set Data.Y   to 1
+                                     ^
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:357:142: warning: operator '<<' has lower precedence than '-'; '-' will be evaluated first [-Wshift-op-parentheses]
+            ReadSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)] = SetBit(ReadSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)], 31 - ((j%(Size_of_uint_in_Bit/2)) * 2));
+                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:51:38: note: expanded from macro 'SetBit'
+#define SetBit(data,y) data |= (1 << y)    // Set Data.Y   to 1
+                                  ~~ ^
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:357:142: note: place parentheses around the '-' expression to silence this warning
+            ReadSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)] = SetBit(ReadSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)], 31 - ((j%(Size_of_uint_in_Bit/2)) * 2));
+                                                                                                                                          ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:51:38: note: expanded from macro 'SetBit'
+#define SetBit(data,y) data |= (1 << y)    // Set Data.Y   to 1
+                                     ^
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:361:142: warning: operator '<<' has lower precedence than '-'; '-' will be evaluated first [-Wshift-op-parentheses]
+            ReadSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)] = SetBit(ReadSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)], 31 - ((j%(Size_of_uint_in_Bit/2)) * 2));
+                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:51:38: note: expanded from macro 'SetBit'
+#define SetBit(data,y) data |= (1 << y)    // Set Data.Y   to 1
+                                  ~~ ^
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:361:142: note: place parentheses around the '-' expression to silence this warning
+            ReadSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)] = SetBit(ReadSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)], 31 - ((j%(Size_of_uint_in_Bit/2)) * 2));
+                                                                                                                                          ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:51:38: note: expanded from macro 'SetBit'
+#define SetBit(data,y) data |= (1 << y)    // Set Data.Y   to 1
+                                     ^
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:363:142: warning: operator '<<' has lower precedence than '-'; '-' will be evaluated first [-Wshift-op-parentheses]
+            ReadSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)] = SetBit(ReadSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)], 31 - ((j%(Size_of_uint_in_Bit/2)) * 2 + 1));
+                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:51:38: note: expanded from macro 'SetBit'
+#define SetBit(data,y) data |= (1 << y)    // Set Data.Y   to 1
+                                  ~~ ^
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:363:142: note: place parentheses around the '-' expression to silence this warning
+            ReadSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)] = SetBit(ReadSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)], 31 - ((j%(Size_of_uint_in_Bit/2)) * 2 + 1));
+                                                                                                                                          ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:51:38: note: expanded from macro 'SetBit'
+#define SetBit(data,y) data |= (1 << y)    // Set Data.Y   to 1
+                                     ^
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:379:140: warning: operator '<<' has lower precedence than '-'; '-' will be evaluated first [-Wshift-op-parentheses]
+            RefSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)] = SetBit(RefSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)], 31 - ((j%(Size_of_uint_in_Bit/2)) * 2 + 1));
+                                                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:51:38: note: expanded from macro 'SetBit'
+#define SetBit(data,y) data |= (1 << y)    // Set Data.Y   to 1
+                                  ~~ ^
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:379:140: note: place parentheses around the '-' expression to silence this warning
+            RefSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)] = SetBit(RefSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)], 31 - ((j%(Size_of_uint_in_Bit/2)) * 2 + 1));
+                                                                                                                                        ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:51:38: note: expanded from macro 'SetBit'
+#define SetBit(data,y) data |= (1 << y)    // Set Data.Y   to 1
+                                     ^
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:383:140: warning: operator '<<' has lower precedence than '-'; '-' will be evaluated first [-Wshift-op-parentheses]
+            RefSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)] = SetBit(RefSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)], 31 - ((j%(Size_of_uint_in_Bit/2)) * 2));
+                                                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:51:38: note: expanded from macro 'SetBit'
+#define SetBit(data,y) data |= (1 << y)    // Set Data.Y   to 1
+                                  ~~ ^
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:383:140: note: place parentheses around the '-' expression to silence this warning
+            RefSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)] = SetBit(RefSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)], 31 - ((j%(Size_of_uint_in_Bit/2)) * 2));
+                                                                                                                                        ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:51:38: note: expanded from macro 'SetBit'
+#define SetBit(data,y) data |= (1 << y)    // Set Data.Y   to 1
+                                     ^
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:387:140: warning: operator '<<' has lower precedence than '-'; '-' will be evaluated first [-Wshift-op-parentheses]
+            RefSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)] = SetBit(RefSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)], 31 - ((j%(Size_of_uint_in_Bit/2)) * 2));
+                                                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:51:38: note: expanded from macro 'SetBit'
+#define SetBit(data,y) data |= (1 << y)    // Set Data.Y   to 1
+                                  ~~ ^
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:387:140: note: place parentheses around the '-' expression to silence this warning
+            RefSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)] = SetBit(RefSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)], 31 - ((j%(Size_of_uint_in_Bit/2)) * 2));
+                                                                                                                                        ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:51:38: note: expanded from macro 'SetBit'
+#define SetBit(data,y) data |= (1 << y)    // Set Data.Y   to 1
+                                     ^
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:389:140: warning: operator '<<' has lower precedence than '-'; '-' will be evaluated first [-Wshift-op-parentheses]
+            RefSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)] = SetBit(RefSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)], 31 - ((j%(Size_of_uint_in_Bit/2)) * 2 + 1));
+                                                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:51:38: note: expanded from macro 'SetBit'
+#define SetBit(data,y) data |= (1 << y)    // Set Data.Y   to 1
+                                  ~~ ^
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:389:140: note: place parentheses around the '-' expression to silence this warning
+            RefSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)] = SetBit(RefSeq[((j*2/Size_of_uint_in_Bit) + this_read * NBytes)], 31 - ((j%(Size_of_uint_in_Bit/2)) * 2 + 1));
+                                                                                                                                        ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:51:38: note: expanded from macro 'SetBit'
+#define SetBit(data,y) data |= (1 << y)    // Set Data.Y   to 1
+                                     ^
+/scratch/optpar01/test/webinar/snake/cuda/main.cu:419:7: warning: DPCT1049:0: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.
+      sneaky_snake<<<grid, block>>>(Dev_ReadSeq, Dev_RefSeq, Dev_Results, NumReads, F_ErrorThreshold);
+      ^
+
+Processing: /scratch/optpar01/test/webinar/snake/cuda/main.cu
+Processed 1 file(s) in -in-root folder "/scratch/optpar01/test/webinar/snake/cuda"
+
+See Diagnostics Reference to resolve warnings and complete the migration:
+https://software.intel.com/content/www/us/en/develop/documentation/intel-dpcpp-compatibility-tool-user-guide/top/diagnostics-reference.html

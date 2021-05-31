@@ -1,0 +1,27 @@
+CC     = clang++
+CFLAGS = -DNuints=8 \
+         -O3 \
+         -std=c++17 \
+		 -fsycl \
+		 -fsycl-unnamed-lambda \
+		 -fsycl-targets=nvptx64-nvidia-cuda-sycldevice
+
+BUILD = K40
+BIN  := snake-$(BUILD).x
+
+ifeq ($(BUILD), K40)
+	CFLAGS += -Xsycl-target-backend "--cuda-gpu-arch=sm_35"
+endif
+
+ifeq ($(BUILD), V100)
+	CFLAGS += -Xsycl-target-backend "--cuda-gpu-arch=sm_70"
+endif
+
+%.o: %.cpp
+	$(CC) $(CFLAGS) -c $< -o $@
+
+snake: main.o
+	$(CC) $(CFLAGS) main.o -o $(BIN)
+
+clean:
+	rm -rf *.o

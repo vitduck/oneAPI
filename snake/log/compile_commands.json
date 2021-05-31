@@ -1,0 +1,7 @@
+[
+    {
+        "command": "nvcc -c  -DNuints=8 -O3 -std=c++14 -o main.o -D__CUDACC__=1 main.cu", 
+        "directory": "/scratch/optpar01/test/webinar/snake/cuda", 
+        "file": "/scratch/optpar01/test/webinar/snake/cuda/main.cu"
+    }
+]
