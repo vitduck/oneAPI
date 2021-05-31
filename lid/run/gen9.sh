@@ -20,23 +20,22 @@ cp $src/{main.cpp,Makefile} .
 # loop over WG_SIZE
 for size in 16 32 64 128
 do 
-   make WG_SIZE=$size
+    make WG_SIZE=$size
+    echo 
 
-   echo 
+    # loop over devices 
+    # for device in cpu gpu
+    for device in gpu
+    do
+        export SYCL_DEVICE_FILTER=opencl:$device 
 
-   # loop over devices 
-   # for device in cpu gpu
-   for device in gpu
-   do
-      export SYCL_DEVICE_FILTER=opencl:$device 
-      
-      for i in 1 2 3
-      do 
-	(time -p ./lid-wg_${size}.x) 2>&1 
-      done
+        for i in 1 2 3
+        do 
+            (time -p ./lid-wg_${size}.x) 2>&1 
+        done
 
-      echo 
-   done
+        echo 
+    done
 
-   make clean
+    make clean
 done

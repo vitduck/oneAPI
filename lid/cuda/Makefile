@@ -1,5 +1,6 @@
 CC     = nvcc
-CFLAGS = -std=c++14 \
+CFLAGS = -O3 \
+         -std=c++14 \
          -gencode=arch=compute_35,code=sm_35 \
          -gencode=arch=compute_70,code=sm_70 
 

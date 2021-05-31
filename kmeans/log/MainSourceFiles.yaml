@@ -1,0 +1,475 @@
+---
+MainSourceFile:  MainSrcFiles_placehold
+Replacements:
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          573
+    Length:          0
+    ReplacementText: "#include <CL/sycl.hpp>\n#include <dpct/dpct.hpp>\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          689
+    Length:          18
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          864
+    Length:          11
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          980
+    Length:          0
+    ReplacementText: ",\n                        sycl::nd_item<3> item_ct1"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          996
+    Length:          10
+    ReplacementText: 'item_ct1.get_group(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          1009
+    Length:          10
+    ReplacementText: 'item_ct1.get_local_range().get(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          1022
+    Length:          11
+    ReplacementText: 'item_ct1.get_local_id(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          1176
+    Length:          11
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          1330
+    Length:          0
+    ReplacementText: ",\n    sycl::nd_item<3> item_ct1"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          1351
+    Length:          10
+    ReplacementText: 'item_ct1.get_group(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          1364
+    Length:          10
+    ReplacementText: 'item_ct1.get_local_range().get(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          1377
+    Length:          11
+    ReplacementText: 'item_ct1.get_local_id(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          2802
+    Length:          0
+    ReplacementText: "\n  dpct::device_ext &dev_ct1 = dpct::get_current_device();\n  sycl::queue &q_ct1 = dev_ct1.default_queue();"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          3209
+    Length:          10
+    ReplacementText: 'd_feature = sycl::malloc_device<float>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          3220
+    Length:          20
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          3240
+    Length:          35
+    ReplacementText: 'npoints * nfeatures'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          3275
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          3389
+    Length:          10
+    ReplacementText: q_ct1.memcpy
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          3459
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          3484
+    Length:          0
+    ReplacementText: '.wait()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          3597
+    Length:          10
+    ReplacementText: 'd_feature_swap = sycl::malloc_device<float>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          3608
+    Length:          25
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          3633
+    Length:          35
+    ReplacementText: 'npoints * nfeatures'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          3668
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          3697
+    Length:          10
+    ReplacementText: 'd_membership = sycl::malloc_device<int>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          3708
+    Length:          23
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          3731
+    Length:          21
+    ReplacementText: npoints
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          3752
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          3758
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          3770
+    Length:          31
+    ReplacementText: '1, 1, (npoints+BLOCK_SIZE)/BLOCK_SIZE'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          3806
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          3820
+    Length:          10
+    ReplacementText: 1, 1, BLOCK_SIZE
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          4162
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1049:0: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          4166
+    Length:          84
+    ReplacementText: "q_ct1.submit(\n      [&](sycl::handler &cgh) {\n        cgh.parallel_for(\n          sycl::nd_range<3>(grids * threads, threads), \n          [=](sycl::nd_item<3> item_ct1) {\n            feature_transpose(d_feature_swap, d_feature, nfeatures, npoints, item_ct1);\n          });\n      });"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: true
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          4250
+    Length:          1
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          5051
+    Length:          10
+    ReplacementText: 'd_clusters = sycl::malloc_device<float>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          5062
+    Length:          21
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          5083
+    Length:          37
+    ReplacementText: 'nclusters * nfeatures'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          5120
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          6548
+    Length:          10
+    ReplacementText: q_ct1.memcpy
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          6621
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          6646
+    Length:          0
+    ReplacementText: '.wait()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          6648
+    Length:          0
+    ReplacementText: "        /*\n        DPCT1049:1: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.\n        */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          6656
+    Length:          108
+    ReplacementText: "q_ct1.submit(\n          [&](sycl::handler &cgh) {\n            cgh.parallel_for(\n              sycl::nd_range<3>(grids * threads, threads), \n              [=](sycl::nd_item<3> item_ct1) {\n                find_membership(d_feature_swap, d_clusters, d_membership, nclusters, nfeatures, npoints, item_ct1);\n              });\n          });"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: true
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          6764
+    Length:          1
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          6774
+    Length:          10
+    ReplacementText: q_ct1.memcpy
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          6836
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          6861
+    Length:          0
+    ReplacementText: '.wait()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          8989
+    Length:          20
+    ReplacementText: 'sycl::free(d_clusters, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          9116
+    Length:          19
+    ReplacementText: 'sycl::free(d_feature, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          9139
+    Length:          24
+    ReplacementText: 'sycl::free(d_feature_swap, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Offset:          9167
+    Length:          22
+    ReplacementText: 'sycl::free(d_membership, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+MainSourceFilesDigest:
+  - MainSourceFile:  '/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu'
+    Digest:          eac8eaccace94d8a24011d0dc1f94a3a
+...

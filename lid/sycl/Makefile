@@ -1,5 +1,5 @@
 CC     = dpcpp
-CFLAGS = -std=c++14
+CFLAGS = -O3 -std=c++14
 
 SOURCE = main.cpp
 OBJ    = $(SOURCE:.cpp=.o)

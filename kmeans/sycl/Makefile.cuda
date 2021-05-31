@@ -1,0 +1,28 @@
+CC      = clang++
+CFLAGS := -O3 \
+          -std=c++17 \
+	      -fsycl \
+		  -fsycl-unnamed-lambda \
+          -fsycl-targets=nvptx64-nvidia-cuda-sycldevice 
+
+# default parames
+BUILD = K40
+BIN  := kmeans-$(BUILD).x
+
+ifeq ($(BUILD), K40)
+	CFLAGS += -Xsycl-target-backend "--cuda-gpu-arch=sm_35"
+endif
+
+ifeq ($(BUILD), V100)
+	CFLAGS += -Xsycl-target-backend "--cuda-gpu-arch=sm_70"
+endif
+
+%.o: %.cpp
+	$(CC) $(CFLAGS) $< -c
+
+kmeans: cluster.o getopt.o read_input.o rmse.o kmeans.cpp
+	$(CC) $(KERNEL_DIM) $(CFLAGS) $^ -o $(BIN)
+
+clean:
+	rm -f *.o
+

@@ -1,7 +1,8 @@
 CC        = clang++
 LLVM_ROOT = /scratch/optpar01/apps/build/llvm/unstable/
 
-CFLAGS = -std=c++17 \
+CFLAGS = -O3 \
+         -std=c++17 \
 	     -I${LLVM_ROOT}/include \
 	     -fsycl \
          -fsycl-unnamed-lambda \
@@ -27,7 +28,7 @@ endif
 	$(CC) $(CFLAGS) -DBLOCK_SIZE=$(WG_SIZE) -c $< -o $@
 
 lid: $(OBJ) 
-	$(CC) $(CFLAGS) $(OBJ) -o $(BIN) $(LDFLAGS)
+	$(CC) $(CFLAGS) $(OBJ) -o $(BIN)
 
 clean:
 	rm -rf $(OBJ)

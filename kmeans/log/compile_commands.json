@@ -1,0 +1,27 @@
+[
+    {
+        "command": "nvcc -c  -O3 -std=c++11 -D__CUDACC__=1 cluster.cu", 
+        "directory": "/scratch/optpar01/test/webinar/kmeans/cuda", 
+        "file": "/scratch/optpar01/test/webinar/kmeans/cuda/cluster.cu"
+    }, 
+    {
+        "command": "nvcc -c  -O3 -std=c++11 -D__CUDACC__=1 getopt.cpp", 
+        "directory": "/scratch/optpar01/test/webinar/kmeans/cuda", 
+        "file": "/scratch/optpar01/test/webinar/kmeans/cuda/getopt.cpp"
+    }, 
+    {
+        "command": "nvcc -c  -O3 -std=c++11 -D__CUDACC__=1 read_input.cpp", 
+        "directory": "/scratch/optpar01/test/webinar/kmeans/cuda", 
+        "file": "/scratch/optpar01/test/webinar/kmeans/cuda/read_input.cpp"
+    }, 
+    {
+        "command": "nvcc -c  -O3 -std=c++11 -D__CUDACC__=1 rmse.cpp", 
+        "directory": "/scratch/optpar01/test/webinar/kmeans/cuda", 
+        "file": "/scratch/optpar01/test/webinar/kmeans/cuda/rmse.cpp"
+    }, 
+    {
+        "command": "nvcc -c  -O3 -std=c++11 cluster.o getopt.o read_input.o rmse.o -o kmeans -D__CUDACC__=1 kmeans.cpp", 
+        "directory": "/scratch/optpar01/test/webinar/kmeans/cuda", 
+        "file": "/scratch/optpar01/test/webinar/kmeans/cuda/kmeans.cpp"
+    }
+]
