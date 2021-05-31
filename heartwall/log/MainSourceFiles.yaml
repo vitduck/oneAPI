@@ -1,0 +1,1582 @@
+---
+MainSourceFile:  MainSrcFiles_placehold
+Replacements:
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          0
+    Length:          18
+    ReplacementText: "#include <CL/sycl.hpp>\n#include <dpct/dpct.hpp>\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          588
+    Length:          0
+    ReplacementText: "\n dpct::device_ext &dev_ct1 = dpct::get_current_device();\n sycl::queue &q_ct1 = dev_ct1.default_queue();"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          1018
+    Length:          10
+    ReplacementText: 'd_endoT = (float *)sycl::malloc_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          1029
+    Length:          18
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          1080
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          1297
+    Length:          10
+    ReplacementText: 'd_epiT = (float *)sycl::malloc_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          1308
+    Length:          17
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          1357
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          1849
+    Length:          10
+    ReplacementText: 'd_in2 = (float *)sycl::malloc_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          1860
+    Length:          16
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          1909
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          2668
+    Length:          10
+    ReplacementText: 'd_conv = (float *)sycl::malloc_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          2679
+    Length:          17
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          2730
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          3724
+    Length:          10
+    ReplacementText: 'd_in2_pad_cumv = (float *)sycl::malloc_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          3735
+    Length:          25
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          3802
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          4777
+    Length:          10
+    ReplacementText: 'd_in2_pad_cumv_sel = (float *)sycl::malloc_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          4788
+    Length:          29
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          4863
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          5806
+    Length:          10
+    ReplacementText: 'd_in2_sub_cumh = (float *)sycl::malloc_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          5817
+    Length:          25
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          5884
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          6820
+    Length:          10
+    ReplacementText: 'd_in2_sub_cumh_sel = (float *)sycl::malloc_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          6831
+    Length:          29
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          6906
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          7776
+    Length:          10
+    ReplacementText: 'd_in2_sub2 = (float *)sycl::malloc_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          7787
+    Length:          21
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          7846
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          8561
+    Length:          10
+    ReplacementText: 'd_in2_sqr = (float *)sycl::malloc_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          8572
+    Length:          20
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          8629
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          9165
+    Length:          10
+    ReplacementText: 'd_in2_sqr_sub2 = (float *)sycl::malloc_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          9176
+    Length:          25
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          9243
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          9799
+    Length:          10
+    ReplacementText: 'd_in_sqr = (float *)sycl::malloc_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          9810
+    Length:          19
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          9865
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          10515
+    Length:          10
+    ReplacementText: 'd_tMask = (float *)sycl::malloc_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          10526
+    Length:          18
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          10579
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13127
+    Length:          10
+    ReplacementText: 'd_endoRow = (int *)sycl::malloc_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13138
+    Length:          20
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13173
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13178
+    Length:          10
+    ReplacementText: q_ct1.memcpy
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13224
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13249
+    Length:          0
+    ReplacementText: '.wait()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13272
+    Length:          10
+    ReplacementText: 'd_endoCol = (int *)sycl::malloc_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13283
+    Length:          20
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13318
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13323
+    Length:          10
+    ReplacementText: q_ct1.memcpy
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13369
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13394
+    Length:          0
+    ReplacementText: '.wait()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13443
+    Length:          10
+    ReplacementText: 'd_tEndoRowLoc = (int *)sycl::malloc_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13454
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13510
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13515
+    Length:          10
+    ReplacementText: q_ct1.memcpy
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13586
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13611
+    Length:          0
+    ReplacementText: '.wait()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13615
+    Length:          10
+    ReplacementText: 'd_tEndoColLoc = (int *)sycl::malloc_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13626
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13682
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13687
+    Length:          10
+    ReplacementText: q_ct1.memcpy
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13758
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13783
+    Length:          0
+    ReplacementText: '.wait()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13822
+    Length:          10
+    ReplacementText: 'd_epiRow = (int *)sycl::malloc_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13833
+    Length:          19
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13866
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13871
+    Length:          10
+    ReplacementText: q_ct1.memcpy
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13914
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13939
+    Length:          0
+    ReplacementText: '.wait()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13943
+    Length:          10
+    ReplacementText: 'd_epiCol = (int *)sycl::malloc_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13954
+    Length:          19
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13987
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          13992
+    Length:          10
+    ReplacementText: q_ct1.memcpy
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          14035
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          14060
+    Length:          0
+    ReplacementText: '.wait()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          14107
+    Length:          10
+    ReplacementText: 'd_tEpiRowLoc = (int *)sycl::malloc_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          14118
+    Length:          23
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          14172
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          14177
+    Length:          10
+    ReplacementText: q_ct1.memcpy
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          14245
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          14270
+    Length:          0
+    ReplacementText: '.wait()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          14274
+    Length:          10
+    ReplacementText: 'd_tEpiColLoc = (int *)sycl::malloc_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          14285
+    Length:          23
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          14339
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          14344
+    Length:          10
+    ReplacementText: q_ct1.memcpy
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          14412
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          14437
+    Length:          0
+    ReplacementText: '.wait()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          14574
+    Length:          10
+    ReplacementText: 'd_mask_conv = (float *)sycl::malloc_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          14585
+    Length:          22
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          14646
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          14845
+    Length:          10
+    ReplacementText: 'd_in_mod_temp = (float *)sycl::malloc_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          14856
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          14912
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          15114
+    Length:          10
+    ReplacementText: 'd_in_partial_sum = (float *)sycl::malloc_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          15125
+    Length:          27
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          15196
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          15414
+    Length:          10
+    ReplacementText: 'd_in_sqr_partial_sum = (float *)sycl::malloc_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          15425
+    Length:          31
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          15504
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          15709
+    Length:          10
+    ReplacementText: 'd_par_max_val = (float *)sycl::malloc_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          15720
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          15795
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          16004
+    Length:          10
+    ReplacementText: 'd_par_max_coo = (float *)sycl::malloc_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          16015
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          16090
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          16214
+    Length:          10
+    ReplacementText: 'd_in_final_sum = sycl::malloc_device<float>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          16225
+    Length:          25
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          16250
+    Length:          27
+    ReplacementText: common.allPoints
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          16277
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          16412
+    Length:          10
+    ReplacementText: 'd_in_sqr_final_sum = sycl::malloc_device<float>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          16423
+    Length:          29
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          16452
+    Length:          27
+    ReplacementText: common.allPoints
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          16479
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          16585
+    Length:          10
+    ReplacementText: 'd_denomT = sycl::malloc_device<float>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          16596
+    Length:          19
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          16615
+    Length:          27
+    ReplacementText: common.allPoints
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          16642
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          17337
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          17350
+    Length:          14
+    ReplacementText: 1, 1, NUMBER_THREADS
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          17369
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          17380
+    Length:          16
+    ReplacementText: 1, 1, common.allPoints
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          17785
+    Length:          10
+    ReplacementText: 'd_frame = sycl::malloc_device<float>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          17796
+    Length:          18
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          17814
+    Length:          28
+    ReplacementText: common.frame_elem
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          17842
+    Length:          0
+    ReplacementText: ', q_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          18460
+    Length:          10
+    ReplacementText: q_ct1.memcpy
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          18515
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          18540
+    Length:          0
+    ReplacementText: '.wait()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          18683
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1049:37: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          18687
+    Length:          788
+    ReplacementText: "q_ct1.submit(\n      [&](sycl::handler &cgh) {\n        cgh.parallel_for(\n          sycl::nd_range<3>(grids * threads, threads), \n          [=](sycl::nd_item<3> item_ct1) {\n            hw(frame_no, common, d_frame, d_endoRow, d_endoCol, d_tEndoRowLoc, d_tEndoColLoc, d_epiRow, d_epiCol, d_tEpiRowLoc, d_tEpiColLoc, d_endoT, d_epiT, d_in2, d_conv, d_in2_pad_cumv, d_in2_pad_cumv_sel, d_in2_sub_cumh, d_in2_sub_cumh_sel, d_in2_sub2, d_in2_sqr, d_in2_sqr_sub2, d_in_sqr, d_tMask, d_mask_conv, d_in_mod_temp, d_in_partial_sum, d_in_sqr_partial_sum, d_par_max_val, d_par_max_coo, d_in_final_sum, d_in_sqr_final_sum, d_denomT, item_ct1);\n          });\n      });"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: true
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          19475
+    Length:          1
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          20231
+    Length:          10
+    ReplacementText: q_ct1.memcpy
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          20304
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          20329
+    Length:          0
+    ReplacementText: '.wait()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          20333
+    Length:          10
+    ReplacementText: q_ct1.memcpy
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          20406
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          20431
+    Length:          0
+    ReplacementText: '.wait()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          20435
+    Length:          10
+    ReplacementText: q_ct1.memcpy
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          20505
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          20530
+    Length:          0
+    ReplacementText: '.wait()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          20534
+    Length:          10
+    ReplacementText: q_ct1.memcpy
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          20604
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          20629
+    Length:          0
+    ReplacementText: '.wait()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          20952
+    Length:          16
+    ReplacementText: 'sycl::free(d_epiT, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          20972
+    Length:          15
+    ReplacementText: 'sycl::free(d_in2, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          20991
+    Length:          16
+    ReplacementText: 'sycl::free(d_conv, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          21011
+    Length:          24
+    ReplacementText: 'sycl::free(d_in2_pad_cumv, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          21039
+    Length:          28
+    ReplacementText: 'sycl::free(d_in2_pad_cumv_sel, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          21071
+    Length:          24
+    ReplacementText: 'sycl::free(d_in2_sub_cumh, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          21099
+    Length:          28
+    ReplacementText: 'sycl::free(d_in2_sub_cumh_sel, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          21131
+    Length:          20
+    ReplacementText: 'sycl::free(d_in2_sub2, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          21155
+    Length:          19
+    ReplacementText: 'sycl::free(d_in2_sqr, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          21178
+    Length:          24
+    ReplacementText: 'sycl::free(d_in2_sqr_sub2, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          21206
+    Length:          18
+    ReplacementText: 'sycl::free(d_in_sqr, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          21228
+    Length:          17
+    ReplacementText: 'sycl::free(d_tMask, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          21249
+    Length:          19
+    ReplacementText: 'sycl::free(d_endoRow, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          21272
+    Length:          19
+    ReplacementText: 'sycl::free(d_endoCol, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          21295
+    Length:          23
+    ReplacementText: 'sycl::free(d_tEndoRowLoc, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          21322
+    Length:          23
+    ReplacementText: 'sycl::free(d_tEndoColLoc, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          21349
+    Length:          18
+    ReplacementText: 'sycl::free(d_epiRow, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          21371
+    Length:          18
+    ReplacementText: 'sycl::free(d_epiCol, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          21393
+    Length:          22
+    ReplacementText: 'sycl::free(d_tEpiRowLoc, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          21419
+    Length:          22
+    ReplacementText: 'sycl::free(d_tEpiColLoc, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          21445
+    Length:          21
+    ReplacementText: 'sycl::free(d_mask_conv, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          21470
+    Length:          23
+    ReplacementText: 'sycl::free(d_in_mod_temp, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          21497
+    Length:          26
+    ReplacementText: 'sycl::free(d_in_partial_sum, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          21527
+    Length:          30
+    ReplacementText: 'sycl::free(d_in_sqr_partial_sum, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          21561
+    Length:          23
+    ReplacementText: 'sycl::free(d_par_max_val, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          21588
+    Length:          23
+    ReplacementText: 'sycl::free(d_par_max_coo, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          21615
+    Length:          24
+    ReplacementText: 'sycl::free(d_in_final_sum, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          21643
+    Length:          28
+    ReplacementText: 'sycl::free(d_in_sqr_final_sum, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          21675
+    Length:          18
+    ReplacementText: 'sycl::free(d_denomT, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Offset:          21697
+    Length:          17
+    ReplacementText: 'sycl::free(d_frame, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+MainSourceFilesDigest:
+  - MainSourceFile:  '/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu'
+    Digest:          65b45c7dfdf923e14fe36839c94e036d
+...

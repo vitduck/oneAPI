@@ -21,6 +21,6 @@ echo "Native CUDA:"
 echo 
 
 echo "SYCL CUDA:"
-( time -p ./kmeans-K40.x -r -n 5 -m 15 -l 10 -i ../../data/10000_34f.txt   ) 2>&1; echo
-( time -p ./kmeans-K40.x -r -n 5 -m 15 -l 10 -i ../../data/100000_34f.txt  ) 2>&1; echo
-( time -p ./kmeans-K40.x -r -n 5 -m 15 -l 10 -i ../../data/1000000_34f.txt ) 2>&1; echo
+( time -p ./kmeans-V100.x -r -n 5 -m 15 -l 10 -i ../../data/10000_34f.txt   ) 2>&1; echo
+( time -p ./kmeans-V100.x -r -n 5 -m 15 -l 10 -i ../../data/100000_34f.txt  ) 2>&1; echo
+( time -p ./kmeans-V100.x -r -n 5 -m 15 -l 10 -i ../../data/1000000_34f.txt ) 2>&1; echo

@@ -1,0 +1,131 @@
+In file included from /scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu:7:
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:210:3: warning: DPCT1065:0: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:278:3: warning: DPCT1065:1: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:331:3: warning: DPCT1065:2: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:419:3: warning: DPCT1065:3: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:483:3: warning: DPCT1065:4: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:530:3: warning: DPCT1065:5: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:578:3: warning: DPCT1065:6: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:626:3: warning: DPCT1065:7: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:664:3: warning: DPCT1065:8: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:711:3: warning: DPCT1065:9: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:759:3: warning: DPCT1065:10: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:807:3: warning: DPCT1065:11: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:845:3: warning: DPCT1065:12: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:891:3: warning: DPCT1065:13: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:951:3: warning: DPCT1065:14: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:998:3: warning: DPCT1065:15: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:1046:3: warning: DPCT1065:16: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:1094:3: warning: DPCT1065:17: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:1132:3: warning: DPCT1065:18: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:1179:3: warning: DPCT1065:19: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:1227:3: warning: DPCT1065:20: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:1275:3: warning: DPCT1065:21: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:1313:3: warning: DPCT1065:22: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:1364:3: warning: DPCT1065:23: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:1402:3: warning: DPCT1065:24: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:1445:3: warning: DPCT1065:25: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:1487:3: warning: DPCT1065:26: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:1531:3: warning: DPCT1065:27: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:1569:3: warning: DPCT1065:28: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:1605:3: warning: DPCT1065:29: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:1643:3: warning: DPCT1065:30: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:1682:3: warning: DPCT1065:31: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:1741:3: warning: DPCT1065:32: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:1833:3: warning: DPCT1065:33: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:1886:3: warning: DPCT1065:34: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:1940:3: warning: DPCT1065:35: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.h:2012:3: warning: DPCT1065:36: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.
+                __syncthreads();
+                ^
+/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu:432:5: warning: DPCT1049:37: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.
+    hw<<<grids, threads>>>(
+    ^
+/scratch/optpar01/test/webinar/heartwall/cuda/main.cu:230:14: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+        write_data(     "result.txt",
+                        ^
+Saved new version of /scratch/optpar01/test/webinar/heartwall/sycl/kernel/kernel.h.yaml file
+Saved new version of /scratch/optpar01/test/webinar/heartwall/sycl/util/avi/avilib.h.yaml file
+
+Processing: /scratch/optpar01/test/webinar/heartwall/cuda/util/timer/timer.c
+Processing: /scratch/optpar01/test/webinar/heartwall/cuda/util/avi/avilib.c
+Processing: /scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu
+Processing: /scratch/optpar01/test/webinar/heartwall/cuda/main.cu
+Processing: /scratch/optpar01/test/webinar/heartwall/cuda/util/avi/avimod.c
+Processing: /scratch/optpar01/test/webinar/heartwall/cuda/util/file/file.c
+Processed 3 file(s) in -in-root folder "/scratch/optpar01/test/webinar/heartwall/cuda"
+
+See Diagnostics Reference to resolve warnings and complete the migration:
+https://software.intel.com/content/www/us/en/develop/documentation/intel-dpcpp-compatibility-tool-user-guide/top/diagnostics-reference.html
