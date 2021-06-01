@@ -8,10 +8,14 @@
 #include "util.hpp"
 
 #define SEED 666
-#define SIZE 16384
-#define LOOP 100
+
+int SIZE = 4096; 
+int LOOP = 100; 
 
 int main(int argc, char *argv[]) {
+    // getopt 
+    parseArguments(argc, argv); 
+
     // queue creation 
     sycl::device device(sycl::default_selector{}); 
     sycl::queue  queue(device);
@@ -35,9 +39,9 @@ int main(int argc, char *argv[]) {
 
     // create random square matrix 
     srand(SEED); 
-    random_matrix(A_USM, m, k); 
-    random_matrix(B_USM, k, n); 
-    zero_matrix  (C_USM, m, n); 
+    random_matrix<float>(A_USM, m, k); 
+    random_matrix<float>(B_USM, k, n); 
+    zero_matrix  <float>(C_USM, m, n); 
 
     // SYCL events 
     sycl::event              gemm_done; 
@@ -63,6 +67,7 @@ int main(int argc, char *argv[]) {
     // real measurement 
     std::cout << "SGEMM using oneMKL (cuBLAS backend)" << std::endl; 
     std::cout << "Matrix size: " << SIZE << std::endl; 
+    std::cout << "Loop count: "  << LOOP << std::endl; 
     
     auto start = std::chrono::system_clock::now(); 
     for (int i=0; i < LOOP; i++) { 
@@ -89,10 +94,6 @@ int main(int argc, char *argv[]) {
     std::cout << "Average running time: " << average << std::endl; 
     std::cout << "Performance GFLOPS: "   << gflops  << std::endl; 
     
-    // print_matrix(A_USM, "A", m, k); 
-    // print_matrix(B_USM, "B", k, n); 
-    // print_matrix(C_USM, "C", m, n); 
-
     // free memory 
     sycl::free(A_USM, queue);
     sycl::free(B_USM, queue);

@@ -29,3 +29,6 @@ template <typename T> void print_matrix(T *matrix, std::string name, int m, int 
     }
     std::cout << std::endl;
 }
+
+// GNU getopt
+void parseArguments(int argc, char *argv[]); 

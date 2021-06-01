@@ -5,14 +5,16 @@
 #include <cuda.h>
 #include <cublas_v2.h>
 
-#define SEED 666
-#define SIZE 16834
-#define LOOP 100
-
 #include "util.hpp"
 
+#define SEED 666
+
+int SIZE = 4096; 
+int LOOP = 100; 
+
 int main(int argc, char *argv[]) {
-    cublasStatus_t status; 
+    // getopt
+    parseArguments(argc, argv); 
 
     // scalar multiplier
     float alpha = 1.0, beta = 1.0;
@@ -46,6 +48,7 @@ int main(int argc, char *argv[]) {
     cublasSetMatrix(m, n, sizeof(float), C, ldC, dC, ldC); 
     
     // cublas context
+    cublasStatus_t status; 
     cublasHandle_t handle;
     cublasCreate(&handle);
 
@@ -64,6 +67,7 @@ int main(int argc, char *argv[]) {
     // real measurement 
     std::cout << "SGEMM using native cuBLAS" << std::endl; 
     std::cout << "Matrix size: " << SIZE << std::endl; 
+    std::cout << "Loop count: "  << LOOP << std::endl; 
 
     auto start = std::chrono::system_clock::now(); 
     for (int i=0; i < LOOP; i++) { 

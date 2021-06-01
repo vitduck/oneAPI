@@ -10,15 +10,15 @@ CXXFLAGS := -O3 \
 		   
 LDFLAGS  = -L/scratch/optpar01/apps/build/oneMKL/lib 
 
-.PHONY:all 
+.PHONY: all 
 
-all:gemm
+all: sgemm
 
 %.o: %.cpp
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
-gemm: onemkl.o
-	$(CXX) $(CXXFLAGS) $(LDFLAGS) -o gemm_onemkl.x onemkl.o -lonemkl
+sgemm: getopt.o onemkl.o
+	$(CXX) $(CXXFLAGS) $(LDFLAGS) -o sgemm_onemkl.x $^ -lonemkl
 
 clean:
 	rm -f *.o
