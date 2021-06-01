@@ -1,0 +1,13 @@
+CXX		 = nvcc
+CXXFLAGS = -O3 -lcublas
+            
+all:gemm
+
+%.o: %.cu
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+gemm: cublas.o
+	$(CXX) $(CXXFLAGS) $(LDFLAGS) -o gemm_cublas.x cublas.o
+
+clean:
+	rm -f *.o
