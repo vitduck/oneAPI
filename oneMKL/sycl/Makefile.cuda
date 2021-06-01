@@ -1,6 +1,6 @@
 CXX		 = clang++
 
-CXXFLAGS := -O3 \
+CXXFLAGS = -O3 \
             -std=c++17  \
 		    -fsycl \
 		    -fsycl-unnamed-lambda \
@@ -8,13 +8,16 @@ CXXFLAGS := -O3 \
 		    -I/scratch/optpar01/apps/build/oneMKL/include \
             -I/scratch/optpar01/apps/build/llvm/unstable/include \
 		   
-LDFLAGS  = -L/scratch/optpar01/apps/build/oneMKL/lib 
+LDFLAGS = -L/scratch/optpar01/apps/build/oneMKL/lib 
 
 .PHONY: all 
 
 all: sgemm
 
-%.o: %.cpp
+getopt.o: ../utils/getopt.cpp
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+onemkl.o: onemkl.cpp 
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
 sgemm: getopt.o onemkl.o

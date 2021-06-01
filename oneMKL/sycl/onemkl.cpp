@@ -65,7 +65,7 @@ int main(int argc, char *argv[]) {
     gemm_done.wait(); 
 
     // real measurement 
-    std::cout << "SGEMM using oneMKL (cuBLAS backend)" << std::endl; 
+    std::cout << "SGEMM using oneMKL" << std::endl; 
     std::cout << "Matrix size: " << SIZE << std::endl; 
     std::cout << "Loop count: "  << LOOP << std::endl; 
     

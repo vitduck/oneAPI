@@ -3,10 +3,10 @@ CXXFLAGS = -O3 -lcublas
 
 all: sgemm
 
-%.o: %.cu
+cublas.o: cublas.cu
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
-%.o: %.cpp
+getopt.o: ../utils/getopt.cpp
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
 sgemm: cublas.o getopt.o
