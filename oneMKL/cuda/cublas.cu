@@ -1,7 +1,6 @@
 #include <iostream>
 #include <cstdlib>
 #include <cstring>
-#include <chrono>
 #include <cuda.h>
 #include <cublas_v2.h>
 
@@ -52,6 +51,11 @@ int main(int argc, char *argv[]) {
     cublasHandle_t handle;
     cublasCreate(&handle);
 
+    // cuda events 
+    cudaEvent_t start, stop;
+    cudaEventCreate(&start);
+    cudaEventCreate(&stop);
+
     // warmup 
     status = cublasSgemm(
         handle, 
@@ -61,37 +65,36 @@ int main(int argc, char *argv[]) {
         dB, ldB, 
         &beta, dC, ldC
     ); 
-    // copy matrix to host
-    cublasGetMatrix(m, n, sizeof(float), dC, ldC, C, ldC); 
-
+    
     // real measurement 
     std::cout << "SGEMM using native cuBLAS" << std::endl; 
     std::cout << "Matrix size: " << SIZE << std::endl; 
     std::cout << "Loop count: "  << LOOP << std::endl; 
 
-    auto start = std::chrono::system_clock::now(); 
+    cudaEventRecord(start); 
     for (int i=0; i < LOOP; i++) { 
-        // warmup 
         status = cublasSgemm(
             handle, 
-            CUBLAS_OP_T, CUBLAS_OP_T,
+            CUBLAS_OP_N, CUBLAS_OP_N,
             m, n, k, 
             &alpha, dA, ldA, 
             dB, ldB, 
             &beta, dC, ldC
         ); 
-        // copy matrix to host
-        cublasGetMatrix(m, n, sizeof(float), dC, ldC, C, ldC); 
     } 
-    auto end = std::chrono::system_clock::now(); 
+    cudaEventRecord(stop);
+        
+    // copy matrix back to host
+    cublasGetMatrix(m, n, sizeof(float), dC, ldC, C, ldC); 
 
     cublasDestroy(handle); 
-
+    
     // walltime 
-    std::chrono::duration<float> walltime = end-start;
+    float walltime = 0; 
+    cudaEventElapsedTime(&walltime, start, stop);
 
     // gflops 
-    float average = walltime.count()/LOOP;  
+    float average = 0.001*walltime/LOOP;  
     float gflops  = 2.0*m*n*k*1E-9/average; 
 
     std::cout << "Average running time: " << average << std::endl; 

@@ -2,6 +2,7 @@
 #include <cstdlib>
 #include <cstring>
 #include <chrono>
+#include <vector>
 #include <CL/sycl.hpp>
 #include "oneapi/mkl.hpp"
 
@@ -16,9 +17,9 @@ int main(int argc, char *argv[]) {
     // getopt 
     parseArguments(argc, argv); 
 
-    // queue creation 
+    // device selection
     sycl::device device(sycl::default_selector{}); 
-    sycl::queue  queue(device);
+    sycl::queue   queue(device); 
 
     // device info
     std::cout << "Device: " << device.get_info<sycl::info::device::name>() << "\n";
@@ -43,49 +44,37 @@ int main(int argc, char *argv[]) {
     random_matrix<float>(B_USM, k, n); 
     zero_matrix  <float>(C_USM, m, n); 
 
-    // SYCL events 
-    sycl::event              gemm_done; 
-    std::vector<sycl::event> gemm_dep;   
-
     // transpose status of matrices
     // following fortran standard, row major is not supported directly, 
-    oneapi::mkl::transpose transA = oneapi::mkl::transpose::trans;
-    oneapi::mkl::transpose transB = oneapi::mkl::transpose::trans;
+    oneapi::mkl::transpose transA = oneapi::mkl::transpose::nontrans;
+    oneapi::mkl::transpose transB = oneapi::mkl::transpose::nontrans;
 
     // warm up
-    gemm_done = oneapi::mkl::blas::column_major::gemm(
+    oneapi::mkl::blas::column_major::gemm(
         queue, 
         transA, transB, 
         m, n, k, 
-        alpha, A_USM, ldA, 
-        B_USM, ldB, 
-        beta, C_USM, ldC, 
-        gemm_dep
-    );
-    gemm_done.wait(); 
+        alpha, A_USM, ldA, B_USM, ldB, beta, C_USM, ldC
+    ).wait(); 
 
     // real measurement 
     std::cout << "SGEMM using oneMKL" << std::endl; 
     std::cout << "Matrix size: " << SIZE << std::endl; 
     std::cout << "Loop count: "  << LOOP << std::endl; 
-    
-    auto start = std::chrono::system_clock::now(); 
+
+    auto start = std::chrono::high_resolution_clock::now(); 
     for (int i=0; i < LOOP; i++) { 
-        gemm_done = oneapi::mkl::blas::column_major::gemm(
+        oneapi::mkl::blas::column_major::gemm(
             queue, 
             transA, transB, 
             m, n, k, 
-            alpha, A_USM, ldA, 
-            B_USM, ldB, 
-            beta, C_USM, ldC, 
-            gemm_dep
-        );
-        gemm_done.wait();
+            alpha, A_USM, ldA, B_USM, ldB, beta, C_USM, ldC
+        ).wait();  
     } 
-    auto end = std::chrono::system_clock::now(); 
+    auto end = std::chrono::high_resolution_clock::now();
 
     // walltime 
-    std::chrono::duration<float> walltime = end-start;
+    std::chrono::duration<float> walltime = end-start; 
 
     // gflops 
     float average = walltime.count()/LOOP;  
