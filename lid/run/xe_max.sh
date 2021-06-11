@@ -17,35 +17,29 @@
 # 9: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
 #10: SYCL host device
 
-# double precision emulation 
+cd $PBS_O_WORKDIR
+
+# debug
+export SYCL_PI_TRACE=1
+
+# cpu device
+export SYCL_DEVICE_FILTER=opencl:cpu
+export DPCPP_CPU_NUM_CUS=24
+export DPCPP_CPU_PLACES=threads
+export DPCPP_CPU_CU_AFFINITY=close
+
+for size in 32 64 128 256
+do
+    (time -p ./lid-intel-wg_${size}.x) 2>&1
+done
+
+# gpu device
+# double precision emulation
 export OverrideDefaultFP64Settings=1
 export IGC_EnableDPEmulation=1
 
-src=../sycl
-
-# prepare src
-cd $PBS_O_WORKDIR
-cp $src/{main.cpp,Makefile} . 
-
-# loop over WG_SIZE
-for size in 16 32 64 128
-do 
-   make WG_SIZE=$size
-   echo
-
-   # loop over devices 
-   # for device in cpu gpu acc
-   for device in gpu
-   do
-      export SYCL_DEVICE_FILTER=opencl:$device 
-     
-      for i in 1 2 3
-      do 
-         (time -p ./lid-wg_${size}.x) 2>&1
-	 echo
-      done 
-      echo 
-   done
-
-   make clean
+export SYCL_DEVICE_FILTER=opencl:gpu
+for size in 32 64 128 256
+do
+    (time -p ./lid-intel-wg_${size}.x) 2>&1
 done

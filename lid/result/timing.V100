@@ -1,0 +1,240 @@
+<CUDA implementation>
+Problem size: 512 x 512 
+Blocksize size: 32 
+Time = 0.000477, delt = 4.768372e-04, iter = 92522, res = 9.999751e-04
+Time = 0.000954, delt = 4.768372e-04, iter = 88410, res = 9.999561e-04
+Time = 0.001431, delt = 4.768372e-04, iter = 86661, res = 9.999596e-04
+Time = 0.001907, delt = 4.768372e-04, iter = 84758, res = 9.999102e-04
+Time = 0.002384, delt = 4.768372e-04, iter = 82823, res = 9.999784e-04
+Time = 0.002861, delt = 4.768372e-04, iter = 80946, res = 9.999357e-04
+Time = 0.003338, delt = 4.768372e-04, iter = 79191, res = 9.999079e-04
+Time = 0.003815, delt = 4.768372e-04, iter = 77591, res = 9.999638e-04
+Time = 0.004292, delt = 4.768372e-04, iter = 76155, res = 9.999714e-04
+Time = 0.004768, delt = 4.768372e-04, iter = 74874, res = 9.999356e-04
+Time = 0.005245, delt = 4.768372e-04, iter = 73730, res = 9.999485e-04
+Time = 0.005722, delt = 4.768372e-04, iter = 72704, res = 9.999646e-04
+Time = 0.006199, delt = 4.768372e-04, iter = 71778, res = 9.999348e-04
+Time = 0.006676, delt = 4.768372e-04, iter = 70935, res = 9.999617e-04
+Time = 0.007153, delt = 4.768372e-04, iter = 70163, res = 9.999027e-04
+Time = 0.007629, delt = 4.768372e-04, iter = 69449, res = 9.999910e-04
+Time = 0.008106, delt = 4.768372e-04, iter = 68787, res = 9.999451e-04
+Time = 0.008583, delt = 4.768372e-04, iter = 68168, res = 9.999736e-04
+Time = 0.009060, delt = 4.768372e-04, iter = 67588, res = 9.999035e-04
+Time = 0.009537, delt = 4.768372e-04, iter = 67040, res = 9.999925e-04
+Time = 0.010000, delt = 4.632568e-04, iter = 66523, res = 9.999695e-04
+real 128.67
+user 98.43
+sys 29.68
+
+<CUDA implementation>
+Problem size: 512 x 512 
+Blocksize size: 64 
+Time = 0.000477, delt = 4.768372e-04, iter = 92522, res = 9.999751e-04
+Time = 0.000954, delt = 4.768372e-04, iter = 88410, res = 9.999561e-04
+Time = 0.001431, delt = 4.768372e-04, iter = 86661, res = 9.999596e-04
+Time = 0.001907, delt = 4.768372e-04, iter = 84758, res = 9.999102e-04
+Time = 0.002384, delt = 4.768372e-04, iter = 82823, res = 9.999784e-04
+Time = 0.002861, delt = 4.768372e-04, iter = 80946, res = 9.999357e-04
+Time = 0.003338, delt = 4.768372e-04, iter = 79191, res = 9.999079e-04
+Time = 0.003815, delt = 4.768372e-04, iter = 77591, res = 9.999638e-04
+Time = 0.004292, delt = 4.768372e-04, iter = 76155, res = 9.999714e-04
+Time = 0.004768, delt = 4.768372e-04, iter = 74874, res = 9.999356e-04
+Time = 0.005245, delt = 4.768372e-04, iter = 73730, res = 9.999485e-04
+Time = 0.005722, delt = 4.768372e-04, iter = 72704, res = 9.999646e-04
+Time = 0.006199, delt = 4.768372e-04, iter = 71778, res = 9.999348e-04
+Time = 0.006676, delt = 4.768372e-04, iter = 70935, res = 9.999617e-04
+Time = 0.007153, delt = 4.768372e-04, iter = 70163, res = 9.999027e-04
+Time = 0.007629, delt = 4.768372e-04, iter = 69449, res = 9.999910e-04
+Time = 0.008106, delt = 4.768372e-04, iter = 68787, res = 9.999451e-04
+Time = 0.008583, delt = 4.768372e-04, iter = 68168, res = 9.999736e-04
+Time = 0.009060, delt = 4.768372e-04, iter = 67588, res = 9.999035e-04
+Time = 0.009537, delt = 4.768372e-04, iter = 67040, res = 9.999925e-04
+Time = 0.010000, delt = 4.632568e-04, iter = 66523, res = 9.999695e-04
+real 113.43
+user 88.98
+sys 24.16
+
+<CUDA implementation>
+Problem size: 512 x 512 
+Blocksize size: 128 
+Time = 0.000477, delt = 4.768372e-04, iter = 92522, res = 9.999751e-04
+Time = 0.000954, delt = 4.768372e-04, iter = 88410, res = 9.999561e-04
+Time = 0.001431, delt = 4.768372e-04, iter = 86661, res = 9.999596e-04
+Time = 0.001907, delt = 4.768372e-04, iter = 84758, res = 9.999102e-04
+Time = 0.002384, delt = 4.768372e-04, iter = 82823, res = 9.999784e-04
+Time = 0.002861, delt = 4.768372e-04, iter = 80946, res = 9.999357e-04
+Time = 0.003338, delt = 4.768372e-04, iter = 79191, res = 9.999079e-04
+Time = 0.003815, delt = 4.768372e-04, iter = 77591, res = 9.999638e-04
+Time = 0.004292, delt = 4.768372e-04, iter = 76155, res = 9.999714e-04
+Time = 0.004768, delt = 4.768372e-04, iter = 74874, res = 9.999356e-04
+Time = 0.005245, delt = 4.768372e-04, iter = 73730, res = 9.999485e-04
+Time = 0.005722, delt = 4.768372e-04, iter = 72704, res = 9.999646e-04
+Time = 0.006199, delt = 4.768372e-04, iter = 71778, res = 9.999348e-04
+Time = 0.006676, delt = 4.768372e-04, iter = 70935, res = 9.999617e-04
+Time = 0.007153, delt = 4.768372e-04, iter = 70163, res = 9.999027e-04
+Time = 0.007629, delt = 4.768372e-04, iter = 69449, res = 9.999910e-04
+Time = 0.008106, delt = 4.768372e-04, iter = 68787, res = 9.999451e-04
+Time = 0.008583, delt = 4.768372e-04, iter = 68168, res = 9.999736e-04
+Time = 0.009060, delt = 4.768372e-04, iter = 67588, res = 9.999035e-04
+Time = 0.009537, delt = 4.768372e-04, iter = 67040, res = 9.999925e-04
+Time = 0.010000, delt = 4.632568e-04, iter = 66523, res = 9.999695e-04
+real 108.08
+user 83.47
+sys 24.30
+
+<CUDA implementation>
+Problem size: 512 x 512 
+Blocksize size: 256 
+Time = 0.000477, delt = 4.768372e-04, iter = 92522, res = 9.999751e-04
+Time = 0.000954, delt = 4.768372e-04, iter = 88410, res = 9.999561e-04
+Time = 0.001431, delt = 4.768372e-04, iter = 86661, res = 9.999596e-04
+Time = 0.001907, delt = 4.768372e-04, iter = 84758, res = 9.999102e-04
+Time = 0.002384, delt = 4.768372e-04, iter = 82823, res = 9.999784e-04
+Time = 0.002861, delt = 4.768372e-04, iter = 80946, res = 9.999357e-04
+Time = 0.003338, delt = 4.768372e-04, iter = 79191, res = 9.999079e-04
+Time = 0.003815, delt = 4.768372e-04, iter = 77591, res = 9.999638e-04
+Time = 0.004292, delt = 4.768372e-04, iter = 76155, res = 9.999714e-04
+Time = 0.004768, delt = 4.768372e-04, iter = 74874, res = 9.999356e-04
+Time = 0.005245, delt = 4.768372e-04, iter = 73730, res = 9.999485e-04
+Time = 0.005722, delt = 4.768372e-04, iter = 72704, res = 9.999646e-04
+Time = 0.006199, delt = 4.768372e-04, iter = 71778, res = 9.999348e-04
+Time = 0.006676, delt = 4.768372e-04, iter = 70935, res = 9.999617e-04
+Time = 0.007153, delt = 4.768372e-04, iter = 70163, res = 9.999027e-04
+Time = 0.007629, delt = 4.768372e-04, iter = 69449, res = 9.999910e-04
+Time = 0.008106, delt = 4.768372e-04, iter = 68787, res = 9.999451e-04
+Time = 0.008583, delt = 4.768372e-04, iter = 68168, res = 9.999736e-04
+Time = 0.009060, delt = 4.768372e-04, iter = 67588, res = 9.999035e-04
+Time = 0.009537, delt = 4.768372e-04, iter = 67040, res = 9.999925e-04
+Time = 0.010000, delt = 4.632568e-04, iter = 66523, res = 9.999695e-04
+real 106.96
+user 81.37
+sys 25.33
+
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_cuda.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: NVIDIA CUDA BACKEND
+SYCL_PI_TRACE[all]:   device: Tesla V100-PCIE-32GB
+<SYCL implementation>
+Problem size: 512 x 512 
+Workgroup size: 32 
+Time = 0.000477, delt = 4.768372e-04, iter = 92522, res = 9.999751e-04
+Time = 0.000954, delt = 4.768372e-04, iter = 88410, res = 9.999561e-04
+Time = 0.001431, delt = 4.768372e-04, iter = 86661, res = 9.999596e-04
+Time = 0.001907, delt = 4.768372e-04, iter = 84758, res = 9.999102e-04
+Time = 0.002384, delt = 4.768372e-04, iter = 82823, res = 9.999784e-04
+Time = 0.002861, delt = 4.768372e-04, iter = 80946, res = 9.999357e-04
+Time = 0.003338, delt = 4.768372e-04, iter = 79191, res = 9.999079e-04
+Time = 0.003815, delt = 4.768372e-04, iter = 77591, res = 9.999638e-04
+Time = 0.004292, delt = 4.768372e-04, iter = 76155, res = 9.999714e-04
+Time = 0.004768, delt = 4.768372e-04, iter = 74874, res = 9.999356e-04
+Time = 0.005245, delt = 4.768372e-04, iter = 73730, res = 9.999485e-04
+Time = 0.005722, delt = 4.768372e-04, iter = 72704, res = 9.999646e-04
+Time = 0.006199, delt = 4.768372e-04, iter = 71778, res = 9.999348e-04
+Time = 0.006676, delt = 4.768372e-04, iter = 70935, res = 9.999617e-04
+Time = 0.007153, delt = 4.768372e-04, iter = 70163, res = 9.999027e-04
+Time = 0.007629, delt = 4.768372e-04, iter = 69449, res = 9.999910e-04
+Time = 0.008106, delt = 4.768372e-04, iter = 68787, res = 9.999451e-04
+Time = 0.008583, delt = 4.768372e-04, iter = 68168, res = 9.999736e-04
+Time = 0.009060, delt = 4.768372e-04, iter = 67588, res = 9.999035e-04
+Time = 0.009537, delt = 4.768372e-04, iter = 67040, res = 9.999925e-04
+Time = 0.010000, delt = 4.632568e-04, iter = 66523, res = 9.999695e-04
+real 168.87
+user 142.93
+sys 25.21
+
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_cuda.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: NVIDIA CUDA BACKEND
+SYCL_PI_TRACE[all]:   device: Tesla V100-PCIE-32GB
+<SYCL implementation>
+Problem size: 512 x 512 
+Workgroup size: 64 
+Time = 0.000477, delt = 4.768372e-04, iter = 92522, res = 9.999751e-04
+Time = 0.000954, delt = 4.768372e-04, iter = 88410, res = 9.999561e-04
+Time = 0.001431, delt = 4.768372e-04, iter = 86661, res = 9.999596e-04
+Time = 0.001907, delt = 4.768372e-04, iter = 84758, res = 9.999102e-04
+Time = 0.002384, delt = 4.768372e-04, iter = 82823, res = 9.999784e-04
+Time = 0.002861, delt = 4.768372e-04, iter = 80946, res = 9.999357e-04
+Time = 0.003338, delt = 4.768372e-04, iter = 79191, res = 9.999079e-04
+Time = 0.003815, delt = 4.768372e-04, iter = 77591, res = 9.999638e-04
+Time = 0.004292, delt = 4.768372e-04, iter = 76155, res = 9.999714e-04
+Time = 0.004768, delt = 4.768372e-04, iter = 74874, res = 9.999356e-04
+Time = 0.005245, delt = 4.768372e-04, iter = 73730, res = 9.999485e-04
+Time = 0.005722, delt = 4.768372e-04, iter = 72704, res = 9.999646e-04
+Time = 0.006199, delt = 4.768372e-04, iter = 71778, res = 9.999348e-04
+Time = 0.006676, delt = 4.768372e-04, iter = 70935, res = 9.999617e-04
+Time = 0.007153, delt = 4.768372e-04, iter = 70163, res = 9.999027e-04
+Time = 0.007629, delt = 4.768372e-04, iter = 69449, res = 9.999910e-04
+Time = 0.008106, delt = 4.768372e-04, iter = 68787, res = 9.999451e-04
+Time = 0.008583, delt = 4.768372e-04, iter = 68168, res = 9.999736e-04
+Time = 0.009060, delt = 4.768372e-04, iter = 67588, res = 9.999035e-04
+Time = 0.009537, delt = 4.768372e-04, iter = 67040, res = 9.999925e-04
+Time = 0.010000, delt = 4.632568e-04, iter = 66523, res = 9.999695e-04
+real 154.10
+user 131.14
+sys 22.55
+
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_cuda.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: NVIDIA CUDA BACKEND
+SYCL_PI_TRACE[all]:   device: Tesla V100-PCIE-32GB
+<SYCL implementation>
+Problem size: 512 x 512 
+Workgroup size: 128 
+Time = 0.000477, delt = 4.768372e-04, iter = 92522, res = 9.999751e-04
+Time = 0.000954, delt = 4.768372e-04, iter = 88410, res = 9.999561e-04
+Time = 0.001431, delt = 4.768372e-04, iter = 86661, res = 9.999596e-04
+Time = 0.001907, delt = 4.768372e-04, iter = 84758, res = 9.999102e-04
+Time = 0.002384, delt = 4.768372e-04, iter = 82823, res = 9.999784e-04
+Time = 0.002861, delt = 4.768372e-04, iter = 80946, res = 9.999357e-04
+Time = 0.003338, delt = 4.768372e-04, iter = 79191, res = 9.999079e-04
+Time = 0.003815, delt = 4.768372e-04, iter = 77591, res = 9.999638e-04
+Time = 0.004292, delt = 4.768372e-04, iter = 76155, res = 9.999714e-04
+Time = 0.004768, delt = 4.768372e-04, iter = 74874, res = 9.999356e-04
+Time = 0.005245, delt = 4.768372e-04, iter = 73730, res = 9.999485e-04
+Time = 0.005722, delt = 4.768372e-04, iter = 72704, res = 9.999646e-04
+Time = 0.006199, delt = 4.768372e-04, iter = 71778, res = 9.999348e-04
+Time = 0.006676, delt = 4.768372e-04, iter = 70935, res = 9.999617e-04
+Time = 0.007153, delt = 4.768372e-04, iter = 70163, res = 9.999027e-04
+Time = 0.007629, delt = 4.768372e-04, iter = 69449, res = 9.999910e-04
+Time = 0.008106, delt = 4.768372e-04, iter = 68787, res = 9.999451e-04
+Time = 0.008583, delt = 4.768372e-04, iter = 68168, res = 9.999736e-04
+Time = 0.009060, delt = 4.768372e-04, iter = 67588, res = 9.999035e-04
+Time = 0.009537, delt = 4.768372e-04, iter = 67040, res = 9.999925e-04
+Time = 0.010000, delt = 4.632568e-04, iter = 66523, res = 9.999695e-04
+real 152.86
+user 128.08
+sys 24.42
+
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_cuda.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: NVIDIA CUDA BACKEND
+SYCL_PI_TRACE[all]:   device: Tesla V100-PCIE-32GB
+<SYCL implementation>
+Problem size: 512 x 512 
+Workgroup size: 256 
+Time = 0.000477, delt = 4.768372e-04, iter = 92522, res = 9.999751e-04
+Time = 0.000954, delt = 4.768372e-04, iter = 88410, res = 9.999561e-04
+Time = 0.001431, delt = 4.768372e-04, iter = 86661, res = 9.999596e-04
+Time = 0.001907, delt = 4.768372e-04, iter = 84758, res = 9.999102e-04
+Time = 0.002384, delt = 4.768372e-04, iter = 82823, res = 9.999784e-04
+Time = 0.002861, delt = 4.768372e-04, iter = 80946, res = 9.999357e-04
+Time = 0.003338, delt = 4.768372e-04, iter = 79191, res = 9.999079e-04
+Time = 0.003815, delt = 4.768372e-04, iter = 77591, res = 9.999638e-04
+Time = 0.004292, delt = 4.768372e-04, iter = 76155, res = 9.999714e-04
+Time = 0.004768, delt = 4.768372e-04, iter = 74874, res = 9.999356e-04
+Time = 0.005245, delt = 4.768372e-04, iter = 73730, res = 9.999485e-04
+Time = 0.005722, delt = 4.768372e-04, iter = 72704, res = 9.999646e-04
+Time = 0.006199, delt = 4.768372e-04, iter = 71778, res = 9.999348e-04
+Time = 0.006676, delt = 4.768372e-04, iter = 70935, res = 9.999617e-04
+Time = 0.007153, delt = 4.768372e-04, iter = 70163, res = 9.999027e-04
+Time = 0.007629, delt = 4.768372e-04, iter = 69449, res = 9.999910e-04
+Time = 0.008106, delt = 4.768372e-04, iter = 68787, res = 9.999451e-04
+Time = 0.008583, delt = 4.768372e-04, iter = 68168, res = 9.999736e-04
+Time = 0.009060, delt = 4.768372e-04, iter = 67588, res = 9.999035e-04
+Time = 0.009537, delt = 4.768372e-04, iter = 67040, res = 9.999925e-04
+Time = 0.010000, delt = 4.632568e-04, iter = 66523, res = 9.999695e-04
+real 147.00
+user 123.56
+sys 23.10
+

@@ -11,31 +11,25 @@
 # 3: Intel(R) UHD Graphics P630 [0x3e96]
 # 4: SYCL host device
 
-src=../sycl
-
-# prepare src 
 cd $PBS_O_WORKDIR
-cp $src/{main.cpp,Makefile} .
 
-# loop over WG_SIZE
-for size in 16 32 64 128
+# debug 
+export SYCL_PI_TRACE=1
+
+# cpu device 
+export SYCL_DEVICE_FILTER=opencl:cpu
+export DPCPP_CPU_NUM_CUS=12
+export DPCPP_CPU_PLACES=threads
+export DPCPP_CPU_CU_AFFINITY=close
+
+for size in 32 64 128 256
 do 
-    make WG_SIZE=$size
-    echo 
+    (time -p ./lid-intel-wg_${size}.x) 2>&1 
+done 
 
-    # loop over devices 
-    # for device in cpu gpu
-    for device in gpu
-    do
-        export SYCL_DEVICE_FILTER=opencl:$device 
-
-        for i in 1 2 3
-        do 
-            (time -p ./lid-wg_${size}.x) 2>&1 
-        done
-
-        echo 
-    done
-
-    make clean
-done
+# gpu device 
+export SYCL_DEVICE_FILTER=opencl:gpu
+for size in 32 64 128 256
+do 
+    (time -p ./lid-intel-wg_${size}.x) 2>&1 
+done 

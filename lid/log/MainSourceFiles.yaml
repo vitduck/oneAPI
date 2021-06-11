@@ -1,7 +1,7 @@
 ---
 MainSourceFile:  MainSrcFiles_placehold
 Replacements:
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
     Offset:          737
     Length:          0
     ReplacementText: "#include <CL/sycl.hpp>\n#include <dpct/dpct.hpp>\n"
@@ -10,8 +10,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          814
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          835
     Length:          18
     ReplacementText: ''
     ConstantFlag:    ''
@@ -19,8 +19,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          3064
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          3192
     Length:          8
     ReplacementText: ''
     ConstantFlag:    ''
@@ -28,8 +28,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          4279
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          4313
     Length:          10
     ReplacementText: ''
     ConstantFlag:    ''
@@ -37,8 +37,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          4320
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          4354
     Length:          0
     ReplacementText: ', sycl::nd_item<3> item_ct1'
     ConstantFlag:    ''
@@ -46,8 +46,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          4338
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          4371
     Length:          10
     ReplacementText: 'item_ct1.get_group(2)'
     ConstantFlag:    ''
@@ -55,8 +55,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          4351
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          4384
     Length:          10
     ReplacementText: 'item_ct1.get_local_range().get(2)'
     ConstantFlag:    ''
@@ -64,8 +64,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          4365
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          4398
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(2)'
     ConstantFlag:    ''
@@ -73,8 +73,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          5373
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          5350
     Length:          11
     ReplacementText: ''
     ConstantFlag:    ''
@@ -82,8 +82,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          5459
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          5438
     Length:          0
     ReplacementText: ', sycl::nd_item<3> item_ct1'
     ConstantFlag:    ''
@@ -91,8 +91,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          5479
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          5456
     Length:          10
     ReplacementText: 'item_ct1.get_group(2)'
     ConstantFlag:    ''
@@ -100,8 +100,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          5492
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          5469
     Length:          10
     ReplacementText: 'item_ct1.get_local_range().get(2)'
     ConstantFlag:    ''
@@ -109,8 +109,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          5506
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          5483
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(2)'
     ConstantFlag:    ''
@@ -118,8 +118,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          5536
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          5512
     Length:          10
     ReplacementText: 'item_ct1.get_group(1)'
     ConstantFlag:    ''
@@ -127,8 +127,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          5549
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          5525
     Length:          10
     ReplacementText: 'item_ct1.get_local_range().get(1)'
     ConstantFlag:    ''
@@ -136,8 +136,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          5563
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          5539
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(1)'
     ConstantFlag:    ''
@@ -145,8 +145,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          6260
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          6199
     Length:          19
     ReplacementText: 'sycl::fabs(u_ij + u_ip1j)'
     ConstantFlag:    ''
@@ -154,8 +154,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          6310
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          6243
     Length:          19
     ReplacementText: 'sycl::fabs(u_im1j + u_ij)'
     ConstantFlag:    ''
@@ -163,8 +163,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          6475
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          6402
     Length:          19
     ReplacementText: 'sycl::fabs(v_ij + v_ip1j)'
     ConstantFlag:    ''
@@ -172,8 +172,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          6525
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          6446
     Length:          23
     ReplacementText: 'sycl::fabs(v_ijm1 + v_ip1jm1)'
     ConstantFlag:    ''
@@ -181,8 +181,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          6907
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          6823
     Length:          11
     ReplacementText: ''
     ConstantFlag:    ''
@@ -190,8 +190,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          6993
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          6911
     Length:          0
     ReplacementText: ', sycl::nd_item<3> item_ct1'
     ConstantFlag:    ''
@@ -199,8 +199,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          7011
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          6928
     Length:          10
     ReplacementText: 'item_ct1.get_group(2)'
     ConstantFlag:    ''
@@ -208,8 +208,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          7024
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          6941
     Length:          10
     ReplacementText: 'item_ct1.get_local_range().get(2)'
     ConstantFlag:    ''
@@ -217,8 +217,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          7038
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          6955
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(2)'
     ConstantFlag:    ''
@@ -226,8 +226,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          7068
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          6984
     Length:          10
     ReplacementText: 'item_ct1.get_group(1)'
     ConstantFlag:    ''
@@ -235,8 +235,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          7081
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          6997
     Length:          10
     ReplacementText: 'item_ct1.get_local_range().get(1)'
     ConstantFlag:    ''
@@ -244,8 +244,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          7095
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          7011
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(1)'
     ConstantFlag:    ''
@@ -253,8 +253,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          7760
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          7641
     Length:          19
     ReplacementText: 'sycl::fabs(v_ij + v_ijp1)'
     ConstantFlag:    ''
@@ -262,8 +262,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          7810
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          7685
     Length:          19
     ReplacementText: 'sycl::fabs(v_ijm1 + v_ij)'
     ConstantFlag:    ''
@@ -271,8 +271,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          7975
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          7844
     Length:          19
     ReplacementText: 'sycl::fabs(u_ij + u_ijp1)'
     ConstantFlag:    ''
@@ -280,8 +280,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          8026
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          7889
     Length:          23
     ReplacementText: 'sycl::fabs(u_im1j + u_im1jp1)'
     ConstantFlag:    ''
@@ -289,53 +289,53 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          8267
+    Length:          11
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          8364
+    Length:          0
+    ReplacementText: ', sycl::nd_item<3> item_ct1, Real *sum_cache'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          8381
+    Length:          10
+    ReplacementText: 'item_ct1.get_group(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          8394
+    Length:          10
+    ReplacementText: 'item_ct1.get_local_range().get(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
     Offset:          8408
     Length:          11
-    ReplacementText: ''
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          8504
-    Length:          0
-    ReplacementText: ', sycl::nd_item<3> item_ct1, Real *sum_cache'
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          8522
-    Length:          10
-    ReplacementText: 'item_ct1.get_group(2)'
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          8535
-    Length:          10
-    ReplacementText: 'item_ct1.get_local_range().get(2)'
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          8549
-    Length:          11
     ReplacementText: 'item_ct1.get_local_id(2)'
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          8579
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          8437
     Length:          10
     ReplacementText: 'item_ct1.get_group(1)'
     ConstantFlag:    ''
@@ -343,8 +343,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          8592
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          8450
     Length:          10
     ReplacementText: 'item_ct1.get_local_range().get(1)'
     ConstantFlag:    ''
@@ -352,8 +352,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          8606
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          8464
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(1)'
     ConstantFlag:    ''
@@ -361,8 +361,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          8661
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          8517
     Length:          38
     ReplacementText: ''
     ConstantFlag:    ''
@@ -370,8 +370,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          8839
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          8693
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(2)'
     ConstantFlag:    ''
@@ -379,17 +379,17 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          8965
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          8817
     Length:          15
-    ReplacementText: "/*\n  DPCT1065:0: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ReplacementText: "/*\n\tDPCT1065:0: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.\n\t*/\n\titem_ct1.barrier()"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          9066
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          8913
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(2)'
     ConstantFlag:    ''
@@ -397,8 +397,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          9101
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          8945
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(2)'
     ConstantFlag:    ''
@@ -406,8 +406,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          9127
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          8971
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(2)'
     ConstantFlag:    ''
@@ -415,17 +415,17 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          9155
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          8995
     Length:          15
-    ReplacementText: "/*\n    DPCT1065:1: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.\n    */\n    item_ct1.barrier()"
+    ReplacementText: "/*\n\t\tDPCT1065:1: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.\n\t\t*/\n\t\titem_ct1.barrier()"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          9229
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          9064
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(2)'
     ConstantFlag:    ''
@@ -433,8 +433,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          9262
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          9095
     Length:          10
     ReplacementText: 'item_ct1.get_group(1)'
     ConstantFlag:    ''
@@ -442,8 +442,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          9276
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          9109
     Length:          9
     ReplacementText: 'item_ct1.get_group_range(1)'
     ConstantFlag:    ''
@@ -451,8 +451,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          9288
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          9121
     Length:          10
     ReplacementText: 'item_ct1.get_group(2)'
     ConstantFlag:    ''
@@ -460,8 +460,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          9427
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          9257
     Length:          11
     ReplacementText: ''
     ConstantFlag:    ''
@@ -469,8 +469,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          9495
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          9325
     Length:          0
     ReplacementText: ",\n                        sycl::nd_item<3> item_ct1"
     ConstantFlag:    ''
@@ -478,8 +478,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          9513
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          9342
     Length:          10
     ReplacementText: 'item_ct1.get_group(2)'
     ConstantFlag:    ''
@@ -487,8 +487,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          9526
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          9355
     Length:          10
     ReplacementText: 'item_ct1.get_local_range().get(2)'
     ConstantFlag:    ''
@@ -496,8 +496,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          9540
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          9369
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(2)'
     ConstantFlag:    ''
@@ -505,8 +505,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          9968
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          9787
     Length:          10
     ReplacementText: ''
     ConstantFlag:    ''
@@ -514,8 +514,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          10035
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          9854
     Length:          0
     ReplacementText: ",\n                        sycl::nd_item<3> item_ct1"
     ConstantFlag:    ''
@@ -523,8 +523,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          10053
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          9871
     Length:          10
     ReplacementText: 'item_ct1.get_group(2)'
     ConstantFlag:    ''
@@ -532,8 +532,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          10066
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          9884
     Length:          10
     ReplacementText: 'item_ct1.get_local_range().get(2)'
     ConstantFlag:    ''
@@ -541,8 +541,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          10080
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          9898
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(2)'
     ConstantFlag:    ''
@@ -550,8 +550,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          10804
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          10593
     Length:          10
     ReplacementText: ''
     ConstantFlag:    ''
@@ -559,8 +559,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          10924
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          10715
     Length:          0
     ReplacementText: ', sycl::nd_item<3> item_ct1'
     ConstantFlag:    ''
@@ -568,8 +568,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          10942
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          10732
     Length:          10
     ReplacementText: 'item_ct1.get_group(2)'
     ConstantFlag:    ''
@@ -577,8 +577,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          10955
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          10745
     Length:          10
     ReplacementText: 'item_ct1.get_local_range().get(2)'
     ConstantFlag:    ''
@@ -586,8 +586,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          10969
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          10759
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(2)'
     ConstantFlag:    ''
@@ -595,8 +595,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          10999
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          10788
     Length:          10
     ReplacementText: 'item_ct1.get_group(1)'
     ConstantFlag:    ''
@@ -604,8 +604,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          11012
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          10801
     Length:          10
     ReplacementText: 'item_ct1.get_local_range().get(1)'
     ConstantFlag:    ''
@@ -613,8 +613,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          11026
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          10815
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(1)'
     ConstantFlag:    ''
@@ -622,8 +622,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          12154
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          11903
     Length:          11
     ReplacementText: ''
     ConstantFlag:    ''
@@ -631,8 +631,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          12278
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          12033
     Length:          0
     ReplacementText: ', sycl::nd_item<3> item_ct1'
     ConstantFlag:    ''
@@ -640,8 +640,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          12296
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          12050
     Length:          10
     ReplacementText: 'item_ct1.get_group(2)'
     ConstantFlag:    ''
@@ -649,8 +649,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          12309
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          12063
     Length:          10
     ReplacementText: 'item_ct1.get_local_range().get(2)'
     ConstantFlag:    ''
@@ -658,8 +658,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          12323
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          12077
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(2)'
     ConstantFlag:    ''
@@ -667,8 +667,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          12353
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          12106
     Length:          10
     ReplacementText: 'item_ct1.get_group(1)'
     ConstantFlag:    ''
@@ -676,8 +676,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          12366
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          12119
     Length:          10
     ReplacementText: 'item_ct1.get_local_range().get(1)'
     ConstantFlag:    ''
@@ -685,8 +685,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          12380
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          12133
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(1)'
     ConstantFlag:    ''
@@ -694,8 +694,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          13179
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          12912
     Length:          10
     ReplacementText: ''
     ConstantFlag:    ''
@@ -703,8 +703,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          13325
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          13060
     Length:          0
     ReplacementText: ', sycl::nd_item<3> item_ct1, Real *sum_cache'
     ConstantFlag:    ''
@@ -712,8 +712,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          13342
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          13076
     Length:          10
     ReplacementText: 'item_ct1.get_group(2)'
     ConstantFlag:    ''
@@ -721,8 +721,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          13355
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          13089
     Length:          10
     ReplacementText: 'item_ct1.get_local_range().get(2)'
     ConstantFlag:    ''
@@ -730,8 +730,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          13369
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          13103
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(2)'
     ConstantFlag:    ''
@@ -739,8 +739,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          13399
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          13132
     Length:          10
     ReplacementText: 'item_ct1.get_group(1)'
     ConstantFlag:    ''
@@ -748,8 +748,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          13412
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          13145
     Length:          10
     ReplacementText: 'item_ct1.get_local_range().get(1)'
     ConstantFlag:    ''
@@ -757,8 +757,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          13426
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          13159
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(1)'
     ConstantFlag:    ''
@@ -766,8 +766,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          14674
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          14376
     Length:          38
     ReplacementText: ''
     ConstantFlag:    ''
@@ -775,26 +775,62 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          14427
+    Length:          11
+    ReplacementText: 'item_ct1.get_local_id(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          14537
+    Length:          15
+    ReplacementText: "/*\n\tDPCT1065:2: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.\n\t*/\n\titem_ct1.barrier()"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          14644
+    Length:          11
+    ReplacementText: 'item_ct1.get_local_id(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          14676
+    Length:          11
+    ReplacementText: 'item_ct1.get_local_id(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          14702
+    Length:          11
+    ReplacementText: 'item_ct1.get_local_id(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
     Offset:          14726
-    Length:          11
-    ReplacementText: 'item_ct1.get_local_id(2)'
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          14838
     Length:          15
-    ReplacementText: "/*\n  DPCT1065:2: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ReplacementText: "/*\n\t\tDPCT1065:3: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.\n\t\t*/\n\t\titem_ct1.barrier()"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          14950
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          14798
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(2)'
     ConstantFlag:    ''
@@ -802,44 +838,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          14985
-    Length:          11
-    ReplacementText: 'item_ct1.get_local_id(2)'
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          15011
-    Length:          11
-    ReplacementText: 'item_ct1.get_local_id(2)'
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          15039
-    Length:          15
-    ReplacementText: "/*\n    DPCT1065:3: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.\n    */\n    item_ct1.barrier()"
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          15116
-    Length:          11
-    ReplacementText: 'item_ct1.get_local_id(2)'
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          15150
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          14830
     Length:          10
     ReplacementText: 'item_ct1.get_group(1)'
     ConstantFlag:    ''
@@ -847,8 +847,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          15164
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          14844
     Length:          9
     ReplacementText: 'item_ct1.get_group_range(1)'
     ConstantFlag:    ''
@@ -856,8 +856,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          15176
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          14856
     Length:          10
     ReplacementText: 'item_ct1.get_group(2)'
     ConstantFlag:    ''
@@ -865,8 +865,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          15296
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          14973
     Length:          11
     ReplacementText: ''
     ConstantFlag:    ''
@@ -874,8 +874,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          15432
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          15113
     Length:          0
     ReplacementText: ', sycl::nd_item<3> item_ct1, Real *max_cache'
     ConstantFlag:    ''
@@ -883,8 +883,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          15449
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          15129
     Length:          10
     ReplacementText: 'item_ct1.get_group(2)'
     ConstantFlag:    ''
@@ -892,8 +892,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          15462
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          15142
     Length:          10
     ReplacementText: 'item_ct1.get_local_range().get(2)'
     ConstantFlag:    ''
@@ -901,8 +901,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          15476
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          15156
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(2)'
     ConstantFlag:    ''
@@ -910,8 +910,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          15506
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          15185
     Length:          10
     ReplacementText: 'item_ct1.get_group(1)'
     ConstantFlag:    ''
@@ -919,8 +919,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          15519
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          15198
     Length:          10
     ReplacementText: 'item_ct1.get_local_range().get(1)'
     ConstantFlag:    ''
@@ -928,8 +928,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          15533
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          15212
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(1)'
     ConstantFlag:    ''
@@ -937,8 +937,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          15605
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          15283
     Length:          38
     ReplacementText: ''
     ConstantFlag:    ''
@@ -946,8 +946,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          15656
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          15333
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(2)'
     ConstantFlag:    ''
@@ -955,8 +955,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          16249
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          15898
     Length:          31
     ReplacementText: 'sycl::fmax(sycl::fabs(new_u), sycl::fabs(new_u2))'
     ConstantFlag:    ''
@@ -964,8 +964,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          16382
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          16023
     Length:          36
     ReplacementText: 'sycl::fmax(new_u, sycl::fabs(u(col, NUM + 1)))'
     ConstantFlag:    ''
@@ -973,8 +973,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          16506
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          16140
     Length:          56
     ReplacementText: 'sycl::fmax(sycl::fabs(u(NUM, (2 * row))), sycl::fabs(u(0, (2 * row))))'
     ConstantFlag:    ''
@@ -982,8 +982,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          16576
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          16208
     Length:          42
     ReplacementText: 'sycl::fmax(sycl::fabs(u(NUM, (2 * row) - 1)), new_u)'
     ConstantFlag:    ''
@@ -991,8 +991,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          16632
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          16262
     Length:          40
     ReplacementText: 'sycl::fmax(sycl::fabs(u(0, (2 * row) - 1)), new_u)'
     ConstantFlag:    ''
@@ -1000,8 +1000,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          16687
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          16315
     Length:          42
     ReplacementText: 'sycl::fmax(sycl::fabs(u(NUM + 1, (2 * row))), new_u)'
     ConstantFlag:    ''
@@ -1009,8 +1009,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          16743
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          16369
     Length:          46
     ReplacementText: 'sycl::fmax(sycl::fabs(u(NUM + 1, (2 * row) - 1)), new_u)'
     ConstantFlag:    ''
@@ -1018,8 +1018,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          16867
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          16490
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(2)'
     ConstantFlag:    ''
@@ -1027,17 +1027,17 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          16958
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          16579
     Length:          15
-    ReplacementText: "/*\n  DPCT1065:4: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ReplacementText: "/*\n\tDPCT1065:4: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.\n\t*/\n\titem_ct1.barrier()"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          17063
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          16679
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(2)'
     ConstantFlag:    ''
@@ -1045,8 +1045,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          17098
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          16711
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(2)'
     ConstantFlag:    ''
@@ -1054,8 +1054,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          17113
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          16726
     Length:          56
     ReplacementText: 'sycl::fmax(max_cache[item_ct1.get_local_id(2)], max_cache[item_ct1.get_local_id(2) + i])'
     ConstantFlag:    ''
@@ -1063,17 +1063,17 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          17181
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          16790
     Length:          15
-    ReplacementText: "/*\n    DPCT1065:5: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.\n    */\n    item_ct1.barrier()"
+    ReplacementText: "/*\n\t\tDPCT1065:5: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.\n\t\t*/\n\t\titem_ct1.barrier()"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          17249
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          16853
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(2)'
     ConstantFlag:    ''
@@ -1081,8 +1081,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          17279
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          16881
     Length:          10
     ReplacementText: 'item_ct1.get_group(1)'
     ConstantFlag:    ''
@@ -1090,8 +1090,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          17293
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          16895
     Length:          9
     ReplacementText: 'item_ct1.get_group_range(1)'
     ConstantFlag:    ''
@@ -1099,8 +1099,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          17305
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          16907
     Length:          10
     ReplacementText: 'item_ct1.get_group(2)'
     ConstantFlag:    ''
@@ -1108,8 +1108,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          17445
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          17045
     Length:          11
     ReplacementText: ''
     ConstantFlag:    ''
@@ -1117,8 +1117,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          17581
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          17185
     Length:          0
     ReplacementText: ', sycl::nd_item<3> item_ct1, Real *max_cache'
     ConstantFlag:    ''
@@ -1126,8 +1126,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          17598
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          17201
     Length:          10
     ReplacementText: 'item_ct1.get_group(2)'
     ConstantFlag:    ''
@@ -1135,8 +1135,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          17611
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          17214
     Length:          10
     ReplacementText: 'item_ct1.get_local_range().get(2)'
     ConstantFlag:    ''
@@ -1144,8 +1144,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          17625
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          17228
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(2)'
     ConstantFlag:    ''
@@ -1153,8 +1153,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          17655
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          17257
     Length:          10
     ReplacementText: 'item_ct1.get_group(1)'
     ConstantFlag:    ''
@@ -1162,8 +1162,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          17668
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          17270
     Length:          10
     ReplacementText: 'item_ct1.get_local_range().get(1)'
     ConstantFlag:    ''
@@ -1171,8 +1171,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          17682
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          17284
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(1)'
     ConstantFlag:    ''
@@ -1180,8 +1180,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          17758
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          17359
     Length:          38
     ReplacementText: ''
     ConstantFlag:    ''
@@ -1189,8 +1189,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          17809
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          17409
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(2)'
     ConstantFlag:    ''
@@ -1198,8 +1198,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          18445
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          18020
     Length:          31
     ReplacementText: 'sycl::fmax(sycl::fabs(new_v), sycl::fabs(new_v2))'
     ConstantFlag:    ''
@@ -1207,8 +1207,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          18572
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          18139
     Length:          42
     ReplacementText: 'sycl::fmax(new_v, sycl::fabs(v(NUM + 1, (2 * row))))'
     ConstantFlag:    ''
@@ -1216,8 +1216,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          19310
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          18838
     Length:          11
     ReplacementText: 'sycl::fabs(new_v)'
     ConstantFlag:    ''
@@ -1225,8 +1225,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          19393
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          18917
     Length:          32
     ReplacementText: 'sycl::fmax(sycl::fabs(v(col, NUM)), new_v)'
     ConstantFlag:    ''
@@ -1234,8 +1234,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          19439
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          18961
     Length:          30
     ReplacementText: 'sycl::fmax(sycl::fabs(v(col, 0)), new_v)'
     ConstantFlag:    ''
@@ -1243,8 +1243,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          19484
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          19004
     Length:          36
     ReplacementText: 'sycl::fmax(sycl::fabs(v(col, NUM + 1)), new_v)'
     ConstantFlag:    ''
@@ -1252,8 +1252,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          19588
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          19107
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(2)'
     ConstantFlag:    ''
@@ -1261,17 +1261,17 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          19679
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          19197
     Length:          15
-    ReplacementText: "/*\n  DPCT1065:6: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ReplacementText: "/*\n\tDPCT1065:6: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.\n\t*/\n\titem_ct1.barrier()"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          19784
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          19297
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(2)'
     ConstantFlag:    ''
@@ -1279,8 +1279,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          19819
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          19329
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(2)'
     ConstantFlag:    ''
@@ -1288,8 +1288,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          19834
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          19344
     Length:          56
     ReplacementText: 'sycl::fmax(max_cache[item_ct1.get_local_id(2)], max_cache[item_ct1.get_local_id(2) + i])'
     ConstantFlag:    ''
@@ -1297,17 +1297,17 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          19902
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          19408
     Length:          15
-    ReplacementText: "/*\n    DPCT1065:7: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.\n    */\n    item_ct1.barrier()"
+    ReplacementText: "/*\n\t\tDPCT1065:7: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance, if there is no access to global memory.\n\t\t*/\n\t\titem_ct1.barrier()"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          19979
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          19480
     Length:          11
     ReplacementText: 'item_ct1.get_local_id(2)'
     ConstantFlag:    ''
@@ -1315,8 +1315,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          20009
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          19508
     Length:          10
     ReplacementText: 'item_ct1.get_group(1)'
     ConstantFlag:    ''
@@ -1324,8 +1324,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          20023
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          19522
     Length:          9
     ReplacementText: 'item_ct1.get_group_range(1)'
     ConstantFlag:    ''
@@ -1333,8 +1333,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          20035
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          19534
     Length:          10
     ReplacementText: 'item_ct1.get_group(2)'
     ConstantFlag:    ''
@@ -1342,17 +1342,80 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          20207
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          19706
     Length:          0
-    ReplacementText: "\n  dpct::device_ext &dev_ct1 = dpct::get_current_device();\n  sycl::queue &q_ct1 = dev_ct1.default_queue();"
+    ReplacementText: "\n dpct::device_ext &dev_ct1 = dpct::get_current_device();\n sycl::queue &q_ct1 = dev_ct1.default_queue();"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          21405
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          20821
+    Length:          0
+    ReplacementText: "\t\t/*\n\t\tDPCT1003:8: Migrated API does not return error code. (*, 0) is inserted. You may need to rewrite this code.\n\t\t*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          20840
+    Length:          13
+    ReplacementText: '(dpct::dev_mgr::instance().select_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          20857
+    Length:          0
+    ReplacementText: ', 0)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          20956
+    Length:          32
+    ReplacementText: 'num_devices = dpct::dev_mgr::instance().device_count()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          21092
+    Length:          0
+    ReplacementText: "\t\t\t/*\n\t\t\tDPCT1003:9: Migrated API does not return error code. (*, 0) is inserted. You may need to rewrite this code.\n\t\t\t*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          21112
+    Length:          13
+    ReplacementText: '(dpct::dev_mgr::instance().select_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          21130
+    Length:          0
+    ReplacementText: ', 0)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          21584
     Length:          4
     ReplacementText: 'sycl::range<3>'
     ConstantFlag:    ''
@@ -1360,8 +1423,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          21421
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          21600
     Length:          13
     ReplacementText: 1, 1, BLOCK_SIZE
     ConstantFlag:    ''
@@ -1369,61 +1432,7 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          21439
-    Length:          4
-    ReplacementText: 'sycl::range<3>'
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          21454
-    Length:          19
-    ReplacementText: '1, 1, NUM / BLOCK_SIZE'
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          21500
-    Length:          4
-    ReplacementText: 'sycl::range<3>'
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          21515
-    Length:          13
-    ReplacementText: 1, 1, BLOCK_SIZE
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          21533
-    Length:          4
-    ReplacementText: 'sycl::range<3>'
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          21547
-    Length:          27
-    ReplacementText: '1, NUM, NUM / (2 * BLOCK_SIZE)'
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
     Offset:          21617
     Length:          4
     ReplacementText: 'sycl::range<3>'
@@ -1432,17 +1441,17 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          21631
-    Length:          13
-    ReplacementText: 1, 1, BLOCK_SIZE
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          21632
+    Length:          19
+    ReplacementText: '1, 1, NUM / BLOCK_SIZE'
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          21649
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          21676
     Length:          4
     ReplacementText: 'sycl::range<3>'
     ConstantFlag:    ''
@@ -1450,8 +1459,62 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          21662
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          21691
+    Length:          13
+    ReplacementText: 1, 1, BLOCK_SIZE
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          21708
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          21722
+    Length:          27
+    ReplacementText: '1, NUM, NUM / (2 * BLOCK_SIZE)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          21790
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          21804
+    Length:          13
+    ReplacementText: 1, 1, BLOCK_SIZE
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          21821
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          21834
     Length:          21
     ReplacementText: '1, NUM, NUM / BLOCK_SIZE'
     ConstantFlag:    ''
@@ -1459,8 +1522,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          21726
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          21896
     Length:          4
     ReplacementText: 'sycl::range<3>'
     ConstantFlag:    ''
@@ -1468,8 +1531,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          21740
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          21910
     Length:          13
     ReplacementText: 1, 1, BLOCK_SIZE
     ConstantFlag:    ''
@@ -1477,8 +1540,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          21758
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          21927
     Length:          4
     ReplacementText: 'sycl::range<3>'
     ConstantFlag:    ''
@@ -1486,8 +1549,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          21771
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          21940
     Length:          21
     ReplacementText: '1, NUM, NUM / BLOCK_SIZE'
     ConstantFlag:    ''
@@ -1495,8 +1558,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          21843
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          22011
     Length:          4
     ReplacementText: 'sycl::range<3>'
     ConstantFlag:    ''
@@ -1504,8 +1567,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          21860
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          22028
     Length:          13
     ReplacementText: 1, 1, BLOCK_SIZE
     ConstantFlag:    ''
@@ -1513,8 +1576,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          21878
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          22045
     Length:          4
     ReplacementText: 'sycl::range<3>'
     ConstantFlag:    ''
@@ -1522,8 +1585,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          21894
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          22061
     Length:          25
     ReplacementText: '1, 1, NUM / (2 * BLOCK_SIZE)'
     ConstantFlag:    ''
@@ -1531,8 +1594,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          21968
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          22133
     Length:          4
     ReplacementText: 'sycl::range<3>'
     ConstantFlag:    ''
@@ -1540,8 +1603,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          21985
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          22150
     Length:          13
     ReplacementText: 1, 1, BLOCK_SIZE
     ConstantFlag:    ''
@@ -1549,8 +1612,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          22003
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          22167
     Length:          4
     ReplacementText: 'sycl::range<3>'
     ConstantFlag:    ''
@@ -1558,8 +1621,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          22019
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          22183
     Length:          25
     ReplacementText: '1, 1, NUM / (2 * BLOCK_SIZE)'
     ConstantFlag:    ''
@@ -1567,8 +1630,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          22155
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          22316
     Length:          1
     ReplacementText: ''
     ConstantFlag:    ''
@@ -1576,8 +1639,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          22156
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          22317
     Length:          1
     ReplacementText: '[2]'
     ConstantFlag:    ''
@@ -1585,53 +1648,17 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          22167
-    Length:          1
-    ReplacementText: ''
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          22168
-    Length:          1
-    ReplacementText: '[1]'
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          22327
-    Length:          1
-    ReplacementText: ''
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
     Offset:          22328
     Length:          1
-    ReplacementText: '[2]'
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          22339
-    Length:          1
     ReplacementText: ''
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          22340
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          22329
     Length:          1
     ReplacementText: '[1]'
     ConstantFlag:    ''
@@ -1639,8 +1666,44 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23305
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          22484
+    Length:          1
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          22485
+    Length:          1
+    ReplacementText: '[2]'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          22496
+    Length:          1
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          22497
+    Length:          1
+    ReplacementText: '[1]'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23530
     Length:          10
     ReplacementText: 'u_d = sycl::malloc_device<double>'
     ConstantFlag:    ''
@@ -1648,8 +1711,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23317
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23542
     Length:          15
     ReplacementText: ''
     ConstantFlag:    ''
@@ -1657,8 +1720,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23332
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23557
     Length:          19
     ReplacementText: size
     ConstantFlag:    ''
@@ -1666,17 +1729,17 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23351
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23576
     Length:          0
-    ReplacementText: ', q_ct1'
+    ReplacementText: ', dpct::get_default_queue()'
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23356
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23580
     Length:          10
     ReplacementText: 'F_d = sycl::malloc_device<double>'
     ConstantFlag:    ''
@@ -1684,8 +1747,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23368
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23592
     Length:          15
     ReplacementText: ''
     ConstantFlag:    ''
@@ -1693,8 +1756,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23383
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23607
     Length:          19
     ReplacementText: size
     ConstantFlag:    ''
@@ -1702,17 +1765,17 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23402
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23626
     Length:          0
-    ReplacementText: ', q_ct1'
+    ReplacementText: ', dpct::get_default_queue()'
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23407
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23630
     Length:          10
     ReplacementText: 'v_d = sycl::malloc_device<double>'
     ConstantFlag:    ''
@@ -1720,8 +1783,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23419
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23642
     Length:          15
     ReplacementText: ''
     ConstantFlag:    ''
@@ -1729,8 +1792,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23434
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23657
     Length:          19
     ReplacementText: size
     ConstantFlag:    ''
@@ -1738,17 +1801,17 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23453
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23676
     Length:          0
-    ReplacementText: ', q_ct1'
+    ReplacementText: ', dpct::get_default_queue()'
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23458
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23680
     Length:          10
     ReplacementText: 'G_d = sycl::malloc_device<double>'
     ConstantFlag:    ''
@@ -1756,8 +1819,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23470
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23692
     Length:          15
     ReplacementText: ''
     ConstantFlag:    ''
@@ -1765,8 +1828,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23485
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23707
     Length:          19
     ReplacementText: size
     ConstantFlag:    ''
@@ -1774,17 +1837,17 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23504
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23726
     Length:          0
-    ReplacementText: ', q_ct1'
+    ReplacementText: ', dpct::get_default_queue()'
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23510
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23731
     Length:          10
     ReplacementText: 'pres_red_d = sycl::malloc_device<double>'
     ConstantFlag:    ''
@@ -1792,8 +1855,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23522
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23743
     Length:          22
     ReplacementText: ''
     ConstantFlag:    ''
@@ -1801,8 +1864,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23544
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23765
     Length:          24
     ReplacementText: size_pres
     ConstantFlag:    ''
@@ -1810,17 +1873,17 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23568
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23789
     Length:          0
-    ReplacementText: ', q_ct1'
+    ReplacementText: ', dpct::get_default_queue()'
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23573
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23793
     Length:          10
     ReplacementText: 'pres_black_d = sycl::malloc_device<double>'
     ConstantFlag:    ''
@@ -1828,8 +1891,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23585
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23805
     Length:          24
     ReplacementText: ''
     ConstantFlag:    ''
@@ -1837,8 +1900,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23609
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23829
     Length:          24
     ReplacementText: size_pres
     ConstantFlag:    ''
@@ -1846,17 +1909,17 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23633
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23853
     Length:          0
-    ReplacementText: ', q_ct1'
+    ReplacementText: ', dpct::get_default_queue()'
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23639
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23858
     Length:          10
     ReplacementText: 'pres_sum_d = sycl::malloc_device<double>'
     ConstantFlag:    ''
@@ -1864,8 +1927,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23651
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23870
     Length:          22
     ReplacementText: ''
     ConstantFlag:    ''
@@ -1873,8 +1936,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23673
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23892
     Length:          23
     ReplacementText: size_res
     ConstantFlag:    ''
@@ -1882,17 +1945,17 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23696
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23915
     Length:          0
-    ReplacementText: ', q_ct1'
+    ReplacementText: ', dpct::get_default_queue()'
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23701
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23919
     Length:          10
     ReplacementText: 'res_d = sycl::malloc_device<double>'
     ConstantFlag:    ''
@@ -1900,8 +1963,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23713
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23931
     Length:          17
     ReplacementText: ''
     ConstantFlag:    ''
@@ -1909,8 +1972,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23730
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23948
     Length:          23
     ReplacementText: size_res
     ConstantFlag:    ''
@@ -1918,17 +1981,17 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23753
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23971
     Length:          0
-    ReplacementText: ', q_ct1'
+    ReplacementText: ', dpct::get_default_queue()'
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23758
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23975
     Length:          10
     ReplacementText: 'max_u_d = sycl::malloc_device<double>'
     ConstantFlag:    ''
@@ -1936,8 +1999,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23770
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          23987
     Length:          19
     ReplacementText: ''
     ConstantFlag:    ''
@@ -1945,8 +2008,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23789
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          24006
     Length:          23
     ReplacementText: size_max
     ConstantFlag:    ''
@@ -1954,17 +2017,17 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23812
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          24029
     Length:          0
-    ReplacementText: ', q_ct1'
+    ReplacementText: ', dpct::get_default_queue()'
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23817
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          24033
     Length:          10
     ReplacementText: 'max_v_d = sycl::malloc_device<double>'
     ConstantFlag:    ''
@@ -1972,8 +2035,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23829
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          24045
     Length:          19
     ReplacementText: ''
     ConstantFlag:    ''
@@ -1981,8 +2044,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23848
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          24064
     Length:          23
     ReplacementText: size_max
     ConstantFlag:    ''
@@ -1990,26 +2053,26 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23871
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          24087
     Length:          0
-    ReplacementText: ', q_ct1'
+    ReplacementText: ', dpct::get_default_queue()'
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23904
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          24119
     Length:          10
-    ReplacementText: q_ct1.memcpy
+    ReplacementText: 'dpct::get_default_queue().memcpy'
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23943
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          24158
     Length:          24
     ReplacementText: ''
     ConstantFlag:    ''
@@ -2017,8 +2080,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23968
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          24183
     Length:          0
     ReplacementText: '.wait()'
     ConstantFlag:    ''
@@ -2026,17 +2089,17 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          23972
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          24186
     Length:          10
-    ReplacementText: q_ct1.memcpy
+    ReplacementText: 'dpct::get_default_queue().memcpy'
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          24011
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          24225
     Length:          24
     ReplacementText: ''
     ConstantFlag:    ''
@@ -2044,8 +2107,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          24036
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          24250
     Length:          0
     ReplacementText: '.wait()'
     ConstantFlag:    ''
@@ -2053,17 +2116,17 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          24040
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          24253
     Length:          10
-    ReplacementText: q_ct1.memcpy
+    ReplacementText: 'dpct::get_default_queue().memcpy'
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          24079
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          24292
     Length:          24
     ReplacementText: ''
     ConstantFlag:    ''
@@ -2071,8 +2134,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          24104
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          24317
     Length:          0
     ReplacementText: '.wait()'
     ConstantFlag:    ''
@@ -2080,17 +2143,17 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          24108
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          24320
     Length:          10
-    ReplacementText: q_ct1.memcpy
+    ReplacementText: 'dpct::get_default_queue().memcpy'
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          24147
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          24359
     Length:          24
     ReplacementText: ''
     ConstantFlag:    ''
@@ -2098,8 +2161,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          24172
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          24384
     Length:          0
     ReplacementText: '.wait()'
     ConstantFlag:    ''
@@ -2107,17 +2170,17 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          24176
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          24387
     Length:          10
-    ReplacementText: q_ct1.memcpy
+    ReplacementText: 'dpct::get_default_queue().memcpy'
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          24234
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          24445
     Length:          24
     ReplacementText: ''
     ConstantFlag:    ''
@@ -2125,8 +2188,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          24259
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          24470
     Length:          0
     ReplacementText: '.wait()'
     ConstantFlag:    ''
@@ -2134,17 +2197,17 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          24263
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          24473
     Length:          10
-    ReplacementText: q_ct1.memcpy
+    ReplacementText: 'dpct::get_default_queue().memcpy'
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          24325
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          24535
     Length:          24
     ReplacementText: ''
     ConstantFlag:    ''
@@ -2152,8 +2215,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          24350
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          24560
     Length:          0
     ReplacementText: '.wait()'
     ConstantFlag:    ''
@@ -2161,26 +2224,26 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          24832
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          25028
     Length:          0
-    ReplacementText: "    /*\n    DPCT1049:8: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.\n    */\n"
+    ReplacementText: "\t\t/*\n\t\tDPCT1049:10: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.\n\t\t*/\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          24836
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          25030
     Length:          53
-    ReplacementText: "q_ct1.submit(\n      [&](sycl::handler &cgh) {\n        cgh.parallel_for(\n          sycl::nd_range<3>(grid_F * block_F, block_F), \n          [=](sycl::nd_item<3> item_ct1) {\n            calculate_F(dt, u_d, v_d, F_d, item_ct1);\n          });\n      });"
+    ReplacementText: "dpct::get_default_queue().submit(\n\t\t  [&](sycl::handler &cgh) {\n\t\t    cgh.parallel_for(\n\t\t      sycl::nd_range<3>(grid_F * block_F, block_F), \n\t\t      [=](sycl::nd_item<3> item_ct1) {\n\t\t        calculate_F(dt, u_d, v_d, F_d, item_ct1);\n\t\t      });\n\t\t  });"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: true
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          24889
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          25083
     Length:          1
     ReplacementText: ''
     ConstantFlag:    ''
@@ -2188,26 +2251,26 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          24891
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          25085
     Length:          0
-    ReplacementText: "    /*\n    DPCT1049:9: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.\n    */\n"
+    ReplacementText: "\t\t/*\n\t\tDPCT1049:11: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.\n\t\t*/\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          24895
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          25087
     Length:          53
-    ReplacementText: "q_ct1.submit(\n      [&](sycl::handler &cgh) {\n        cgh.parallel_for(\n          sycl::nd_range<3>(grid_G * block_G, block_G), \n          [=](sycl::nd_item<3> item_ct1) {\n            calculate_G(dt, u_d, v_d, G_d, item_ct1);\n          });\n      });"
+    ReplacementText: "dpct::get_default_queue().submit(\n\t\t  [&](sycl::handler &cgh) {\n\t\t    cgh.parallel_for(\n\t\t      sycl::nd_range<3>(grid_G * block_G, block_G), \n\t\t      [=](sycl::nd_item<3> item_ct1) {\n\t\t        calculate_G(dt, u_d, v_d, G_d, item_ct1);\n\t\t      });\n\t\t  });"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: true
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          24948
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          25140
     Length:          1
     ReplacementText: ''
     ConstantFlag:    ''
@@ -2215,26 +2278,26 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          24990
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          25180
     Length:          0
-    ReplacementText: "    /*\n    DPCT1049:10: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.\n    */\n"
+    ReplacementText: "\t\t/*\n\t\tDPCT1049:12: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.\n\t\t*/\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          24994
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          25182
     Length:          75
-    ReplacementText: "q_ct1.submit(\n      [&](sycl::handler &cgh) {\n        sycl::accessor<Real, 1, sycl::access::mode::read_write, sycl::access::target::local> sum_cache_acc_ct1(sycl::range<1>(128/*BLOCK_SIZE*/), cgh);\n\n        cgh.parallel_for(\n          sycl::nd_range<3>(grid_pr * block_pr, block_pr), \n          [=](sycl::nd_item<3> item_ct1) {\n            sum_pressure(pres_red_d, pres_black_d, pres_sum_d, item_ct1, sum_cache_acc_ct1.get_pointer());\n          });\n      });"
+    ReplacementText: "dpct::get_default_queue().submit(\n\t\t  [&](sycl::handler &cgh) {\n\t\t    sycl::accessor<Real, 1, sycl::access::mode::read_write, sycl::access::target::local> sum_cache_acc_ct1(sycl::range<1>(128/*BLOCK_SIZE*/), cgh);\n\n\t\t    cgh.parallel_for(\n\t\t      sycl::nd_range<3>(grid_pr * block_pr, block_pr), \n\t\t      [=](sycl::nd_item<3> item_ct1) {\n\t\t        sum_pressure(pres_red_d, pres_black_d, pres_sum_d, item_ct1, sum_cache_acc_ct1.get_pointer());\n\t\t      });\n\t\t  });"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: true
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          25069
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          25257
     Length:          1
     ReplacementText: ''
     ConstantFlag:    ''
@@ -2242,17 +2305,17 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          25075
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          25261
     Length:          10
-    ReplacementText: q_ct1.memcpy
+    ReplacementText: 'dpct::get_default_queue().memcpy'
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          25132
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          25318
     Length:          24
     ReplacementText: ''
     ConstantFlag:    ''
@@ -2260,8 +2323,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          25157
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          25343
     Length:          0
     ReplacementText: '.wait()'
     ConstantFlag:    ''
@@ -2269,323 +2332,188 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          25647
-    Length:          0
-    ReplacementText: "      /*\n      DPCT1049:14: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.\n      */\n"
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          25653
-    Length:          72
-    ReplacementText: "q_ct1.submit(\n        [&](sycl::handler &cgh) {\n          cgh.parallel_for(\n            sycl::nd_range<3>(grid_hpbc * block_hpbc, block_hpbc), \n            [=](sycl::nd_item<3> item_ct1) {\n              set_horz_pres_BCs(pres_red_d, pres_black_d, item_ct1);\n            });\n        });"
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: true
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          25725
-    Length:          1
-    ReplacementText: ''
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          25727
-    Length:          0
-    ReplacementText: "      /*\n      DPCT1049:15: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.\n      */\n"
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          25733
-    Length:          72
-    ReplacementText: "q_ct1.submit(\n        [&](sycl::handler &cgh) {\n          cgh.parallel_for(\n            sycl::nd_range<3>(grid_vpbc * block_hpbc, block_hpbc), \n            [=](sycl::nd_item<3> item_ct1) {\n              set_vert_pres_BCs(pres_red_d, pres_black_d, item_ct1);\n            });\n        });"
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: true
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          25805
-    Length:          1
-    ReplacementText: ''
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          25900
-    Length:          0
-    ReplacementText: "      /*\n      DPCT1049:16: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.\n      */\n"
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          25906
-    Length:          75
-    ReplacementText: "q_ct1.submit(\n        [&](sycl::handler &cgh) {\n          cgh.parallel_for(\n            sycl::nd_range<3>(grid_pr * block_pr, block_pr), \n            [=](sycl::nd_item<3> item_ct1) {\n              red_kernel(dt, F_d, G_d, pres_black_d, pres_red_d, item_ct1);\n            });\n        });"
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: true
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          25981
-    Length:          1
-    ReplacementText: ''
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          26082
-    Length:          0
-    ReplacementText: "      /*\n      DPCT1049:17: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.\n      */\n"
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          26088
-    Length:          77
-    ReplacementText: "q_ct1.submit(\n        [&](sycl::handler &cgh) {\n          cgh.parallel_for(\n            sycl::nd_range<3>(grid_pr * block_pr, block_pr), \n            [=](sycl::nd_item<3> item_ct1) {\n              black_kernel(dt, F_d, G_d, pres_red_d, pres_black_d, item_ct1);\n            });\n        });"
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: true
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          26165
-    Length:          1
-    ReplacementText: ''
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          26273
-    Length:          0
-    ReplacementText: "      /*\n      DPCT1049:18: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.\n      */\n"
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          26279
-    Length:          85
-    ReplacementText: "q_ct1.submit(\n        [&](sycl::handler &cgh) {\n          sycl::accessor<Real, 1, sycl::access::mode::read_write, sycl::access::target::local> sum_cache_acc_ct1(sycl::range<1>(128/*BLOCK_SIZE*/), cgh);\n\n          cgh.parallel_for(\n            sycl::nd_range<3>(grid_pr * block_pr, block_pr), \n            [=](sycl::nd_item<3> item_ct1) {\n              calc_residual(dt, F_d, G_d, pres_red_d, pres_black_d, res_d, item_ct1, sum_cache_acc_ct1.get_pointer());\n            });\n        });"
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: true
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          26364
-    Length:          1
-    ReplacementText: ''
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          26421
-    Length:          10
-    ReplacementText: q_ct1.memcpy
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          26468
-    Length:          24
-    ReplacementText: ''
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          26493
-    Length:          0
-    ReplacementText: '.wait()'
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          26983
-    Length:          0
-    ReplacementText: "    /*\n    DPCT1049:11: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.\n    */\n"
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          26987
-    Length:          85
-    ReplacementText: "q_ct1.submit(\n      [&](sycl::handler &cgh) {\n        sycl::accessor<Real, 1, sycl::access::mode::read_write, sycl::access::target::local> max_cache_acc_ct1(sycl::range<1>(128/*BLOCK_SIZE*/), cgh);\n\n        cgh.parallel_for(\n          sycl::nd_range<3>(grid_pr * block_pr, block_pr), \n          [=](sycl::nd_item<3> item_ct1) {\n            calculate_u(dt, F_d, pres_red_d, pres_black_d, u_d, max_u_d, item_ct1, max_cache_acc_ct1.get_pointer());\n          });\n      });"
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: true
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          27072
-    Length:          1
-    ReplacementText: ''
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          27078
-    Length:          10
-    ReplacementText: q_ct1.memcpy
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          27133
-    Length:          24
-    ReplacementText: ''
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          27158
-    Length:          0
-    ReplacementText: '.wait()'
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          27161
-    Length:          0
-    ReplacementText: "    /*\n    DPCT1049:12: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.\n    */\n"
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          27165
-    Length:          85
-    ReplacementText: "q_ct1.submit(\n      [&](sycl::handler &cgh) {\n        sycl::accessor<Real, 1, sycl::access::mode::read_write, sycl::access::target::local> max_cache_acc_ct1(sycl::range<1>(128/*BLOCK_SIZE*/), cgh);\n\n        cgh.parallel_for(\n          sycl::nd_range<3>(grid_pr * block_pr, block_pr), \n          [=](sycl::nd_item<3> item_ct1) {\n            calculate_v(dt, G_d, pres_red_d, pres_black_d, v_d, max_v_d, item_ct1, max_cache_acc_ct1.get_pointer());\n          });\n      });"
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: true
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          27250
-    Length:          1
-    ReplacementText: ''
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          27256
-    Length:          10
-    ReplacementText: q_ct1.memcpy
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          27311
-    Length:          24
-    ReplacementText: ''
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          27336
-    Length:          0
-    ReplacementText: '.wait()'
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          27660
-    Length:          0
-    ReplacementText: "    /*\n    DPCT1049:13: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.\n    */\n"
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          27664
-    Length:          44
-    ReplacementText: "q_ct1.submit(\n      [&](sycl::handler &cgh) {\n        cgh.parallel_for(\n          sycl::nd_range<3>(grid_bcs * block_bcs, block_bcs), \n          [=](sycl::nd_item<3> item_ct1) {\n            set_BCs(u_d, v_d, item_ct1);\n          });\n      });"
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: true
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          27708
-    Length:          1
-    ReplacementText: ''
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          27715
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          25598
     Length:          23
-    ReplacementText: 'dev_ct1.queues_wait_and_throw()'
+    ReplacementText: 'dpct::get_current_device().queues_wait_and_throw()'
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          27881
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          25805
+    Length:          0
+    ReplacementText: "\t\t\t/*\n\t\t\tDPCT1049:16: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.\n\t\t\t*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          25808
+    Length:          72
+    ReplacementText: "dpct::get_default_queue().submit(\n\t\t\t  [&](sycl::handler &cgh) {\n\t\t\t    cgh.parallel_for(\n\t\t\t      sycl::nd_range<3>(grid_hpbc * block_hpbc, block_hpbc), \n\t\t\t      [=](sycl::nd_item<3> item_ct1) {\n\t\t\t        set_horz_pres_BCs(pres_red_d, pres_black_d, item_ct1);\n\t\t\t      });\n\t\t\t  });"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: true
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          25880
+    Length:          1
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          25882
+    Length:          0
+    ReplacementText: "\t\t\t/*\n\t\t\tDPCT1049:17: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.\n\t\t\t*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          25885
+    Length:          72
+    ReplacementText: "dpct::get_default_queue().submit(\n\t\t\t  [&](sycl::handler &cgh) {\n\t\t\t    cgh.parallel_for(\n\t\t\t      sycl::nd_range<3>(grid_vpbc * block_hpbc, block_hpbc), \n\t\t\t      [=](sycl::nd_item<3> item_ct1) {\n\t\t\t        set_vert_pres_BCs(pres_red_d, pres_black_d, item_ct1);\n\t\t\t      });\n\t\t\t  });"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: true
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          25957
+    Length:          1
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          25992
+    Length:          23
+    ReplacementText: 'dpct::get_current_device().queues_wait_and_throw()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          26041
+    Length:          0
+    ReplacementText: "\t\t\t/*\n\t\t\tDPCT1049:18: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.\n\t\t\t*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          26044
+    Length:          75
+    ReplacementText: "dpct::get_default_queue().submit(\n\t\t\t  [&](sycl::handler &cgh) {\n\t\t\t    cgh.parallel_for(\n\t\t\t      sycl::nd_range<3>(grid_pr * block_pr, block_pr), \n\t\t\t      [=](sycl::nd_item<3> item_ct1) {\n\t\t\t        red_kernel(dt, F_d, G_d, pres_black_d, pres_red_d, item_ct1);\n\t\t\t      });\n\t\t\t  });"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: true
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          26119
+    Length:          1
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          26158
+    Length:          23
+    ReplacementText: 'dpct::get_current_device().queues_wait_and_throw()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          26212
+    Length:          0
+    ReplacementText: "\t\t\t/*\n\t\t\tDPCT1049:19: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.\n\t\t\t*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          26215
+    Length:          77
+    ReplacementText: "dpct::get_default_queue().submit(\n\t\t\t  [&](sycl::handler &cgh) {\n\t\t\t    cgh.parallel_for(\n\t\t\t      sycl::nd_range<3>(grid_pr * block_pr, block_pr), \n\t\t\t      [=](sycl::nd_item<3> item_ct1) {\n\t\t\t        black_kernel(dt, F_d, G_d, pres_red_d, pres_black_d, item_ct1);\n\t\t\t      });\n\t\t\t  });"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: true
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          26292
+    Length:          1
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          26331
+    Length:          23
+    ReplacementText: 'dpct::get_current_device().queues_wait_and_throw()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          26392
+    Length:          0
+    ReplacementText: "\t\t\t/*\n\t\t\tDPCT1049:20: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.\n\t\t\t*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          26395
+    Length:          85
+    ReplacementText: "dpct::get_default_queue().submit(\n\t\t\t  [&](sycl::handler &cgh) {\n\t\t\t    sycl::accessor<Real, 1, sycl::access::mode::read_write, sycl::access::target::local> sum_cache_acc_ct1(sycl::range<1>(128/*BLOCK_SIZE*/), cgh);\n\n\t\t\t    cgh.parallel_for(\n\t\t\t      sycl::nd_range<3>(grid_pr * block_pr, block_pr), \n\t\t\t      [=](sycl::nd_item<3> item_ct1) {\n\t\t\t        calc_residual(dt, F_d, G_d, pres_red_d, pres_black_d, res_d, item_ct1, sum_cache_acc_ct1.get_pointer());\n\t\t\t      });\n\t\t\t  });"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: true
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          26480
+    Length:          1
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          26531
     Length:          10
-    ReplacementText: q_ct1.memcpy
+    ReplacementText: 'dpct::get_default_queue().memcpy'
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          27920
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          26578
     Length:          24
     ReplacementText: ''
     ConstantFlag:    ''
@@ -2593,8 +2521,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          27945
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          26603
     Length:          0
     ReplacementText: '.wait()'
     ConstantFlag:    ''
@@ -2602,17 +2530,44 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          27949
-    Length:          10
-    ReplacementText: q_ct1.memcpy
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          27065
+    Length:          0
+    ReplacementText: "\t\t/*\n\t\tDPCT1049:13: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.\n\t\t*/\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          27988
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          27067
+    Length:          85
+    ReplacementText: "dpct::get_default_queue().submit(\n\t\t  [&](sycl::handler &cgh) {\n\t\t    sycl::accessor<Real, 1, sycl::access::mode::read_write, sycl::access::target::local> max_cache_acc_ct1(sycl::range<1>(128/*BLOCK_SIZE*/), cgh);\n\n\t\t    cgh.parallel_for(\n\t\t      sycl::nd_range<3>(grid_pr * block_pr, block_pr), \n\t\t      [=](sycl::nd_item<3> item_ct1) {\n\t\t        calculate_u(dt, F_d, pres_red_d, pres_black_d, u_d, max_u_d, item_ct1, max_cache_acc_ct1.get_pointer());\n\t\t      });\n\t\t  });"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: true
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          27152
+    Length:          1
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          27156
+    Length:          10
+    ReplacementText: 'dpct::get_default_queue().memcpy'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          27211
     Length:          24
     ReplacementText: ''
     ConstantFlag:    ''
@@ -2620,8 +2575,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          28013
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          27236
     Length:          0
     ReplacementText: '.wait()'
     ConstantFlag:    ''
@@ -2629,17 +2584,44 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          28017
-    Length:          10
-    ReplacementText: q_ct1.memcpy
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          27239
+    Length:          0
+    ReplacementText: "\t\t/*\n\t\tDPCT1049:14: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.\n\t\t*/\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          28075
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          27241
+    Length:          85
+    ReplacementText: "dpct::get_default_queue().submit(\n\t\t  [&](sycl::handler &cgh) {\n\t\t    sycl::accessor<Real, 1, sycl::access::mode::read_write, sycl::access::target::local> max_cache_acc_ct1(sycl::range<1>(128/*BLOCK_SIZE*/), cgh);\n\n\t\t    cgh.parallel_for(\n\t\t      sycl::nd_range<3>(grid_pr * block_pr, block_pr), \n\t\t      [=](sycl::nd_item<3> item_ct1) {\n\t\t        calculate_v(dt, G_d, pres_red_d, pres_black_d, v_d, max_v_d, item_ct1, max_cache_acc_ct1.get_pointer());\n\t\t      });\n\t\t  });"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: true
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          27326
+    Length:          1
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          27330
+    Length:          10
+    ReplacementText: 'dpct::get_default_queue().memcpy'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          27385
     Length:          24
     ReplacementText: ''
     ConstantFlag:    ''
@@ -2647,8 +2629,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          28100
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          27410
     Length:          0
     ReplacementText: '.wait()'
     ConstantFlag:    ''
@@ -2656,17 +2638,53 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          28104
-    Length:          10
-    ReplacementText: q_ct1.memcpy
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          27713
+    Length:          0
+    ReplacementText: "\t\t/*\n\t\tDPCT1049:15: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.\n\t\t*/\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          28166
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          27715
+    Length:          44
+    ReplacementText: "dpct::get_default_queue().submit(\n\t\t  [&](sycl::handler &cgh) {\n\t\t    cgh.parallel_for(\n\t\t      sycl::nd_range<3>(grid_bcs * block_bcs, block_bcs), \n\t\t      [=](sycl::nd_item<3> item_ct1) {\n\t\t        set_BCs(u_d, v_d, item_ct1);\n\t\t      });\n\t\t  });"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: true
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          27759
+    Length:          1
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          27764
+    Length:          23
+    ReplacementText: 'dpct::get_current_device().queues_wait_and_throw()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          27923
+    Length:          10
+    ReplacementText: 'dpct::get_default_queue().memcpy'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          27962
     Length:          24
     ReplacementText: ''
     ConstantFlag:    ''
@@ -2674,8 +2692,8 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          28191
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          27987
     Length:          0
     ReplacementText: '.wait()'
     ConstantFlag:    ''
@@ -2683,97 +2701,196 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          29035
-    Length:          13
-    ReplacementText: 'sycl::free(u_d, q_ct1)'
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          27990
+    Length:          10
+    ReplacementText: 'dpct::get_default_queue().memcpy'
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          29052
-    Length:          13
-    ReplacementText: 'sycl::free(v_d, q_ct1)'
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          28029
+    Length:          24
+    ReplacementText: ''
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          29069
-    Length:          13
-    ReplacementText: 'sycl::free(F_d, q_ct1)'
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          28054
+    Length:          0
+    ReplacementText: '.wait()'
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          29086
-    Length:          13
-    ReplacementText: 'sycl::free(G_d, q_ct1)'
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          28057
+    Length:          10
+    ReplacementText: 'dpct::get_default_queue().memcpy'
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          29103
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          28115
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          28140
+    Length:          0
+    ReplacementText: '.wait()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          28143
+    Length:          10
+    ReplacementText: 'dpct::get_default_queue().memcpy'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          28205
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          28230
+    Length:          0
+    ReplacementText: '.wait()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          29206
+    Length:          13
+    ReplacementText: 'sycl::free(u_d, dpct::get_default_queue())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          29222
+    Length:          13
+    ReplacementText: 'sycl::free(v_d, dpct::get_default_queue())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          29238
+    Length:          13
+    ReplacementText: 'sycl::free(F_d, dpct::get_default_queue())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          29254
+    Length:          13
+    ReplacementText: 'sycl::free(G_d, dpct::get_default_queue())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          29270
     Length:          20
-    ReplacementText: 'sycl::free(pres_red_d, q_ct1)'
+    ReplacementText: 'sycl::free(pres_red_d, dpct::get_default_queue())'
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          29127
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          29293
     Length:          22
-    ReplacementText: 'sycl::free(pres_black_d, q_ct1)'
+    ReplacementText: 'sycl::free(pres_black_d, dpct::get_default_queue())'
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          29153
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          29318
     Length:          17
-    ReplacementText: 'sycl::free(max_u_d, q_ct1)'
+    ReplacementText: 'sycl::free(max_u_d, dpct::get_default_queue())'
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          29174
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          29338
     Length:          17
-    ReplacementText: 'sycl::free(max_v_d, q_ct1)'
+    ReplacementText: 'sycl::free(max_v_d, dpct::get_default_queue())'
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          29195
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          29358
     Length:          20
-    ReplacementText: 'sycl::free(pres_sum_d, q_ct1)'
+    ReplacementText: 'sycl::free(pres_sum_d, dpct::get_default_queue())'
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Offset:          29219
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          29381
     Length:          15
-    ReplacementText: 'sycl::free(res_d, q_ct1)'
+    ReplacementText: 'sycl::free(res_d, dpct::get_default_queue())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          29545
+    Length:          0
+    ReplacementText: "\t/*\n\tDPCT1003:21: Migrated API does not return error code. (*, 0) is inserted. You may need to rewrite this code.\n\t*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Offset:          29563
+    Length:          17
+    ReplacementText: '(dpct::get_current_device().reset(), 0)'
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
 MainSourceFilesDigest:
-  - MainSourceFile:  '/scratch/optpar01/test/webinar/lid/cuda/main.cu'
-    Digest:          1f4a278540ef8f0c3258b8a110e17dd3
+  - MainSourceFile:  '/scratch/optpar01/test/webinar/lid/org/main.cu'
+    Digest:          53e3119fdf28b1888474222329bc25ee
 ...

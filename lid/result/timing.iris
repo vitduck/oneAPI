@@ -1,0 +1,269 @@
+
+########################################################################
+#      Date:           Thu 10 Jun 2021 09:39:59 AM PDT
+#    Job ID:           892004.v-qsvr-1.aidevcloud
+#      User:           u66264
+# Resources:           neednodes=iris_xe_max:quad_gpu:ppn=2,nodes=iris_xe_max:quad_gpu:ppn=2,walltime=24:00:00
+########################################################################
+
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL
+SYCL_PI_TRACE[all]:   device: Intel(R) Core(TM) i9-10920X CPU @ 3.50GHz
+<SYCL implementation>
+Problem size: 512 x 512 
+Workgroup size: 32 
+Time = 0.000477, delt = 4.768372e-04, iter = 92522, res = 9.999751e-04
+Time = 0.000954, delt = 4.768372e-04, iter = 88410, res = 9.999561e-04
+Time = 0.001431, delt = 4.768372e-04, iter = 86661, res = 9.999596e-04
+Time = 0.001907, delt = 4.768372e-04, iter = 84758, res = 9.999102e-04
+Time = 0.002384, delt = 4.768372e-04, iter = 82823, res = 9.999784e-04
+Time = 0.002861, delt = 4.768372e-04, iter = 80946, res = 9.999357e-04
+Time = 0.003338, delt = 4.768372e-04, iter = 79191, res = 9.999079e-04
+Time = 0.003815, delt = 4.768372e-04, iter = 77591, res = 9.999638e-04
+Time = 0.004292, delt = 4.768372e-04, iter = 76155, res = 9.999714e-04
+Time = 0.004768, delt = 4.768372e-04, iter = 74874, res = 9.999356e-04
+Time = 0.005245, delt = 4.768372e-04, iter = 73730, res = 9.999485e-04
+Time = 0.005722, delt = 4.768372e-04, iter = 72704, res = 9.999646e-04
+Time = 0.006199, delt = 4.768372e-04, iter = 71778, res = 9.999348e-04
+Time = 0.006676, delt = 4.768372e-04, iter = 70935, res = 9.999617e-04
+Time = 0.007153, delt = 4.768372e-04, iter = 70163, res = 9.999027e-04
+Time = 0.007629, delt = 4.768372e-04, iter = 69449, res = 9.999910e-04
+Time = 0.008106, delt = 4.768372e-04, iter = 68787, res = 9.999451e-04
+Time = 0.008583, delt = 4.768372e-04, iter = 68168, res = 9.999736e-04
+Time = 0.009060, delt = 4.768372e-04, iter = 67588, res = 9.999035e-04
+Time = 0.009537, delt = 4.768372e-04, iter = 67040, res = 9.999925e-04
+Time = 0.010000, delt = 4.632568e-04, iter = 66523, res = 9.999695e-04
+real 640.77
+user 14791.25
+sys 388.73
+
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL
+SYCL_PI_TRACE[all]:   device: Intel(R) Core(TM) i9-10920X CPU @ 3.50GHz
+<SYCL implementation>
+Problem size: 512 x 512 
+Workgroup size: 64 
+Time = 0.000477, delt = 4.768372e-04, iter = 92522, res = 9.999751e-04
+Time = 0.000954, delt = 4.768372e-04, iter = 88410, res = 9.999561e-04
+Time = 0.001431, delt = 4.768372e-04, iter = 86661, res = 9.999596e-04
+Time = 0.001907, delt = 4.768372e-04, iter = 84758, res = 9.999102e-04
+Time = 0.002384, delt = 4.768372e-04, iter = 82823, res = 9.999784e-04
+Time = 0.002861, delt = 4.768372e-04, iter = 80946, res = 9.999357e-04
+Time = 0.003338, delt = 4.768372e-04, iter = 79191, res = 9.999079e-04
+Time = 0.003815, delt = 4.768372e-04, iter = 77591, res = 9.999638e-04
+Time = 0.004292, delt = 4.768372e-04, iter = 76155, res = 9.999714e-04
+Time = 0.004768, delt = 4.768372e-04, iter = 74874, res = 9.999356e-04
+Time = 0.005245, delt = 4.768372e-04, iter = 73730, res = 9.999485e-04
+Time = 0.005722, delt = 4.768372e-04, iter = 72704, res = 9.999646e-04
+Time = 0.006199, delt = 4.768372e-04, iter = 71778, res = 9.999348e-04
+Time = 0.006676, delt = 4.768372e-04, iter = 70935, res = 9.999617e-04
+Time = 0.007153, delt = 4.768372e-04, iter = 70163, res = 9.999027e-04
+Time = 0.007629, delt = 4.768372e-04, iter = 69449, res = 9.999910e-04
+Time = 0.008106, delt = 4.768372e-04, iter = 68787, res = 9.999451e-04
+Time = 0.008583, delt = 4.768372e-04, iter = 68168, res = 9.999736e-04
+Time = 0.009060, delt = 4.768372e-04, iter = 67588, res = 9.999035e-04
+Time = 0.009537, delt = 4.768372e-04, iter = 67040, res = 9.999925e-04
+Time = 0.010000, delt = 4.632568e-04, iter = 66523, res = 9.999695e-04
+real 586.09
+user 13479.46
+sys 462.68
+
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL
+SYCL_PI_TRACE[all]:   device: Intel(R) Core(TM) i9-10920X CPU @ 3.50GHz
+<SYCL implementation>
+Problem size: 512 x 512 
+Workgroup size: 128 
+Time = 0.000477, delt = 4.768372e-04, iter = 92522, res = 9.999751e-04
+Time = 0.000954, delt = 4.768372e-04, iter = 88410, res = 9.999561e-04
+Time = 0.001431, delt = 4.768372e-04, iter = 86661, res = 9.999596e-04
+Time = 0.001907, delt = 4.768372e-04, iter = 84758, res = 9.999102e-04
+Time = 0.002384, delt = 4.768372e-04, iter = 82823, res = 9.999784e-04
+Time = 0.002861, delt = 4.768372e-04, iter = 80946, res = 9.999357e-04
+Time = 0.003338, delt = 4.768372e-04, iter = 79191, res = 9.999079e-04
+Time = 0.003815, delt = 4.768372e-04, iter = 77591, res = 9.999638e-04
+Time = 0.004292, delt = 4.768372e-04, iter = 76155, res = 9.999714e-04
+Time = 0.004768, delt = 4.768372e-04, iter = 74874, res = 9.999356e-04
+Time = 0.005245, delt = 4.768372e-04, iter = 73730, res = 9.999485e-04
+Time = 0.005722, delt = 4.768372e-04, iter = 72704, res = 9.999646e-04
+Time = 0.006199, delt = 4.768372e-04, iter = 71778, res = 9.999348e-04
+Time = 0.006676, delt = 4.768372e-04, iter = 70935, res = 9.999617e-04
+Time = 0.007153, delt = 4.768372e-04, iter = 70163, res = 9.999027e-04
+Time = 0.007629, delt = 4.768372e-04, iter = 69449, res = 9.999910e-04
+Time = 0.008106, delt = 4.768372e-04, iter = 68787, res = 9.999451e-04
+Time = 0.008583, delt = 4.768372e-04, iter = 68168, res = 9.999736e-04
+Time = 0.009060, delt = 4.768372e-04, iter = 67588, res = 9.999035e-04
+Time = 0.009537, delt = 4.768372e-04, iter = 67040, res = 9.999925e-04
+Time = 0.010000, delt = 4.632568e-04, iter = 66523, res = 9.999695e-04
+real 552.56
+user 12632.43
+sys 502.24
+
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL
+SYCL_PI_TRACE[all]:   device: Intel(R) Core(TM) i9-10920X CPU @ 3.50GHz
+<SYCL implementation>
+Problem size: 512 x 512 
+Workgroup size: 256 
+Time = 0.000477, delt = 4.768372e-04, iter = 92522, res = 9.999751e-04
+Time = 0.000954, delt = 4.768372e-04, iter = 88410, res = 9.999561e-04
+Time = 0.001431, delt = 4.768372e-04, iter = 86661, res = 9.999596e-04
+Time = 0.001907, delt = 4.768372e-04, iter = 84758, res = 9.999102e-04
+Time = 0.002384, delt = 4.768372e-04, iter = 82823, res = 9.999784e-04
+Time = 0.002861, delt = 4.768372e-04, iter = 80946, res = 9.999357e-04
+Time = 0.003338, delt = 4.768372e-04, iter = 79191, res = 9.999079e-04
+Time = 0.003815, delt = 4.768372e-04, iter = 77591, res = 9.999638e-04
+Time = 0.004292, delt = 4.768372e-04, iter = 76155, res = 9.999714e-04
+Time = 0.004768, delt = 4.768372e-04, iter = 74874, res = 9.999356e-04
+Time = 0.005245, delt = 4.768372e-04, iter = 73730, res = 9.999485e-04
+Time = 0.005722, delt = 4.768372e-04, iter = 72704, res = 9.999646e-04
+Time = 0.006199, delt = 4.768372e-04, iter = 71778, res = 9.999348e-04
+Time = 0.006676, delt = 4.768372e-04, iter = 70935, res = 9.999617e-04
+Time = 0.007153, delt = 4.768372e-04, iter = 70163, res = 9.999027e-04
+Time = 0.007629, delt = 4.768372e-04, iter = 69449, res = 9.999910e-04
+Time = 0.008106, delt = 4.768372e-04, iter = 68787, res = 9.999451e-04
+Time = 0.008583, delt = 4.768372e-04, iter = 68168, res = 9.999736e-04
+Time = 0.009060, delt = 4.768372e-04, iter = 67588, res = 9.999035e-04
+Time = 0.009537, delt = 4.768372e-04, iter = 67040, res = 9.999925e-04
+Time = 0.010000, delt = 4.632568e-04, iter = 66523, res = 9.999695e-04
+real 540.32
+user 12135.73
+sys 625.98
+
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL HD Graphics
+SYCL_PI_TRACE[all]:   device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+<SYCL implementation>
+Problem size: 512 x 512 
+Workgroup size: 32 
+Time = 0.000477, delt = 4.768372e-04, iter = 92522, res = 9.999751e-04
+Time = 0.000954, delt = 4.768372e-04, iter = 88410, res = 9.999561e-04
+Time = 0.001431, delt = 4.768372e-04, iter = 86661, res = 9.999596e-04
+Time = 0.001907, delt = 4.768372e-04, iter = 84758, res = 9.999102e-04
+Time = 0.002384, delt = 4.768372e-04, iter = 82823, res = 9.999784e-04
+Time = 0.002861, delt = 4.768372e-04, iter = 80946, res = 9.999357e-04
+Time = 0.003338, delt = 4.768372e-04, iter = 79191, res = 9.999079e-04
+Time = 0.003815, delt = 4.768372e-04, iter = 77591, res = 9.999638e-04
+Time = 0.004292, delt = 4.768372e-04, iter = 76155, res = 9.999714e-04
+Time = 0.004768, delt = 4.768372e-04, iter = 74874, res = 9.999356e-04
+Time = 0.005245, delt = 4.768372e-04, iter = 73730, res = 9.999485e-04
+Time = 0.005722, delt = 4.768372e-04, iter = 72704, res = 9.999646e-04
+Time = 0.006199, delt = 4.768372e-04, iter = 71778, res = 9.999348e-04
+Time = 0.006676, delt = 4.768372e-04, iter = 70935, res = 9.999617e-04
+Time = 0.007153, delt = 4.768372e-04, iter = 70163, res = 9.999027e-04
+Time = 0.007629, delt = 4.768372e-04, iter = 69449, res = 9.999910e-04
+Time = 0.008106, delt = 4.768372e-04, iter = 68787, res = 9.999451e-04
+Time = 0.008583, delt = 4.768372e-04, iter = 68168, res = 9.999736e-04
+Time = 0.009060, delt = 4.768372e-04, iter = 67588, res = 9.999035e-04
+Time = 0.009537, delt = 4.768372e-04, iter = 67040, res = 9.999925e-04
+Time = 0.010000, delt = 4.632568e-04, iter = 66523, res = 9.999695e-04
+real 4222.21
+user 923.43
+sys 3528.70
+
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL HD Graphics
+SYCL_PI_TRACE[all]:   device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+<SYCL implementation>
+Problem size: 512 x 512 
+Workgroup size: 64 
+Time = 0.000477, delt = 4.768372e-04, iter = 92522, res = 9.999751e-04
+Time = 0.000954, delt = 4.768372e-04, iter = 88410, res = 9.999561e-04
+Time = 0.001431, delt = 4.768372e-04, iter = 86661, res = 9.999596e-04
+Time = 0.001907, delt = 4.768372e-04, iter = 84758, res = 9.999102e-04
+Time = 0.002384, delt = 4.768372e-04, iter = 82823, res = 9.999784e-04
+Time = 0.002861, delt = 4.768372e-04, iter = 80946, res = 9.999357e-04
+Time = 0.003338, delt = 4.768372e-04, iter = 79191, res = 9.999079e-04
+Time = 0.003815, delt = 4.768372e-04, iter = 77591, res = 9.999638e-04
+Time = 0.004292, delt = 4.768372e-04, iter = 76155, res = 9.999714e-04
+Time = 0.004768, delt = 4.768372e-04, iter = 74874, res = 9.999356e-04
+Time = 0.005245, delt = 4.768372e-04, iter = 73730, res = 9.999485e-04
+Time = 0.005722, delt = 4.768372e-04, iter = 72704, res = 9.999646e-04
+Time = 0.006199, delt = 4.768372e-04, iter = 71778, res = 9.999348e-04
+Time = 0.006676, delt = 4.768372e-04, iter = 70935, res = 9.999617e-04
+Time = 0.007153, delt = 4.768372e-04, iter = 70163, res = 9.999027e-04
+Time = 0.007629, delt = 4.768372e-04, iter = 69449, res = 9.999910e-04
+Time = 0.008106, delt = 4.768372e-04, iter = 68787, res = 9.999451e-04
+Time = 0.008583, delt = 4.768372e-04, iter = 68168, res = 9.999736e-04
+Time = 0.009060, delt = 4.768372e-04, iter = 67588, res = 9.999035e-04
+Time = 0.009537, delt = 4.768372e-04, iter = 67040, res = 9.999925e-04
+Time = 0.010000, delt = 4.632568e-04, iter = 66523, res = 9.999695e-04
+real 4242.52
+user 903.70
+sys 3571.85
+
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL HD Graphics
+SYCL_PI_TRACE[all]:   device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+<SYCL implementation>
+Problem size: 512 x 512 
+Workgroup size: 128 
+Time = 0.000477, delt = 4.768372e-04, iter = 92522, res = 9.999751e-04
+Time = 0.000954, delt = 4.768372e-04, iter = 88410, res = 9.999561e-04
+Time = 0.001431, delt = 4.768372e-04, iter = 86661, res = 9.999596e-04
+Time = 0.001907, delt = 4.768372e-04, iter = 84758, res = 9.999102e-04
+Time = 0.002384, delt = 4.768372e-04, iter = 82823, res = 9.999784e-04
+Time = 0.002861, delt = 4.768372e-04, iter = 123261, res = 9.999396e-04
+Time = 0.003338, delt = 4.768372e-04, iter = 79181, res = 9.999477e-04
+Time = 0.003815, delt = 4.768372e-04, iter = 77597, res = 9.999771e-04
+Time = 0.004292, delt = 4.768372e-04, iter = 76155, res = 9.999699e-04
+Time = 0.004768, delt = 4.768372e-04, iter = 74874, res = 9.999338e-04
+Time = 0.005245, delt = 4.768372e-04, iter = 73730, res = 9.999464e-04
+Time = 0.005722, delt = 4.768372e-04, iter = 72704, res = 9.999623e-04
+Time = 0.006199, delt = 4.768372e-04, iter = 71778, res = 9.999322e-04
+Time = 0.006676, delt = 4.768372e-04, iter = 70935, res = 9.999588e-04
+Time = 0.007153, delt = 4.768372e-04, iter = 70163, res = 9.998996e-04
+Time = 0.007629, delt = 4.768372e-04, iter = 69449, res = 9.999877e-04
+Time = 0.008106, delt = 4.768372e-04, iter = 68787, res = 9.999415e-04
+Time = 0.008583, delt = 4.768372e-04, iter = 68168, res = 9.999697e-04
+Time = 0.009060, delt = 4.768372e-04, iter = 67588, res = 9.998994e-04
+Time = 0.009537, delt = 4.768372e-04, iter = 67040, res = 9.999882e-04
+Time = 0.010000, delt = 4.632568e-04, iter = 66523, res = 9.999649e-04
+real 4345.05
+user 1014.35
+sys 3555.56
+
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL HD Graphics
+SYCL_PI_TRACE[all]:   device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+<SYCL implementation>
+Problem size: 512 x 512 
+Workgroup size: 256 
+Time = 0.000477, delt = 4.768372e-04, iter = 92522, res = 9.999751e-04
+Time = 0.000954, delt = 4.768372e-04, iter = 88410, res = 9.999561e-04
+Time = 0.001431, delt = 4.768372e-04, iter = 86661, res = 9.999596e-04
+Time = 0.001907, delt = 4.768372e-04, iter = 84758, res = 9.999102e-04
+Time = 0.002384, delt = 4.768372e-04, iter = 82823, res = 9.999784e-04
+Time = 0.002861, delt = 4.768372e-04, iter = 80946, res = 9.999357e-04
+Time = 0.003338, delt = 4.768372e-04, iter = 100995, res = 9.999843e-04
+Time = 0.003815, delt = 4.768372e-04, iter = 77581, res = 9.999680e-04
+Time = 0.004292, delt = 4.768372e-04, iter = 76161, res = 9.999869e-04
+Time = 0.004768, delt = 4.768372e-04, iter = 74874, res = 9.999338e-04
+Time = 0.005245, delt = 4.768372e-04, iter = 73730, res = 9.999463e-04
+Time = 0.005722, delt = 4.768372e-04, iter = 72704, res = 9.999622e-04
+Time = 0.006199, delt = 4.768372e-04, iter = 71778, res = 9.999263e-04
+Time = 0.006676, delt = 4.768372e-04, iter = 70935, res = 9.999586e-04
+Time = 0.007153, delt = 4.768372e-04, iter = 70163, res = 9.998994e-04
+Time = 0.007629, delt = 4.768372e-04, iter = 69449, res = 9.999875e-04
+Time = 0.008106, delt = 4.768372e-04, iter = 68787, res = 9.999413e-04
+Time = 0.008583, delt = 4.768372e-04, iter = 68168, res = 9.999695e-04
+Time = 0.009060, delt = 4.768372e-04, iter = 67588, res = 9.998992e-04
+Time = 0.009537, delt = 4.768372e-04, iter = 67040, res = 9.999879e-04
+Time = 0.010000, delt = 4.632568e-04, iter = 66523, res = 9.999646e-04
+real 4352.90
+user 961.69
+sys 3636.48
+
+########################################################################
+# End of output for job 892004.v-qsvr-1.aidevcloud
+# Date: Thu 10 Jun 2021 01:43:12 PM PDT
+########################################################################
+
