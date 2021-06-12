@@ -24,9 +24,7 @@
 #include <stdio.h>
 #include <math.h>
 
-#ifdef DEVCLOUD
 #include <dpct/dpct.hpp>
-#endif
 //#include "timer.h"
 
 // CUDA libraries
@@ -830,12 +828,8 @@ void calculate_v (const Real dt, const Real* G,
 
 int main (int argc, char *argv[])
 {
-#ifdef DEVCLOUD
     dpct::device_ext &dev_ct1 = dpct::get_current_device();
     sycl::queue &q_ct1 = dev_ct1.default_queue();
-#else 
-    sycl::queue    q_ct1(sycl::default_selector{}); 
-#endif
 
     // iterations for Red-Black Gauss-Seidel with SOR
 	int iter = 0;

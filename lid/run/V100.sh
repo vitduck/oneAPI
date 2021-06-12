@@ -16,7 +16,7 @@ module load gcc/8.3.0 cuda/10.1
 # native cuda
 for size in 32 64 128 256
 do
-    (time -p ./lid-cuda-bsize_${size}.x) 2>&1
+    (time -p ./lid-cuda-wg_${size}.x) 2>&1
     echo 2>&1 
 done
 
@@ -26,6 +26,6 @@ export SYCL_DEVICE_FILTER=cuda:gpu
 
 for size in 32 64 128 256
 do
-    (time -p ./lid-sycl_V100-wgsize_${size}.x) 2>&1
+    (time -p ./lid-sycl_V100-wg_${size}.x) 2>&1
     echo 2>&1 
 done

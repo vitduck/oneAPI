@@ -1,16 +1,16 @@
-CC         = nvcc
-SAMPLES    = /scratch/optpar01/apps/build/cuda-samples/
-BLOCK_SIZE = 128
+CC      = nvcc
+SAMPLES = /scratch/optpar01/apps/build/cuda-samples/
+WG_SIZE = 128
 
 CFLAGS  = -O2 \
-		  -DBLOCK_SIZE=$(BLOCK_SIZE) \
+		  -DBLOCK_SIZE=$(WG_SIZE) \
 		  -I$(SAMPLES)/Common \
-          -gencode=arch=compute_35,code=sm_35 \
-          -gencode=arch=compute_70,code=sm_70 
-	
+		  -gencode=arch=compute_35,code=sm_35 \
+		  -gencode=arch=compute_70,code=sm_70
+
 SOURCE  = main.cu
 OBJ     = $(SOURCE:.cu=.o)
-PROGRAM = lid-cuda-bsize_$(BLOCK_SIZE).x
+PROGRAM = lid-cuda-wg_$(WG_SIZE).x
 
 lid: $(OBJ)
 	$(CC) $(CFLAGS) $(OBJ) -o $(PROGRAM)
