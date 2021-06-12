@@ -1,32 +1,17 @@
 [
     {
-        "command": "nvcc -c  -DOUTPUT -I./util/timer/ -I./util/file/ -o ./main.o -D__CUDACC__=1 ./main.cu", 
-        "directory": "/scratch/optpar01/test/webinar/heartwall/cuda", 
-        "file": "/scratch/optpar01/test/webinar/heartwall/cuda/main.cu"
+        "command": "nvcc -c  -I./AVI -O3 -D__CUDACC__=1 main.cu", 
+        "directory": "/scratch/optpar01/test/webinar/heartwall/re", 
+        "file": "/scratch/optpar01/test/webinar/heartwall/re/main.cu"
     }, 
     {
-        "command": "nvcc -c  -std=c++14 -Wall -O3 -o ./kernel/kernel.o -D__CUDACC__=1 ./kernel/kernel.cu", 
-        "directory": "/scratch/optpar01/test/webinar/heartwall/cuda", 
-        "file": "/scratch/optpar01/test/webinar/heartwall/cuda/kernel/kernel.cu"
+        "command": "cc -c avimod.c", 
+        "directory": "/scratch/optpar01/test/webinar/heartwall/re/AVI", 
+        "file": "/scratch/optpar01/test/webinar/heartwall/re/AVI/avimod.c"
     }, 
     {
-        "command": "nvcc -c  -std=c++14 -Wall -O3 -I./util/avi -o ./util/avi/avilib.o -D__CUDACC__=1 ./util/avi/avilib.c", 
-        "directory": "/scratch/optpar01/test/webinar/heartwall/cuda", 
-        "file": "/scratch/optpar01/test/webinar/heartwall/cuda/util/avi/avilib.c"
-    }, 
-    {
-        "command": "nvcc -c  -std=c++14 -Wall -O3 -I./util/avi -o ./util/avi/avimod.o -D__CUDACC__=1 ./util/avi/avimod.c", 
-        "directory": "/scratch/optpar01/test/webinar/heartwall/cuda", 
-        "file": "/scratch/optpar01/test/webinar/heartwall/cuda/util/avi/avimod.c"
-    }, 
-    {
-        "command": "nvcc -c  -std=c++14 -Wall -O3 -I./util/file -I./util/timer -o ./util/file/file.o -D__CUDACC__=1 ./util/file/file.c", 
-        "directory": "/scratch/optpar01/test/webinar/heartwall/cuda", 
-        "file": "/scratch/optpar01/test/webinar/heartwall/cuda/util/file/file.c"
-    }, 
-    {
-        "command": "nvcc -c  -std=c++14 -Wall -O3 -I./util/timer -o ./util/timer/timer.o -D__CUDACC__=1 ./util/timer/timer.c", 
-        "directory": "/scratch/optpar01/test/webinar/heartwall/cuda", 
-        "file": "/scratch/optpar01/test/webinar/heartwall/cuda/util/timer/timer.c"
+        "command": "cc -c avilib.c", 
+        "directory": "/scratch/optpar01/test/webinar/heartwall/re/AVI", 
+        "file": "/scratch/optpar01/test/webinar/heartwall/re/AVI/avilib.c"
     }
 ]

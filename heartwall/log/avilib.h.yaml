@@ -1,0 +1,32 @@
+---
+MainSourceFile:  '/scratch/optpar01/webinar/heartwall/re/test/AVI/avilib.h'
+Replacements:
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/re/AVI/avilib.h'
+    Offset:          1361
+    Length:          0
+    ReplacementText: ' dpct_type_e78b2c'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/re/AVI/avilib.h'
+    Offset:          1469
+    Length:          0
+    ReplacementText: ' dpct_type_d4e1aa'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/scratch/optpar01/test/webinar/heartwall/re/AVI/avilib.h'
+    Offset:          2465
+    Length:          0
+    ReplacementText: ' dpct_type_7fcf29'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+MainSourceFilesDigest: []
+...

@@ -1,29 +1,41 @@
-CC     = dpcpp
-CFLAGS = -O3 \
-	      -std=c++14 
+CXX      = dpcpp
+CXXFLAGS = -O2 -DRD_WG_SIZE=$(WG_SIZE)
 
-all: heartwall
+TARGET   = intel
+WG_SIZE  = 256
+PROGRAM  = heartwall-$(TARGET)-wg_$(WG_SIZE).x
 
-./main.o: ./main.h ./main.cpp
-	$(CC) -DOUTPUT ./main.cpp -I./util/timer/ -I./util/file/ -c -o ./main.o 
+ifdef OUTPUT
+	CXXFLAGS += -DOUTPUT
+endif
 
-./kernel/kernel.o: ./kernel/kernel.h ./kernel/kernel.cpp
-	$(CC) $(CFLAGS) ./kernel/kernel.cpp -c -o ./kernel/kernel.o 
+# for nvidia devices
+ifeq ($(TARGET), nvidia)
+	ARCH      = V100
+	PROGRAM   = heartwall-sycl_$(ARCH)-wg_$(WG_SIZE).x
+	CXX       = clang++
+	LLVM_ROOT = /scratch/optpar01/apps/build/llvm/2021-06-08/
+	DPCT_ROOT = /scratch/optpar01/apps/build/oneAPI/dpcpp-ct/2021.2.0/
+	CXXFLAGS += -I$(LLVM_ROOT)/include \
+				-I$(DPCT_ROOT)/include \
+				-I/scratch/optpar01/apps/build/oneAPI/dpcpp-ct/2021.2.0/include \
+				-fsycl -fsycl-unnamed-lambda -fsycl-targets=nvptx64-nvidia-cuda-sycldevice
 
-./util/avi/avilib.o: ./util/avi/avilib.h ./util/avi/avilib.c
-	$(CC) $(CFLAGS) ./util/avi/avilib.c -I./util/avi -c -o ./util/avi/avilib.o 
+ifeq ($(ARCH), V100)
+	CXXFLAGS += -Xsycl-target-backend "--cuda-gpu-arch=sm_70"
+else ifeq ($(ARCH), K40)
+	CXXFLAGS += -Xsycl-target-backend "--cuda-gpu-arch=sm_35"
+endif
+endif
 
-./util/avi/avimod.o: ./util/avi/avilib.h ./util/avi/avimod.c
-	$(CC) $(CFLAGS) ./util/avi/avimod.c -I./util/avi -c -o ./util/avi/avimod.o 
+heartwall: main.o ./AVI/avilib.o ./AVI/avimod.o
+	$(CXX) $(CXXFLAGS) main.o ./AVI/avilib.o ./AVI/avimod.o -o $(PROGRAM)
 
-./util/file/file.o:	./util/file/file.h ./util/file/file.c
-	$(CC) $(CFLAGS) ./util/file/file.c -I./util/file -I./util/timer	-c -o ./util/file/file.o 
+main.o: main.cpp kernel.cpp define.c
+	$(CXX) $(CXXFLAGS) main.cpp -I./AVI -c
 
-./util/timer/timer.o: ./util/timer/timer.h ./util/timer/timer.c 
-	$(CC) $(CFLAGS) ./util/timer/timer.c -I./util/timer -c -o ./util/timer/timer.o 
-
-heartwall: ./main.o ./kernel/kernel.o ./util/avi/avilib.o ./util/avi/avimod.o ./util/file/file.o ./util/timer/timer.o 
-	$(CC) $(CFLAGS) ./main.o ./kernel/kernel.o ./util/avi/avilib.o ./util/avi/avimod.o ./util/file/file.o ./util/timer/timer.o -o heartwall.x
+./AVI/avilib.o ./AVI/avimod.o:
+	cd AVI; make;
 
 clean:
-	rm -rf *.o ./kernel/*.o ./util/avi/*.o ./util/file/*.o ./util/timer/*.o 
+	rm -f *.o AVI/*.o result.txt
