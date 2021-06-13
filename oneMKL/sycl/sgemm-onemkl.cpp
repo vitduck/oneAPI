@@ -22,7 +22,7 @@ int main(int argc, char *argv[]) {
     sycl::queue   queue(device); 
 
     // device info
-    std::cout << "Device: " << device.get_info<sycl::info::device::name>() << "\n";
+    // std::cout << "Device: " << device.get_info<sycl::info::device::name>() << "\n";
 
     // scalar multiplier
     float alpha = 1.0, beta = 1.0;
