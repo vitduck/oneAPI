@@ -20,7 +20,7 @@
         "file": "/scratch/optpar01/test/webinar/kmeans/cuda/rmse.cpp"
     }, 
     {
-        "command": "nvcc -c  -O3 -std=c++11 cluster.o getopt.o read_input.o rmse.o -o kmeans -D__CUDACC__=1 kmeans.cpp", 
+        "command": "nvcc -c  -O3 -std=c++11 cluster.o getopt.o read_input.o rmse.o -o kmeans-cuda.x -D__CUDACC__=1 kmeans.cpp", 
         "directory": "/scratch/optpar01/test/webinar/kmeans/cuda", 
         "file": "/scratch/optpar01/test/webinar/kmeans/cuda/kmeans.cpp"
     }

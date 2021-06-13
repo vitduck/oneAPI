@@ -10,7 +10,7 @@
 /*************************************************************************/
 
 #include <CL/sycl.hpp>
-//#include <dpct/dpct.hpp>
+#include <dpct/dpct.hpp>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -76,17 +76,8 @@ int cluster(int      npoints,         /* number of data points */
             int		 nloops             /* number of iteration for each number of clusters */
     )
 {
-  //dpct::device_ext &dev_ct1 = dpct::get_current_device();
-  //sycl::queue &q_ct1 = dev_ct1.default_queue();
-  //
-  //
-  sycl::device dev_ct1(sycl::default_selector{});
-  sycl::queue  q_ct1(dev_ct1);
-
-  std::cout << "Device: "
-            << dev_ct1.get_info<sycl::info::device::name>()
-            << '\n';
-
+  dpct::device_ext &dev_ct1 = dpct::get_current_device();
+  sycl::queue &q_ct1 = dev_ct1.default_queue();
   int		index =0;	/* number of iteration to reach the best RMSE */
   int		rmse;     /* RMSE for each clustering */
   float delta;
