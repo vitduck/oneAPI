@@ -1,0 +1,272 @@
+
+########################################################################
+#      Date:           Sat 12 Jun 2021 11:27:39 PM PDT
+#    Job ID:           894433.v-qsvr-1.aidevcloud
+#      User:           u66264
+# Resources:           neednodes=1:gen9:gpu:ppn=2,nodes=1:gen9:gpu:ppn=2,walltime=24:00:00
+########################################################################
+
+=> Threads: 1
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL
+SYCL_PI_TRACE[all]:   device: Intel(R) Xeon(R) E-2176G CPU @ 3.70GHz
+WG size of kernel = 32 
+frame progress: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 
+real 56.51
+user 52.14
+sys 0.55
+
+=> Threads: 1
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL
+SYCL_PI_TRACE[all]:   device: Intel(R) Xeon(R) E-2176G CPU @ 3.70GHz
+WG size of kernel = 64 
+frame progress: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 
+real 51.61
+user 51.73
+sys 0.19
+
+=> Threads: 1
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL
+SYCL_PI_TRACE[all]:   device: Intel(R) Xeon(R) E-2176G CPU @ 3.70GHz
+WG size of kernel = 128 
+frame progress: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 
+real 51.46
+user 51.67
+sys 0.14
+
+=> Threads: 1
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL
+SYCL_PI_TRACE[all]:   device: Intel(R) Xeon(R) E-2176G CPU @ 3.70GHz
+WG size of kernel = 256 
+frame progress: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 
+real 51.34
+user 51.52
+sys 0.16
+
+=> Threads: 2
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL
+SYCL_PI_TRACE[all]:   device: Intel(R) Xeon(R) E-2176G CPU @ 3.70GHz
+WG size of kernel = 32 
+frame progress: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 
+real 27.38
+user 52.97
+sys 0.15
+
+=> Threads: 2
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL
+SYCL_PI_TRACE[all]:   device: Intel(R) Xeon(R) E-2176G CPU @ 3.70GHz
+WG size of kernel = 64 
+frame progress: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 
+real 27.42
+user 53.04
+sys 0.16
+
+=> Threads: 2
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL
+SYCL_PI_TRACE[all]:   device: Intel(R) Xeon(R) E-2176G CPU @ 3.70GHz
+WG size of kernel = 128 
+frame progress: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 
+real 27.39
+user 53.01
+sys 0.12
+
+=> Threads: 2
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL
+SYCL_PI_TRACE[all]:   device: Intel(R) Xeon(R) E-2176G CPU @ 3.70GHz
+WG size of kernel = 256 
+frame progress: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 
+real 27.31
+user 52.89
+sys 0.19
+
+=> Threads: 4
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL
+SYCL_PI_TRACE[all]:   device: Intel(R) Xeon(R) E-2176G CPU @ 3.70GHz
+WG size of kernel = 32 
+frame progress: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 
+real 18.65
+user 68.87
+sys 0.11
+
+=> Threads: 4
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL
+SYCL_PI_TRACE[all]:   device: Intel(R) Xeon(R) E-2176G CPU @ 3.70GHz
+WG size of kernel = 64 
+frame progress: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 
+real 18.63
+user 68.86
+sys 0.22
+
+=> Threads: 4
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL
+SYCL_PI_TRACE[all]:   device: Intel(R) Xeon(R) E-2176G CPU @ 3.70GHz
+WG size of kernel = 128 
+frame progress: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 
+real 18.62
+user 68.83
+sys 0.16
+
+=> Threads: 4
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL
+SYCL_PI_TRACE[all]:   device: Intel(R) Xeon(R) E-2176G CPU @ 3.70GHz
+WG size of kernel = 256 
+frame progress: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 
+real 18.62
+user 68.80
+sys 0.16
+
+=> Threads: 8
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL
+SYCL_PI_TRACE[all]:   device: Intel(R) Xeon(R) E-2176G CPU @ 3.70GHz
+WG size of kernel = 32 
+frame progress: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 
+real 10.56
+user 71.57
+sys 0.27
+
+=> Threads: 8
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL
+SYCL_PI_TRACE[all]:   device: Intel(R) Xeon(R) E-2176G CPU @ 3.70GHz
+WG size of kernel = 64 
+frame progress: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 
+real 10.66
+user 71.92
+sys 0.35
+
+=> Threads: 8
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL
+SYCL_PI_TRACE[all]:   device: Intel(R) Xeon(R) E-2176G CPU @ 3.70GHz
+WG size of kernel = 128 
+frame progress: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 
+real 10.57
+user 71.66
+sys 0.28
+
+=> Threads: 8
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL
+SYCL_PI_TRACE[all]:   device: Intel(R) Xeon(R) E-2176G CPU @ 3.70GHz
+WG size of kernel = 256 
+frame progress: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 
+real 10.57
+user 71.48
+sys 0.22
+
+=> Threads: 12
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL
+SYCL_PI_TRACE[all]:   device: Intel(R) Xeon(R) E-2176G CPU @ 3.70GHz
+WG size of kernel = 32 
+frame progress: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 
+real 10.10
+user 98.42
+sys 0.45
+
+=> Threads: 12
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL
+SYCL_PI_TRACE[all]:   device: Intel(R) Xeon(R) E-2176G CPU @ 3.70GHz
+WG size of kernel = 64 
+frame progress: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 
+real 10.12
+user 98.70
+sys 0.43
+
+=> Threads: 12
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL
+SYCL_PI_TRACE[all]:   device: Intel(R) Xeon(R) E-2176G CPU @ 3.70GHz
+WG size of kernel = 128 
+frame progress: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 
+real 10.07
+user 98.31
+sys 0.48
+
+=> Threads: 12
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL
+SYCL_PI_TRACE[all]:   device: Intel(R) Xeon(R) E-2176G CPU @ 3.70GHz
+WG size of kernel = 256 
+frame progress: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 
+real 10.09
+user 98.62
+sys 0.55
+
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL HD Graphics
+SYCL_PI_TRACE[all]:   device: Intel(R) UHD Graphics P630 [0x3e96]
+WG size of kernel = 32 
+frame progress: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 
+real 185.56
+user 1.84
+sys 10.70
+
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL HD Graphics
+SYCL_PI_TRACE[all]:   device: Intel(R) UHD Graphics P630 [0x3e96]
+WG size of kernel = 64 
+frame progress: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 
+real 97.16
+user 1.96
+sys 10.45
+
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL HD Graphics
+SYCL_PI_TRACE[all]:   device: Intel(R) UHD Graphics P630 [0x3e96]
+WG size of kernel = 128 
+frame progress: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 
+real 53.56
+user 1.78
+sys 10.67
+
+SYCL_PI_TRACE[basic]: Plugin found and successfully loaded: libpi_opencl.so
+SYCL_PI_TRACE[all]: Selected device ->
+SYCL_PI_TRACE[all]:   platform: Intel(R) OpenCL HD Graphics
+SYCL_PI_TRACE[all]:   device: Intel(R) UHD Graphics P630 [0x3e96]
+WG size of kernel = 256 
+frame progress: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 
+real 34.83
+user 2.78
+sys 10.03
+
+########################################################################
+# End of output for job 894433.v-qsvr-1.aidevcloud
+# Date: Sat 12 Jun 2021 11:43:06 PM PDT
+########################################################################

@@ -2,7 +2,7 @@
 
 #PBS -N test
 #PBS -l nodes=1:gen9:gpu:ppn=2
-#PBS -l walltime=04:00:00
+#PBS -l walltime=24:00:00
 
 # Devices:
 # 0: Intel(R) FPGA Emulation Device
@@ -13,14 +13,42 @@
 
 cd $PBS_O_WORKDIR
 
-echo "Device: CPU"
-export SYCL_DEVICE_FILTER=opencl:cpu
-( ./heartwall.x 104 ) 2>&1; echo
-( ./heartwall.x 104 ) 2>&1; echo
-( ./heartwall.x 104 ) 2>&1; echo
+# debug 
+export SYCL_PI_TRACE=1
 
-echo "Device: Gen9"
+# cpu
+device=E2176G
+export SYCL_DEVICE_FILTER=opencl:cpu
+export DPCPP_CPU_PLACES=threads
+export DPCPP_CPU_CU_AFFINITY=close
+
+# threads
+for i in 1 2 4 8 12
+do 
+    export DPCPP_CPU_NUM_CUS=$i
+
+    # work roup size 
+    for j in 32 64 128 256
+    do 
+        echo "=> Threads: $i" 2>&1 
+        (time -p ./heartwall-intel-wg_$j.x ../data/test.avi 104) 2>&1 
+        echo 2>&1
+
+        mv result.txt result-$device-thread_$i-wg_$j.txt
+
+        sleep 3 
+    done 
+done
+
+# gpu
+device=P630
 export SYCL_DEVICE_FILTER=opencl:gpu
-( ./heartwall.x 104 ) 2>&1; echo
-( ./heartwall.x 104 ) 2>&1; echo
-( ./heartwall.x 104 ) 2>&1; echo
+for j in 32 64 128 256
+do 
+    (time -p ./heartwall-intel-wg_$j.x ../data/test.avi 104) 2>&1 
+    echo 2>&1
+
+    mv result.txt result-$device-wg_$j.txt
+
+    sleep 3 
+done 
