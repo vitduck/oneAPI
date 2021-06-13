@@ -13,14 +13,21 @@
 
 cd $PBS_O_WORKDIR
 
-echo "Device: CPU"
-export SYCL_DEVICE_FILTER=opencl:cpu
-( time -p ./kmeans.x -r -n 5 -m 15 -l 10 -i ../../data/10000_34f.txt   ) 2>&1; echo
-( time -p ./kmeans.x -r -n 5 -m 15 -l 10 -i ../../data/100000_34f.txt  ) 2>&1; echo
-( time -p ./kmeans.x -r -n 5 -m 15 -l 10 -i ../../data/1000000_34f.txt ) 2>&1; echo
+# debug
+export SYCL_PI_TRACE=1
 
-echo "Device: Gen9"
+# cpu
+export SYCL_DEVICE_FILTER=opencl:cpu
+export DPCPP_CPU_NUM_CUS=12
+export DPCPP_CPU_PLACES=threads
+export DPCPP_CPU_CU_AFFINITY=close
+
+( time -p ./kmeans-intel.x -o -n 10 -m 10 -l 10 -i ../data/10000_34f.txt   ) 2>&1; echo 2>&1
+( time -p ./kmeans-intel.x -o -n 10 -m 10 -l 10 -i ../data/100000_34f.txt  ) 2>&1; echo 2>&1 
+( time -p ./kmeans-intel.x -o -n 10 -m 10 -l 10 -i ../data/1000000_34f.txt ) 2>&1; echo 2>&1
+
+# gpu
 export SYCL_DEVICE_FILTER=opencl:gpu
-( time -p ./kmeans.x -r -n 5 -m 15 -l 10 -i ../../data/10000_34f.txt   ) 2>&1; echo
-( time -p ./kmeans.x -r -n 5 -m 15 -l 10 -i ../../data/100000_34f.txt  ) 2>&1; echo
-( time -p ./kmeans.x -r -n 5 -m 15 -l 10 -i ../../data/1000000_34f.txt ) 2>&1; echo
+( time -p ./kmeans-intel.x -o -n 10 -m 10 -l 10 -i ../data/10000_34f.txt   ) 2>&1; echo 2>&1
+( time -p ./kmeans-intel.x -o -n 10 -m 10 -l 10 -i ../data/100000_34f.txt  ) 2>&1; echo 2>&1 
+( time -p ./kmeans-intel.x -o -n 10 -m 10 -l 10 -i ../data/1000000_34f.txt ) 2>&1; echo 2>&1
