@@ -1,0 +1,112 @@
+  Platform Name                                   Intel(R) OpenCL
+  Device Name                                     Intel(R) Core(TM) i9-10920X CPU @ 3.50GHz
+  Device Vendor                                   Intel(R) Corporation
+  Device Vendor ID                                0x8086
+  Device Version                                  OpenCL 2.1 (Build 0)
+  Driver Version                                  2021.11.3.0.17_160000
+  Device OpenCL C Version                         OpenCL C 2.0 
+  Device Type                                     CPU
+  Device Profile                                  FULL_PROFILE
+  Device Available                                Yes
+  Compiler Available                              Yes
+  Linker Available                                Yes
+  Max compute units                               24
+  Max clock frequency                             3500MHz
+  Device Partition                                (core)
+    Max number of sub-devices                     24
+    Supported partition types                     by counts, equally, by names (Intel)
+    Supported affinity domains                    (n/a)
+  Max work item dimensions                        3
+  Max work item sizes                             8192x8192x8192
+  Max work group size                             8192
+  Preferred work group size multiple (kernel)     128
+  Max sub-groups per work group                   2048
+  Sub-group sizes (Intel)                         4, 8, 16
+  Preferred / native vector sizes                 
+    char                                                 1 / 64      
+    short                                                1 / 32      
+    int                                                  1 / 16      
+    long                                                 1 / 8       
+    half                                                 0 / 0        (n/a)
+    float                                                1 / 16      
+    double                                               1 / 8        (cl_khr_fp64)
+  Half-precision Floating-point support           (n/a)
+  Single-precision Floating-point support         (core)
+    Denormals                                     Yes
+    Infinity and NANs                             Yes
+    Round to nearest                              Yes
+    Round to zero                                 No
+    Round to infinity                             No
+    IEEE754-2008 fused multiply-add               No
+    Support is emulated in software               No
+    Correctly-rounded divide and sqrt operations  No
+  Double-precision Floating-point support         (cl_khr_fp64)
+    Denormals                                     Yes
+    Infinity and NANs                             Yes
+    Round to nearest                              Yes
+    Round to zero                                 Yes
+    Round to infinity                             Yes
+    IEEE754-2008 fused multiply-add               Yes
+    Support is emulated in software               No
+  Address bits                                    64, Little-Endian
+  Global memory size                              33344409600 (31.05GiB)
+  Error Correction support                        No
+  Max memory allocation                           8336102400 (7.764GiB)
+  Unified memory for Host and Device              Yes
+  Shared Virtual Memory (SVM) capabilities        (core)
+    Coarse-grained buffer sharing                 Yes
+    Fine-grained buffer sharing                   Yes
+    Fine-grained system sharing                   Yes
+    Atomics                                       Yes
+  Minimum alignment for any data type             128 bytes
+  Alignment of base address                       1024 bits (128 bytes)
+  Preferred alignment for atomics                 
+    SVM                                           64 bytes
+    Global                                        64 bytes
+    Local                                         0 bytes
+  Max size for global variable                    65536 (64KiB)
+  Preferred total size of global vars             65536 (64KiB)
+  Global Memory cache type                        Read/Write
+  Global Memory cache size                        262144 (256KiB)
+  Global Memory cache line size                   64 bytes
+  Image support                                   Yes
+    Max number of samplers per kernel             480
+    Max size for 1D images from buffer            521006400 pixels
+    Max 1D or 2D image array size                 2048 images
+    Base address alignment for 2D image buffers   64 bytes
+    Pitch alignment for 2D image buffers          64 pixels
+    Max 2D image size                             16384x16384 pixels
+    Max 3D image size                             2048x2048x2048 pixels
+    Max number of read image args                 480
+    Max number of write image args                480
+    Max number of read/write image args           480
+  Max number of pipe args                         16
+  Max active pipe reservations                    10922
+  Max pipe packet size                            1024
+  Local memory type                               Global
+  Local memory size                               32768 (32KiB)
+  Max number of constant args                     480
+  Max constant buffer size                        131072 (128KiB)
+  Max size of kernel argument                     3840 (3.75KiB)
+  Queue properties (on host)                      
+    Out-of-order execution                        Yes
+    Profiling                                     Yes
+    Local thread execution (Intel)                Yes
+  Queue properties (on device)                    
+    Out-of-order execution                        Yes
+    Profiling                                     Yes
+    Preferred size                                4294967295 (4GiB)
+    Max size                                      4294967295 (4GiB)
+  Max queues on device                            4294967295
+  Max events on device                            4294967295
+  Prefer user sync for interop                    No
+  Profiling timer resolution                      1ns
+  Execution capabilities                          
+    Run OpenCL kernels                            Yes
+    Run native kernels                            Yes
+    Sub-group independent forward progress        No
+    IL version                                    SPIR-V_1.0
+    SPIR versions                                 1.2
+  printf() buffer size                            1048576 (1024KiB)
+  Built-in kernels                                (n/a)
+  Device Extensions                               cl_khr_icd cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_byte_addressable_store cl_khr_depth_images cl_khr_3d_image_writes cl_khr_il_program cl_intel_unified_shared_memory_preview cl_intel_subgroups cl_intel_subgroups_char cl_intel_subgroups_short cl_intel_subgroups_long cl_intel_spirv_subgroups cl_intel_required_subgroup_size cl_intel_exec_by_local_thread cl_intel_vec_len_hint cl_intel_device_partition_by_names cl_khr_spir cl_khr_fp64 cl_khr_image2d_from_buffer 
