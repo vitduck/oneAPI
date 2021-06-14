@@ -1,0 +1,30 @@
+https://techdecoded.intel.io/resources/a-vendor-neutral-path-to-math-acceleration/
+
+[build/DevCloud] 
+# requirement gcc-toolchain > 7 
+
+$ export CXX=dpcpp
+$ cmake ..                                                     \
+	-DENABLE_MKLCPU_BACKEND=ON                                 \  
+	-DENABLE_MKLGPU_BACKEND=ON                                 \
+	-DENABLE_CUBLAS_BACKEND=OFF                                \
+	-DENABLE_CURAND_BACKEND=OFF                                \
+	-DENABLE_NETLIB_BACKEND=ON                                 \
+	-DREF_BLAS_ROOT= ...                                       \ 
+	-DCMAKE_INSTALL_PREFIX= ... 
+    
+
+[build/intel-llvm]
+# src build with CUDA backend support.
+# MKL backend is disabled since we cannot install Intel OpenCL runtime without root previlege
+
+$ export CC=/scratch/optpar01/apps/build/llvm/unstable/bin/clang
+$ export CXX=/scratch/optpar01/apps/build/llvm/unstable/bin/clang++
+$ cmake ..                                                    \
+	-DCMAKE_CXX_STANDARD=17                                   \
+	-DENABLE_MKLCPU_BACKEND=OFF                               \ 
+	-DENABLE_MKLGPU_BACKEND=OFF                               \
+	-DENABLE_CUBLAS_BACKEND=ON                                \
+	-DENABLE_NETLIB_BACKEND=ON                                \
+	-DREF_BLAS_ROOT= ...                                      \ 
+	-DCMAKE_INSTALL_PREFIX= ...                               \

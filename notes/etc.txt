@@ -1,0 +1,12 @@
+[core-i9 poor memory bandwidht] 
+https://community.intel.com/t5/Intel-DevCloud/Theoretical-memory-bandwidth-of-i9-10920X-on-DevCloud/m-p/1287635#M2406
+
+[oneDNN segmentation fault/cpu] 
+https://github.com/oneapi-src/oneDNN/issues/1072
+
+[gromacs-sycl on NVIDIA]
+https://gromacs.bioexcel.eu/t/gromacs-sycl-build-with-cuda-support/2195
+https://github.com/intel/llvm/issues/3218
+
+[xe-max double precision support]
+https://community.intel.com/t5/Intel-DevCloud/Iris-Xe-MAX-node-is-missing-double-precision-support/td-p/1247876?profile.language=ko

@@ -1,0 +1,27 @@
+https://github.com/oneapi-src/oneDNN
+https://github.com/oneapi-src/oneDNN/issues/885
+https://github.com/oneapi-src/oneDNN/issues/919
+
+[build/DevCloud]
+cmake .. 
+	-DDNNL_CPU_RUNTIME=DPCPP \
+	-DDNNL_GPU_RUNTIME=DPCPP \
+    -DCMAKE_INSTALL_PREFIX=...
+
+[build/intel-llvm]
+# on Neuron OpenCL/BLAS/DNN library locates in sames directory, i.e /apps/cuda/10.2/
+# this leads to wrong OpenCL header files being used during compilation
+
+cmake .. 
+	-DDNNL_CPU_RUNTIME=DPCPP
+	-DDNNL_GPU_RUNTIME=DPCPP
+	-DDNNL_GPU_VENDOR=NVIDIA 
+	-DOPENCLROOT=/scratch/optpar01/apps/build/llvm/unstable 
+	-DCUDA_TOOLKIT_ROOT_DIR=/scratch/optpar01/apps/build/cuda/10.2 
+	-DCUBLAS_INCLUDE_DIR=/scratch/optpar01/apps/build/cuda/10.2/include 
+	-DCUBLAS_LIBRARY=/scratch/optpar01/apps/build/cuda/10.2/lib64/libcublas.so
+	-DCUDNN_INCLUDE_DIR=/scratch/optpar01/apps/build/cuda/10.2/include 
+	-DCUDNN_LIBRARY=/scratch/optpar01/apps/build/cuda/10.2/lib64/libcudnn.so 
+	-DCMAKE_CXX_FLAGS='-Wl,-rpath,/scratch/optpar01/apps/build/cuda/10.2/lib64' 
+	-DCMAKE_C_FLAGS='-Wl,-rpath,/scratch/optpar01/apps/build/cuda/10.2/lib64'
+    -DCMAKE_INSTALL_PREFIX=...

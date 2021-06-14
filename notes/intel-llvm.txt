@@ -1,0 +1,45 @@
+[requirements] 
+gcc    >=7 
+cmake  >= 3.16.3
+ninja  >= 1.10
+python >= 3.6 
+git    >= 1.6.5 
+
+[src] 
+git clone https://github.com/intel/llvm
+
+[buibot/configure.py]
+cmake_cmd = [
+    ...
+    "-DGCC_INSTALL_PREFIX=/apps/compiler/gcc/8.3.0"
+]
+
+[build] 
+$ python configure.py --cuda -o [install directory] 
+$ python compile.py -o [install directory]
+
+
+[Fat binary with CUDA backend] 
+https://github.com/intel/llvm/pull/2087
+
+[Error msg]
+PI CUDA ERROR:
+        Value:           209
+        Name:            CUDA_ERROR_NO_BINARY_FOR_GPU
+        Description:     no kernel image is available for execution on the device
+        Function:        build_program
+        Source Location: /scratch/optpar01/apps/src/llvm/experimental/sycl/plugins/cuda/pi_cuda.cpp:513
+
+
+PI CUDA ERROR:
+        Value:           400
+        Name:            CUDA_ERROR_INVALID_HANDLE
+        Description:     invalid resource handle
+        Function:        cuda_piProgramRelease
+        Source Location: /scratch/optpar01/apps/src/llvm/experimental/sycl/plugins/cuda/pi_cuda.cpp:2932
+
+terminate called after throwing an instance of 'cl::sycl::compile_program_error'
+  what():  The program was built for 1 devices
+Build program log for 'Tesla K40m':
+ -999 (Unknown OpenCL error code)
+Aborted
