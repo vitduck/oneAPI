@@ -20,14 +20,17 @@ int main(int argc, char** argv) {
     for (int i=0; i < size; i++) { dst[i] = 0.f; } 
 
     // filter weigth initialization
-    float alpha[1] = {1.0};
-    float  beta[1] = {0.0};
+    const float alpha = 1.0;
+    const float  beta = 0.0;
 
     // create input tensor descriptor
-    cudnnTensorDescriptor_t src_d, dst_d;
+    cudnnTensorDescriptor_t src_d; 
     cudnnCreateTensorDescriptor(&src_d);
-    cudnnCreateTensorDescriptor(&dst_d);
     cudnnSetTensor4dDescriptor(src_d, CUDNN_TENSOR_NCHW, CUDNN_DATA_FLOAT, n, c, h, w); 
+
+    // create  output tensor descriptor
+    cudnnTensorDescriptor_t dst_d; 
+    cudnnCreateTensorDescriptor(&dst_d);
     cudnnSetTensor4dDescriptor(dst_d, CUDNN_TENSOR_NCHW, CUDNN_DATA_FLOAT, n, c, h, w); 
 
     // create activation descriptor
@@ -40,19 +43,10 @@ int main(int argc, char** argv) {
     cudnnCreate(&handle);
 
     // sigmoid activation 
-    cudnnActivationForward(
-        handle,
-        sigmoid_d,
-        alpha,
-        src_d,
-        src,
-        beta,
-        dst_d,
-        dst
-    ); 
+    cudnnActivationForward(handle, sigmoid_d, &alpha, src_d, src, &beta, dst_d, dst); 
     
     // free cuDNN
-    data is automatically copied back to host
+    // data is automatically copied back to host
     cudnnDestroy(handle);
     cudnnDestroyTensorDescriptor(src_d); 
     cudnnDestroyTensorDescriptor(dst_d); 

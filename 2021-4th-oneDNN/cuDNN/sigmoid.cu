@@ -18,7 +18,6 @@ int main(int argc, char** argv) {
 
     // tensor initialization
     for (int i=0; i < size; i++) { src[i] = float(i); }
-    for (int i=0; i < size; i++) { dst[i] = 0.f; } 
 
     // tensor allocation on device
     // can't use std::vector directly in cuDNN
@@ -30,14 +29,17 @@ int main(int argc, char** argv) {
     cudaMemcpy(ds, src.data(), size*sizeof(float), cudaMemcpyHostToDevice);
     
     // filter weigth initialization
-    float alpha[1] = {1.0};
-    float  beta[1] = {0.0};
+    const float alpha = 1.0f; 
+    const float beta  = 0.0f; 
 
     // create input tensor descriptor
-    cudnnTensorDescriptor_t src_d, dst_d;
+    cudnnTensorDescriptor_t src_d; 
     cudnnCreateTensorDescriptor(&src_d);
-    cudnnCreateTensorDescriptor(&dst_d);
     cudnnSetTensor4dDescriptor(src_d, CUDNN_TENSOR_NCHW, CUDNN_DATA_FLOAT, n, c, h, w); 
+
+    // create output tensor descriptor
+    cudnnTensorDescriptor_t dst_d;
+    cudnnCreateTensorDescriptor(&dst_d);
     cudnnSetTensor4dDescriptor(dst_d, CUDNN_TENSOR_NCHW, CUDNN_DATA_FLOAT, n, c, h, w); 
 
     // create activation descriptor
@@ -50,18 +52,9 @@ int main(int argc, char** argv) {
     cudnnCreate(&handle);
 
     // sigmoid activation 
-    cudnnActivationForward(
-        handle,
-        sigmoid_d,
-        alpha,
-        src_d,
-        ds,
-        beta,
-        dst_d,
-        dd
-    ); 
+    cudnnActivationForward( handle, sigmoid_d, &alpha, src_d, ds, &beta, dst_d, dd); 
 
-    // free cuDNN
+    // cleanup 
     cudnnDestroy(handle);
     cudnnDestroyTensorDescriptor(src_d);
     cudnnDestroyTensorDescriptor(dst_d);
