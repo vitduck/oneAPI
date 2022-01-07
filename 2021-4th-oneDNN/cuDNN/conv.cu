@@ -5,14 +5,8 @@
 #include <opencv2/imgcodecs.hpp>
 
 int main(int argc, char** argv) { 
-    // message 
-    if ( argc < 2 ) { 
-        std::cout << "Usage: ./edge.x <image.png>" << std::endl; 
-        exit(0); 
-    } 
-
     // convert src image to matrix format 
-    cv::Mat src = cv::imread("./tensorflow.png", cv::IMREAD_COLOR);
+    cv::Mat src = cv::imread("./Lenna.png", cv::IMREAD_COLOR);
 
     // convert src matrix to FP32 with 3 channels
     src.convertTo(src, CV_32FC3); 
@@ -111,13 +105,14 @@ int main(int argc, char** argv) {
     // write to png file 
     cv::imwrite("detection.png", edge);
 
-    // clean up 
+    // clean up dnn
     cudnnDestroy(handle);
     cudnnDestroyTensorDescriptor(src_d);
     cudnnDestroyTensorDescriptor(dst_d);
     cudnnDestroyFilterDescriptor(filter_d);
     cudnnDestroyConvolutionDescriptor(conv_d); 
 
+    // free memory
     cudaFree(ds); 
     cudaFree(dd); 
     cudaFree(df); 
